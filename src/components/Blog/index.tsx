@@ -13,7 +13,7 @@ export const Blog: FC<IBlogProps> = ({ Posts }) => {
       className="flex flex-col items-center justify-center md:justify-start md:items-start max-w-7xl w-full mx-auto p-5 md:p-0"
       id="blog"
     >
-      <Title num={3} title="Blog" />
+      <Title title="Blog" />
 
       <div className="flex flex-wrap justify-between mt-10">
         {Posts.slice(0, 3).map(post => {

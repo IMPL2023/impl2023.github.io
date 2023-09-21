@@ -4,3 +4,6 @@ export * from './Contact';
 export * from './Intro';
 export * from './Projects';
 export * from './nav';
+export * from './News'
+export * from './Papers'
+export * from './Members'

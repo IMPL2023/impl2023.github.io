@@ -5,6 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.italic-text {
+  font-style: italic;
+}
+.inline_img{
+  display: inline;
+}
+
 @layer components {
   body {
     @apply w-screen overflow-x-hidden bg-bgblue font-sora text-text;
@@ -23,7 +30,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-track {
-  background: #222e50 !important;
+  /* background: #222e50 !important; */
+  background: #3a0088 !important;
 }
 
 .hideScrollBar::-webkit-scrollbar-thumb {

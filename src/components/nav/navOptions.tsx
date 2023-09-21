@@ -1,20 +1,24 @@
 const navOptions = [
   {
-    name: 'About',
-    href: 'about',
+    name: 'Home',
+    href: '/',
+  },
+  {
+    name: 'Publications',
+    href: 'publications',
   },
 
   {
-    name: 'Work',
-    href: 'work',
+    name: 'Lab Members',
+    href: 'group',
   },
+  // {
+  //   name: 'Blog',
+  //   href: 'blog',
+  // },
   {
-    name: 'Blog',
-    href: 'blog',
-  },
-  {
-    name: 'Contact',
-    href: 'contact',
+    name: 'Join Us',
+    href: 'joinus',
   },
 ];
 
