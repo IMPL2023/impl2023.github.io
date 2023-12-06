@@ -81,7 +81,7 @@ const Joinus: FC = () => {
                 You should have good English reading, writing, and oral communication skills. 
                 The English requirement for admission to SUTD's PhD program is approximately: 
                 <b className='text-white pl-1'>     
-                TOEFL >=90, IELTS >=6.51
+                TOEFL {'>'}=90, IELTS {'>'}=6.51
                 </b>.</li>
               <li>
                 You should be 
