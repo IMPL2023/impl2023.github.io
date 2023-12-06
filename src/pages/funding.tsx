@@ -5,25 +5,20 @@ import { PostType } from '@/types';
 import getPosts from '@/utils/getPosts';
 import { GetStaticProps } from 'next';
 import { FC } from 'react';
-
+import { FundingNews } from '@/components';
 interface IHomeProps {
   Posts: [PostType];
 }
 
-const Home: FC<IHomeProps> = ({ Posts }) => {
+const Funding: FC = () => {
   return (
     <Layout>
-      <Intro />
-      {/* <About /> */}
-      {/* <Projects /> */}
-      {/* <Blog Posts={Posts} /> */}
-      <News />
-      <Contact />
+      <FundingNews />
     </Layout>
   );
 };
 
-export default Home;
+export default Funding;
 
 export const getStaticProps: GetStaticProps = async () => {
   const Posts = await getPosts(data.username);

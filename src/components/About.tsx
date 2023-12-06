@@ -48,7 +48,7 @@ export const About = () => {
         </div>
         <Image
           alt='data.username'
-          className="object-contain relative mx-auto mt-20 border-2 rounded-full md:mt-0 md:ml-20 w-80 h-80 border-neon"
+          className="object-contain relative mx-auto mt-20 border-2 rounded-full  md:ml-40 w-80 h-80 border-neon"
           height={300}
           src={data.image}
           width={300}

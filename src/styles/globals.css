@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-track {
   /* background: #222e50 !important; */
-  background: #3a0088 !important;
+  background: #41403c !important;
 }
 
 .hideScrollBar::-webkit-scrollbar-thumb {
@@ -54,4 +54,43 @@ body::-webkit-scrollbar-track {
 .neon-underline:hover {
   text-decoration: underline;
   text-decoration-color: #52dee5;
+}
+.slide-container {
+  position: relative;
+  text-align: center;
+}
+
+.arrow-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: flex;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+/* .left-arrow{
+   transform: translateX(-350%); 
+} 
+*/
+
+.left-arrow::before,
+.right-arrow::before {
+  content: '\2190'; /* 箭头的Unicode编码 */
+}
+
+.right-arrow::before {
+  content: '\2192'; /* 右箭头的Unicode编码 */
+  padding-left: 8px;
+}
+
+.slide {
+  position: flex;
+  text-align: center;
+}
+
+.slide img {
+  max-width: 80%;
 }

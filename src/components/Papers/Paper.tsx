@@ -14,7 +14,7 @@ function replaceSpecialCharactersWithSuperscript(inputString:string) {
 }
 
 
-export const Project: FC<IPaperProps> = ({ paper }) => {
+export const Paper: FC<IPaperProps> = ({ paper }) => {
   const renderItem = (author:string) => {
     author = replaceSpecialCharactersWithSuperscript(author)
     if (author.includes('Na Zhao')) {

@@ -1,0 +1,54 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          # update the Node version to meet your needs
+          node-version: 16
+          cache: npm
+
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+          npm run export
+          touch out/.nojekyll
+          npm set-script build "next build"
+          npm set-script export "next export"
+
+          # configure the build here
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.4.0 
+          with:
+            branch: gh-pages
+            folder: out
+        # configure an external GitHub Pages deploy workflow here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

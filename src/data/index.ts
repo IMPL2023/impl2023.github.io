@@ -64,11 +64,25 @@ const data = {
     },
 
     {
-      name: 'Mail me',
+      name: 'Mail Us',
       icon: 'mail.svg',
       link: 'mailto:na_zhao@sutd.edu.sg',
     },
     
+  ],
+  fundingnews:[
+    {
+      date:'Sep 2023',
+      content: 'xxxxxxxxxxxxx,xxxxxxxxxxxx,xxxxxxxxxxxxx SGD$500,000.00'
+    },
+    {
+      date:'Sep 2022',
+      content: 'xxxxxxxxxxxxx,xxxxxxxxxxxx,xxxxxxxxxxxxx SGD$500,000.00'
+    },
+    {
+      date:'Sep 2021',
+      content: 'xxxxxxxxxxxxx,xxxxxxxxxxxx,xxxxxxxxxxxxx SGD$500,000.00'
+    },
   ],
   news:[
     {
@@ -81,7 +95,7 @@ const data = {
     },
     {
       date:'Aug 2023',
-      content:'I am awarded a grant titled "Towards Realistic Deep Learning for 3D Vision" from A*STAR as the co-Investigator!'
+      content:'Asst Prof. Na Zhao is awarded a grant titled "Towards Realistic Deep Learning for 3D Vision" from A*STAR as the co-Investigator!'
     },
     {
       date:'Jul 2023',
@@ -97,23 +111,23 @@ const data = {
     },
     {
       date:'Mar 2023',
-      content:'I am invited to serve as Demo Chair at Sixth IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR 2023)!'
+      content:'Asst Prof. Na Zhao is invited to serve as Demo Chair at Sixth IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR 2023)!'
     },
     {
       date:'Feb 2023',
-      content:'I am invited to join the Organising Committee of IEEE ICME 2023 Workshop on 3D Multimedia Analytics, Search and Generation!'
+      content:'Asst Prof. Na Zhao is invited to join the Organising Committee of IEEE ICME 2023 Workshop on 3D Multimedia Analytics, Search and Generation!'
     },
     {
       date:'Oct 2022',
-      content:'I am awarded a grant titled "Multi-modal Joint Learning for Scene Understanding" from SUTD-ZJU IDEA as the sole Principal Investigator!'
+      content:'Asst Prof. Na Zhao is awarded a grant titled "Multi-modal Joint Learning for Scene Understanding" from SUTD-ZJU IDEA as the sole Principal Investigator!'
     },
     {
       date:'Sep 2022',
-      content:'I am awarded a grant titled "Data-efficient 3D Object Detection for Robot Perception" from TL@SUTD as the sole Principal Investigator!'
+      content:'Asst Prof. Na Zhao is awarded a grant titled "Data-efficient 3D Object Detection for Robot Perception" from TL@SUTD as the sole Principal Investigator!'
     },
     {
       date:'Aug 2022',
-      content:'I join the Singapore University of Technology and Design as an Assistant Professor!'
+      content:'Asst Prof. Na Zhao join the Singapore University of Technology and Design as an Assistant Professor!'
     },
     {
       date:'Jul 2022',
@@ -125,23 +139,23 @@ const data = {
     },
     {
       date:'Jun 2021',
-      content:'I am selected for the CVPR 2021 Doctoral Consortium. My mentor is Prof. Serge Belongie!'
+      content:'Asst Prof. Na Zhao is selected for the CVPR 2021 Doctoral Consortium. My mentor is Prof. Serge Belongie!'
     },
     {
       date:'May 2021',
-      content:'I win the IMDA Excellent Prize for my PhD thesis!'
+      content:'Asst Prof. Na Zhao win the IMDA Excellent Prize for my PhD thesis!'
     },
-    {
-      date:'[Mar 2021]',
-      content:'I successfully defended my PhD thesis "Towards Learning Scene Semantics on 3D Point Clouds"!'
-    },
+    // {
+    //   date:'[Mar 2021]',
+    //   content:'Asst Prof. Na Zhao successfully defended my PhD thesis "Towards Learning Scene Semantics on 3D Point Clouds"!'
+    // },
     {
       date:'Mar 2021',
       content:'One paper about few-shot 3D semantic segmentation is accepted by CVPR 2021!'
     },
     {
       date:'Aug 2020',
-      content:'I recieve the Research Achievement Award from SoC!'
+      content:'Asst Prof. Na Zhao recieve the Research Achievement Award from SoC!'
     },
     {
       date:'Feb 2020',
@@ -260,118 +274,164 @@ const data = {
       code:'https://github.com/Na-Z/PS-2Net',
     },
   ],
+  funs:[
+    {
+      name:'Trip to xxxx',
+      content:'',
+      date:'Aug 1st',
+      imgs:[
+        "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+        "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+      ]
+    },
+    {
+      name:'Trip to xxxx',
+      content:'',
+      date:'Aug 1st',
+      imgs:[
+        "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+        "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+      ]
+    }
+  ],
   members:[
     {
-      name:'XXX XXX',
-      type:'PhD',
+      name:'Na Zhao',
+      type:'Faculty',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/nazhao.png',
+      mail:'na_zhao@sutd.edu.sg',
     },
     {
       name:'XXX XXX',
       type:'PhD',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'PhD',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'PhD',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
+    },
+    {
+      name:'XXX XXX',
+      type:'PhD',
+      comment:'xxxx',
+      topic:'xxxx',
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'PostDoc',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'PostDoc',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'RA',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Visitor',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Visitor',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Visitor',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Mentee',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Mentee',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Mentee',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Mentee',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Mentee',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
     {
       name:'XXX XXX',
       type:'Mentee',
       comment:'xxxx',
       topic:'xxxx',
-      image:'/members/'
+      image:'/members/placeHolder.png',
+      mail:'',
     },
   ]
 };

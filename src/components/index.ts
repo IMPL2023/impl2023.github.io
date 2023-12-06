@@ -7,3 +7,4 @@ export * from './nav';
 export * from './News'
 export * from './Papers'
 export * from './Members'
+export * from './FundingNews'
