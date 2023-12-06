@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.italic-text {
+  font-style: italic;
+}
+.inline_img{
+  display: inline;
+}
+
+@layer components {
+  body {
+    @apply w-screen overflow-x-hidden bg-bgblue font-sora text-text;
+  }
+}
+
+body::-webkit-scrollbar,
+.hideScrollBar::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c7d3ff;
+  border: 3px solid var(--navy);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  /* background: #222e50 !important; */
+  background: #41403c !important;
+}
+
+.hideScrollBar::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.hideScrollBar::-webkit-scrollbar-track {
+  display: none;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #fff;
+}
+
+.neon-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: #52dee5;
+}
+.slide-container {
+  position: relative;
+  text-align: center;
+}
+
+.arrow-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: flex;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+/* .left-arrow{
+   transform: translateX(-350%); 
+} 
+*/
+
+.left-arrow::before,
+.right-arrow::before {
+  content: '\2190'; /* 箭头的Unicode编码 */
+}
+
+.right-arrow::before {
+  content: '\2192'; /* 右箭头的Unicode编码 */
+  padding-left: 8px;
+}
+
+.slide {
+  position: flex;
+  text-align: center;
+}
+
+.slide img {
+  max-width: 80%;
+}

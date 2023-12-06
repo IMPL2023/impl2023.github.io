@@ -1,0 +1,10 @@
+{
+  "theme_color": "#52DEE5",
+  "background_color": "#222E50",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Avneesh Agarwal",
+  "short_name": "Avneesh",
+  "description": "Avneesh's portfolio"
+}
