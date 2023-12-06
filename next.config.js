@@ -1,6 +1,12 @@
 module.exports = {
-    basePath: '/portfolio',
-    assetPrefix: '/portfolio/',
+    basePath: '/website',
+    assetPrefix: '/website/',
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    images: {
+        unoptimized: true,
+    },
     exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
       return {
         '/': { page: '/' },
