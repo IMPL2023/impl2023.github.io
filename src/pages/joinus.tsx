@@ -30,6 +30,22 @@ const Joinus: FC = () => {
         <div className="w-4/5 md:w-4/5 text-textDark  pl-4">
           <ol style={{ listStyleType: 'decimal' }}>
             <li>
+              <b className='text-white pl-1 pr-1'>     Computer Vision:
+              </b>
+              3D computer vision, 3D reconstruction, (3D) scene understanding.
+            </li>
+            <li>
+              <b className='text-white pl-1 pr-1'>     Machine Learning:
+              </b>
+              data-efficient learning, out-of-distribution learning, multi-modal learning, robust learning, continual learning.
+            </li>
+            {/* <li>  
+              <b className='text-white pl-1 pr-1'>   3D Reconstruction and 3D Generation
+              </b>
+              .
+            </li> */}
+            
+            {/* <li>
               <b className='text-white pl-1 pr-1'>     Data-efficient learning 
               </b>
                    (e.g., semi-supervised, few-shot learning, self-supervised learning) for 3D scene understanding;</li>
@@ -45,12 +61,13 @@ const Joinus: FC = () => {
             <li>
               <b className='text-white pl-1 pr-1'>     Online 3D scene understanding
               </b> that reconstructs and understands 3D scenes simultaneously;</li>
-            <li>
-              <b className='text-white pl-1 pr-1'>     Lifelong/continual learning
-              </b>     for 3D scene understanding;</li>
+            
             <li>
               <b className='text-white pl-1'> Language-guided 3D scene understanding
-              </b>.</li>
+              </b>;</li>
+            <li>
+            <b className='text-white pl-1 pr-1'>     Lifelong/continual learning
+            </b>     for 3D scene understanding;</li> */}
           </ol>
         </div>
       
@@ -81,7 +98,7 @@ const Joinus: FC = () => {
                 You should have good English reading, writing, and oral communication skills. 
                 The English requirement for admission to SUTD's PhD program is approximately: 
                 <b className='text-white pl-1'>     
-                TOEFL {'>'}=90, IELTS {'>'}=6.51
+                TOEFL {'>'}=90, IELTS {'>'}=6.5
                 </b>.</li>
               <li>
                 You should be 
@@ -162,7 +179,7 @@ const Joinus: FC = () => {
         <p className="w-4/5 md:w-4/5 text-textDark ">
           Please send your English resume and transcript to Professor Na Zhao at 
           <b className='text-white pl-1'>     na_zhao@sutd.edu.sg     </b>, 
-          and write a 1-2 page Research Proposal (not required for visiting students) 
+          and write a Research Proposal (not required for visiting students) 
           stating your interested research topic in 3D computer vision. 
           The email title should be: 
           [Target Position (PhD/Postdoc/Associate/Assistant/Visiting/etc) Application] 

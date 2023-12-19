@@ -2,7 +2,7 @@ import data from '@/data';
 import { motion } from 'framer-motion';
 import React from 'react';
 import { Link } from 'react-scroll';
-
+import Image from 'next/image';
 export const Intro = () => {
   return (
     <motion.div
@@ -12,23 +12,36 @@ export const Intro = () => {
       initial={{ y: 40 }}
       transition={{ duration: 0.5 }}
     >
-      <p className="text-2xl text-neon font-fira">Welcome to </p>
-      <h1 className="text-5xl font-extrabold text-text md:text-5xl">
-        Intelligent Machine Perception Lab
-      </h1>
-      <h2 className="text-4xl text-textDark md:text-2xl">
-      at Singapore University of Technology and Design
-      </h2>
-      <div className="w-4/5 md:w-3/5 text-textDark">
-        <span className="text-neon">{data.intro} </span>
-        <p>
-          {data.intro2}
-        </p>
-        <p>
-          {data.intro3}
-        </p>
-        
+      <div className="w-3/5 md:w-3/5 text-textDark float-left">
+        <div className="w-5/5 md:w-5/5 text-textDark ">
+          <p className="text-2xl text-neon font-fira">Welcome to </p>
+          <h1 className="text-5xl font-extrabold text-text md:text-5xl">
+            Intelligent Machine Perception Lab
+          </h1>
+          <h2 className="text-4xl text-textDark md:text-2xl">
+          at Singapore University of Technology and Design
+          </h2>
+        </div>
+      
+        <div className="w-5/5 md:w-5/5 text-textDark ">
+          <span className="text-neon">{data.intro} </span>
+          <p>
+            {data.intro2}
+          </p>
+          <p>
+            {data.intro3}
+          </p>
+          
+        </div>
       </div>
+      <Image
+          alt='data.username'
+          className="object-contain float-left w-3/9 "
+          height={400}
+          src={data.school}
+          width={500}
+      />
+      
       {/* <div className="flex space-x-3">
         <Link
           activeClass="active"

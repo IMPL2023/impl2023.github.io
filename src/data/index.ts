@@ -1,6 +1,7 @@
 const data = {
   name: 'IMPL',
   image: '/avatar.png',
+  school:'/sutd1.jpg',
   username: 'avneesh0612',
   keywords:
     'Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator',
@@ -8,7 +9,7 @@ const data = {
   intro:
     'We are a dynamic research group dedicated to advancing the fields of Computer Vision and Machine Learning. Our research spans across two major areas:',
   intro2:
-    '(1) Computer Vision: 3D computer vision, 3D scene understanding such as object detection and semantic segmentation. ',
+    '(1) Computer Vision: 3D computer vision, 3D reconstruction, (3D) scene understanding. ',
   intro3:
     ' (2) Machine Learning: data-efficient learning, out-of-distribution learning, multi-modal learning, robust learning, continual learning.',
   about:
@@ -54,14 +55,15 @@ const data = {
     {
       name: 'GitHub',
       icon: 'github.svg',
-      link: 'https://github.com/Na-Z',
+      // link: 'https://github.com/Na-Z',
+      link: 'https://github.com/IMPL2023',
     },
 
-    {
-      name: 'Google Scholar',
-      icon: 'google-scholar.svg',
-      link: 'https://scholar.google.com/citations?user=KOL2dMwAAAAJ&hl=en&oi=ao',
-    },
+    // {
+    //   name: 'Google Scholar',
+    //   icon: 'google-scholar.svg',
+    //   link: 'https://scholar.google.com/citations?user=KOL2dMwAAAAJ&hl=en&oi=ao',
+    // },
 
     {
       name: 'Mail Us',
@@ -86,28 +88,106 @@ const data = {
   ],
   news:[
     {
+      date:'Dec 2023',
+      content:'We are awarded a grant titled "MANTIS - Cross-modality Resiliency against Real-world Attacks" from DSO!'
+    },
+    {
+      date:'Dec 2023',
+      content:'Two papers about semi-supervised 3D object detection and robust visual recognition are accepted by AAAI 2024!'
+    },
+    {
+      date:'29 Oct 2023',
+      content:'Asst Prof. Na Zhao is invited as a reviewer for CVPR 2024.'
+    },
+    {
+      date:'Oct 2023',
+      content:'One paper about self-supervised point cloud representation learning is accepted by 3DV 2024 as an oral paper!'
+    },
+    {
+      date:'14 Oct 2023',
+      content:'Our team is delighted to welcome Guohang, a new visiting student, to our research group.'
+    },
+    {
       date:'Sep 2023',
       content:'One paper about visual domain generalization is accepted by IJCV 2023!'
+    },
+    {
+      date:'2 Sep 2023',
+      content:'Our team is delighted to welcome Wang Chengshun, a new PhD student, to our research group.'
+    },
+    {
+      date:'1 Sep 2023',
+      content:'Asst Prof. Na Zhao is invited as a reviewer for ICLR 2024.'
+    },
+    {
+      date:'1 Sep 2023',
+      content:'Our team is delighted to welcome Qian Peisheng, a new PhD student, to our research group.'
+    },
+    {
+      date:'30 Aug 2023',
+      content:'Asst Prof. Na Zhao gives talks at A*STAR.'
+    },
+    {
+      date:'19 Aug 2023',
+      content:'Our team is delighted to welcome Jia Heng(ZJU PhD), a new visiting student, to our research group.'
     },
     {
       date:'Aug 2023',
       content:'One paper about robust few-shot point cloud segmentation is accepted by BMVC 2023!'
     },
+    
     {
       date:'Aug 2023',
-      content:'Asst Prof. Na Zhao is awarded a grant titled "Towards Realistic Deep Learning for 3D Vision" from A*STAR as the co-Investigator!'
+      content:'We are awarded a grant titled "Towards Realistic Deep Learning for 3D Vision" from A*STAR!'
     },
     {
-      date:'Jul 2023',
-      content:'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023!'
+      date:'25 Jul 2023',
+      content:'Asst Prof. Na Zhao gives talks at Temasek Laboratories@SUTD.'
+    },
+    
+    {
+      date:'Jun 2023',
+      content:'Our team is delighted to welcome Liu Chao, a new PhD student, to our research group.'
+    },
+    {
+      date:'19 Jun 2023',
+      content:'Asst Prof. Na Zhao gives talks at Zhejiang University (ZJU).'
     },
     {
       date:'Jun 2023',
       content:'One paper about 6-DoF grasps synthesis is accepted by IROS 2023!'
     },
     {
+      date:'15 Jun 2023',
+      content:'Asst Prof. Na Zhao gives talks at Fudan University (FDU).'
+    },
+    {
+      date:'9 Jun 2023',
+      content:'Asst Prof. Na Zhao gives talks at Nanjing University of Science and Technology (NJUST).'
+    },
+    {
+      date:'4 Jul 2023',
+      content:'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023!'
+    },
+    {
+      date:'26 May 2023',
+      content:'Asst Prof. Na Zhao is invited as a reviewer for TKDE (IEEE’s Transactions on Knowledge and Data Engineering).'
+    },
+    {
       date:'May 2023',
       content:'One paper about monocular 3D object detection is accepted by TCSVT 2023!'
+    },
+    {
+      date:'26 May 2023',
+      content:'Our team is delighted to welcome Yining, a new PhD student, to our research group.'
+    },
+    {
+      date:'Apr 2023',
+      content:'Our team is delighted to welcome Pengkun(FDU PhD), a new visiting student, to our research group.'
+    },
+    {
+      date:'9 Apr 2023',
+      content:'Asst Prof. Na Zhao is invited as a reviewer for NeurIPS 2023.'
     },
     {
       date:'Mar 2023',
@@ -115,54 +195,114 @@ const data = {
     },
     {
       date:'Feb 2023',
+      content:'Our team is delighted to welcome Zexian(NTU master), a new Intern, to our research group.'
+    },
+    {
+      date:'Feb 2023',
       content:'Asst Prof. Na Zhao is invited to join the Organising Committee of IEEE ICME 2023 Workshop on 3D Multimedia Analytics, Search and Generation!'
     },
     {
+      date:'6 Feb 2023',
+      content:'Asst Prof. Na Zhao is invited as a reviewer for ICCV 2023.'
+    },
+    {
+      date:'19 Dec 2022',
+      content:'Asst Prof. Na Zhao is invited as a program committee for IJCAI 2023.'
+    },
+    {
+      date:'15 Dec 2022',
+      content:'Asst Prof. Na Zhao is invited as a reviewer for TCSVT (IEEE Transactions on Circuits and Systems for Video Technology).'
+    },
+    {
+      date:'9 Dec 2022',
+      content:'Asst Prof. Na Zhao is invited as a reviewer for TIP (IEEE  Transactions on Image Processing).'
+    },
+    {
+      date:'2 Nov 2022',
+      content:'Asst Prof. Na Zhao is invited as a reviewer for CVPR 2023.'
+    },
+    {
       date:'Oct 2022',
-      content:'Asst Prof. Na Zhao is awarded a grant titled "Multi-modal Joint Learning for Scene Understanding" from SUTD-ZJU IDEA as the sole Principal Investigator!'
+      content:'We are awarded a grant titled "Multi-modal Joint Learning for Scene Understanding" from SUTD-ZJU IDEA!'
     },
     {
       date:'Sep 2022',
-      content:'Asst Prof. Na Zhao is awarded a grant titled "Data-efficient 3D Object Detection for Robot Perception" from TL@SUTD as the sole Principal Investigator!'
+      content:'We are awarded a grant titled "Data-efficient 3D Object Detection for Robot Perception" from TL@SUTD as the sole Principal Investigator!'
+    },
+    {
+      date:'3 Aug 2022',
+      content:'Asst Prof. Na Zhao is invited as a program committee for AAAI 2023.'
     },
     {
       date:'Aug 2022',
       content:'Asst Prof. Na Zhao join the Singapore University of Technology and Design as an Assistant Professor!'
     },
-    {
-      date:'Jul 2022',
-      content:'Three papers are accepted by ECCV 2022!'
-    },
-    {
-      date:'Dec 2021',
-      content:'One paper about class-incremental 3D object detection is accepted by AAAI 2022 as an oral paper!'
-    },
-    {
-      date:'Jun 2021',
-      content:'Asst Prof. Na Zhao is selected for the CVPR 2021 Doctoral Consortium. My mentor is Prof. Serge Belongie!'
-    },
-    {
-      date:'May 2021',
-      content:'Asst Prof. Na Zhao win the IMDA Excellent Prize for my PhD thesis!'
-    },
+  
+    
     // {
-    //   date:'[Mar 2021]',
-    //   content:'Asst Prof. Na Zhao successfully defended my PhD thesis "Towards Learning Scene Semantics on 3D Point Clouds"!'
+    //   date:'Jul 2022',
+    //   content:'Three papers are accepted by ECCV 2022!'
     // },
-    {
-      date:'Mar 2021',
-      content:'One paper about few-shot 3D semantic segmentation is accepted by CVPR 2021!'
-    },
-    {
-      date:'Aug 2020',
-      content:'Asst Prof. Na Zhao recieve the Research Achievement Award from SoC!'
-    },
-    {
-      date:'Feb 2020',
-      content:'One paper about semi-supervised 3D object detection is accepted by CVPR 2020 as an oral paper!'
-    },
+    // {
+    //   date:'Dec 2021',
+    //   content:'One paper about class-incremental 3D object detection is accepted by AAAI 2022 as an oral paper!'
+    // },
+    // {
+    //   date:'Jun 2021',
+    //   content:'Asst Prof. Na Zhao is selected for the CVPR 2021 Doctoral Consortium. My mentor is Prof. Serge Belongie!'
+    // },
+    // {
+    //   date:'May 2021',
+    //   content:'Asst Prof. Na Zhao win the IMDA Excellent Prize for my PhD thesis!'
+    // },
+
+    // {
+    //   date:'Mar 2021',
+    //   content:'One paper about few-shot 3D semantic segmentation is accepted by CVPR 2021!'
+    // },
+    // {
+    //   date:'Aug 2020',
+    //   content:'Asst Prof. Na Zhao recieve the Research Achievement Award from SoC!'
+    // },
+    // {
+    //   date:'Feb 2020',
+    //   content:'One paper about semi-supervised 3D object detection is accepted by CVPR 2020 as an oral paper!'
+    // },
   ],
   papers:[
+    {
+      image:'/papers/Robust Visual Recognition.png',
+      title:'Robust Visual Recognition with Class-Imbalanced Open-World Noisy Data',
+      authors:['Na Zhao', 'Gim Hee Lee'],
+      content:'',
+      comment:'Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'https://na-z.github.io/',
+    },
+    {
+      image:'/papers/Dual-Perspective Knowledge.png',
+      title:'Dual-Perspective Knowledge Enrichment for Semi-Supervised 3D Object Detection',
+      authors:['Yucheng Han', 'Na Zhao*', 'Weiling Chen', 'Keng-Teck Ma', 'Hanwang Zhang','* indicates corresponding author'],
+      content:'',
+      comment:'Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'https://na-z.github.io/',
+    },
+    {
+      image:'/papers/Enhancing Generalizability.png',
+      title:'Enhancing Generalizability of Representation Learning for Data-Efficient 3D Scene Understanding',
+      authors:['Yunsong Wang', 'Na Zhao', 'Gim Hee Lee'],
+      content:'Oral Presentation',
+      comment:'International Conference on 3D Vision (3DV), 2024',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'https://na-z.github.io/',
+    },
     {
       image:'/papers/Style-Hallucinated.png',
       title:'Style-Hallucinated Dual Consistency Learning: A Unified Framework for Visual Domain Generalization',
@@ -300,139 +440,130 @@ const data = {
     {
       name:'Na Zhao',
       type:'Faculty',
-      comment:'xxxx',
-      topic:'xxxx',
+      comment:'',
+      bg:'Research Fellow Computer Vision and Robot Perception Lab with Gim Hee Lee|PhD NUS with Tat-Seng Chua',
+      title:'Assistant Professor',
       image:'/members/nazhao.png',
       mail:'na_zhao@sutd.edu.sg',
     },
     {
       name:'XXX XXX',
       type:'PhD',
-      comment:'xxxx',
-      topic:'xxxx',
+      comment:'Since started in Sep 2023',
+      title:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
       type:'PhD',
-      comment:'xxxx',
-      topic:'xxxx',
+      comment:'Since started in Sep 2023',
+      title:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
       type:'PhD',
-      comment:'xxxx',
-      topic:'xxxx',
+      title:'',
+      comment:'Since started in Sep 2023',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
       type:'PhD',
-      comment:'xxxx',
-      topic:'xxxx',
+      title:'',
+      comment:'Since started in Sep 2023',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
       type:'PostDoc',
-      comment:'xxxx',
-      topic:'xxxx',
+      title:'Research Fellow',
+      comment:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
       type:'PostDoc',
-      comment:'xxxx',
-      topic:'xxxx',
+      title:'Research Fellow',
+      comment:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
-      type:'RA',
-      comment:'xxxx',
-      topic:'xxxx',
-      image:'/members/placeHolder.png',
-      mail:'',
-    },
-    {
-      name:'XXX XXX',
-      type:'Visitor',
-      comment:'xxxx',
-      topic:'xxxx',
+      type:'Research Assistant',
+      title:'Research Assistant',
+      comment:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
       type:'Visitor',
-      comment:'xxxx',
-      topic:'xxxx',
+      title:'',
+      comment:'Since started in Sep 2023',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
       type:'Visitor',
-      comment:'xxxx',
-      topic:'xxxx',
+      comment:'Since started in Sep 2023',
+      title:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
-      type:'Mentee',
-      comment:'xxxx',
-      topic:'xxxx',
+      type:'Visitor',
+      title:'',
+      comment:'Since started in Sep 2023',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
-      type:'Mentee',
-      comment:'xxxx',
-      topic:'xxxx',
+      type:'Alumni',
+      comment:'',
+      title:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
-      type:'Mentee',
-      comment:'xxxx',
-      topic:'xxxx',
+      type:'Alumni',
+      title:'',
+      comment:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
     {
       name:'XXX XXX',
-      type:'Mentee',
-      comment:'xxxx',
-      topic:'xxxx',
+      type:'Alumni',
+      title:'',
+      comment:'',
+      bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
     },
-    {
-      name:'XXX XXX',
-      type:'Mentee',
-      comment:'xxxx',
-      topic:'xxxx',
-      image:'/members/placeHolder.png',
-      mail:'',
-    },
-    {
-      name:'XXX XXX',
-      type:'Mentee',
-      comment:'xxxx',
-      topic:'xxxx',
-      image:'/members/placeHolder.png',
-      mail:'',
-    },
+
   ]
 };
 

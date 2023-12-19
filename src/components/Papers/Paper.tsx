@@ -44,7 +44,7 @@ export const Paper: FC<IPaperProps> = ({ paper }) => {
     <article className="flex flex-col items-center mt-10 md:flex-row" style={divStyle}>
       <Image
         alt={''}
-        className="relative md:w-[450px] w-full ml-4 h-[250px] rounded-lg object-contain"
+        className="relative md:w-[450px] pb-5 w-full ml-4 h-[250px] rounded-lg object-contain"
         height={250}
         loading="lazy"
         src={paper.image}
@@ -58,8 +58,9 @@ export const Paper: FC<IPaperProps> = ({ paper }) => {
           :
           renderItem(author)
         ))}
-        
+        <p className="text-textDark mt-3 md:max-w-[700px] italic-text">{paper.content}</p>
         <p className="text-textDark mt-3 md:max-w-[700px] italic-text">{paper.comment}</p>
+        
         
         {paper.pdf.trim() != "" &&<span className="text-textDark mt-2">
            <span className="text-neon" style={linkStyle}>[<a href={paper.pdf}>PDF</a>]</span> 
