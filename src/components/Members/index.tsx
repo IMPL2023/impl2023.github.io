@@ -6,7 +6,7 @@ const Faculty:MemberType[] =[]
 const PhDs:MemberType[] =[]
 const PostDocs_RAs:MemberType[] =[]
 const Visitors:MemberType[] =[]
-const Mentees:MemberType[] =[]
+const Alumni:MemberType[] =[]
 
 
 data.members.forEach((item) => {
@@ -26,8 +26,8 @@ data.members.forEach((item) => {
     case "Visitor":
       Visitors.push(item);
       break;
-    case "Mentee":
-      Mentees.push(item);
+    case "Alumni":
+      Alumni.push(item);
       break;
   }
 });
@@ -45,7 +45,7 @@ export const Members = () => {
         ))}
       </div>
 
-      <Title  title="PostDoc  / RA" />
+      <Title  title="Research Staff" />
       <div className="flex flex-wrap  mt-10">
         {PostDocs_RAs.map((member, i) => (
           <Member key={i} member={member} />
@@ -69,9 +69,9 @@ export const Members = () => {
       </div>
 
 
-      <Title  title="Mentees" />
+      <Title  title="Alumni" />
       <div className="flex flex-wrap  mt-10">
-        {Mentees.map((member, i) => (
+        {Alumni.map((member, i) => (
           <Member key={i} member={member} />
         ))}
       </div>

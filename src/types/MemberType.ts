@@ -2,7 +2,8 @@ interface MemberType {
   name:string;
   type:string;
   comment:string;
-  topic:string;
+  title:string;
+  bg:string;
   image:string;
   mail:string;
 }

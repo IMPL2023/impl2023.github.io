@@ -12,18 +12,18 @@ const navOptions = [
     name: 'Lab Members',
     href: 'group',
   },
-  {
-    name: 'Funding',
-    href: 'funding',
-  },
+  // {
+  //   name: 'Funding',
+  //   href: 'funding',
+  // },
   // {
   //   name: 'Blog',
   //   href: 'blog',
   // },
-  {
-    name: 'Fun!',
-    href: 'fun',
-  },
+  // {
+  //   name: 'Fun!',
+  //   href: 'fun',
+  // },
   {
     name: 'Join Us',
     href: 'joinus',
