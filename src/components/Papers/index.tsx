@@ -1,5 +1,6 @@
 import { Title } from '../Common/Title';
 import { Paper } from './Paper';
+import {PaperText} from './PaperText'
 import data from '@/data';
 import { PaperType } from '@/types';
 const List_2024:PaperType[] =[]
@@ -85,7 +86,7 @@ export const Papers = () => {
 
           </article>
           {List_2021_and_before.map((paper, i) => (
-            <Paper key={i} paper={paper} />
+            <PaperText key={i} paper={paper} />
           ))}
         </div>
         
