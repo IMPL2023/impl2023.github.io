@@ -77,7 +77,7 @@ export const Papers = () => {
         </div>
 
         <div className="flex flex-col">
-          <article className="flex flex-col  mt-5 ">
+          <article className="flex flex-col  mt-5 mb-5">
             <div className=''>
               <span className="text-2xl" >
                   <b>2021 and before:</b>

@@ -41,8 +41,8 @@ export const PaperText: FC<IPaperProps> = ({ paper }) => {
     borderBottom: '2px solid rgba(255, 255, 255, 0.1)', // 设置白色下边框
   };
   return (
-    <article className="flex flex-col items-center mt-10 md:flex-row" style={divStyle}>
-      <div className="ml-2 mt-5 md:mt-0 md:ml-10">
+    <article className="flex flex-col items-center mb-5 md:flex-row" style={divStyle}>
+      <div className="ml-2 mt-10 mb-2 md:mt-0 md:ml-5">
         <h3 className="text-base font-semibold text-neon">{paper.title}</h3>
         {paper.authors.map((author, i) => (
           (author.startsWith('#')  || author.startsWith('*'))
