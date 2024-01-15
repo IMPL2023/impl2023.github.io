@@ -6,6 +6,7 @@ interface MemberType {
   bg:string;
   image:string;
   mail:string;
+  homepage:string;
 }
 
 export type { MemberType };

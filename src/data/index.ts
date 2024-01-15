@@ -7,11 +7,14 @@ const data = {
     'Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator',
   profession: 'FullStack web3 developer',
   intro:
-    'We are a dynamic research group dedicated to advancing the fields of Computer Vision and Machine Learning. Our research spans across two major areas:',
+    'We are a research group dedicated to pioneer novel and effective deep learning algorithms \
+    for the practical advancement of intelligent machine perception. \
+    Our research focus spans across two major areas:',
   intro2:
-    '(1) Computer Vision: 3D computer vision, 3D reconstruction, (3D) scene understanding. ',
+    '(1) Computer Vision: 3D computer vision, (3D) scene understanding, 3D reconstruction. ',
   intro3:
-    ' (2) Machine Learning: data-efficient learning, out-of-distribution learning, multi-modal learning, robust learning, continual learning.',
+    ' (2) Machine Learning: data-efficient learning, \
+    out-of-distribution learning, multi-modal learning, continual learning, robust learning.',
   about:
     '',
   website: 'https://www.avneesh.tech',
@@ -88,155 +91,301 @@ const data = {
   ],
   news:[
     {
-      date:'Dec 2023',
-      content:'We are awarded a grant titled "MANTIS - Cross-modality Resiliency against Real-world Attacks" from DSO!'
+      date:'08 Jan 2024',
+      content:'We are delighted to welcome Zhang Jie, a master student from XJUT, to visit our lab.'
     },
     {
-      date:'Dec 2023',
-      content:'Two papers about semi-supervised 3D object detection and robust visual recognition are accepted by AAAI 2024!'
+      date:'23 Dec 2023',
+      content:'Prof. Zhao Na is invited to serve as a reviewer for ICML 2024.'
+    },
+    {
+      date:'09 Dec 2023',
+      content:'Two papers are accepted by AAAI 2024! Congratulations to all authors!'
+    },
+    {
+      date:'08 Dec 2023',
+      content:'Our lab receives a research grant from DSO! Thanks DSO! The grant will focus on cross-modality resiliency against real-world attacks.'
     },
     {
       date:'29 Oct 2023',
       content:'Asst Prof. Na Zhao is invited as a reviewer for CVPR 2024.'
     },
     {
-      date:'Oct 2023',
-      content:'One paper about self-supervised point cloud representation learning is accepted by 3DV 2024 as an oral paper!'
+      date:'23 Oct 2023',
+      content:'One paper about self-supervised point cloud representation learning is accepted by 3DV 2024 as an oral paper! Congratulations to Yunsong! '
     },
     {
       date:'14 Oct 2023',
-      content:'Our team is delighted to welcome Guohang, a new visiting student, to our research group.'
+      content:'We are delighted to welcome Zhuang Guohang, a PhD student from HFUT, to visit our lab.'
     },
     {
-      date:'Sep 2023',
-      content:'One paper about visual domain generalization is accepted by IJCV 2023!'
+          date:'15 Sep 2023',
+          content:'One paper about visual domain generalization is accepted by IJCV 2023! Congratulations to Yuyang! '
     },
     {
-      date:'2 Sep 2023',
-      content:'Our team is delighted to welcome Wang Chengshun, a new PhD student, to our research group.'
+          date:'02 Sep 2023',
+          content:'We are delighted to welcome Wang Chengshun and  Qian Peisheng  to join our lab as PhD students.'
     },
     {
-      date:'1 Sep 2023',
-      content:'Asst Prof. Na Zhao is invited as a reviewer for ICLR 2024.'
+          date:'01 Sep 2023',
+          content:'Prof. Zhao Na is invited to serve as a reviewer for ICLR 2024.'
     },
     {
-      date:'1 Sep 2023',
-      content:'Our team is delighted to welcome Qian Peisheng, a new PhD student, to our research group.'
+          date:'19 Aug 2023',
+          content:'We are delighted to welcome Jia Heng, a PhD student from ZJU, to visit our lab.'
     },
     {
-      date:'30 Aug 2023',
-      content:'Asst Prof. Na Zhao gives talks at A*STAR.'
+          date:'25 Aug 2023',
+          content:'One paper about robust few-shot point cloud segmentation is accepted by BMVC 2023! Congratulations to Yating!'
     },
     {
-      date:'19 Aug 2023',
-      content:'Our team is delighted to welcome Jia Heng(ZJU PhD), a new visiting student, to our research group.'
+          date:'25 July 2023',
+          content:'Our lab receives a research grant from A*STAR! Thanks A*STAR! The grant will focus on realistic deep learning for 3D vision.'
     },
     {
-      date:'Aug 2023',
-      content:'One paper about robust few-shot point cloud segmentation is accepted by BMVC 2023!'
+          date:'25 Jul 2023',
+          content:'Prof. Zhao Na is invited to give a talk at DSO-TL@SUTD Dialogue Session.'
     },
+    {
+          date:'Jun 2023',
+          content:'We are delighted to welcome Liu Chao to join our lab as a PhD student.'
+    },
+    {
+          date:'19 Jun 2023',
+          content:'Prof. Zhao Na is invited to give a talk at the College of Computer Science, Zhejiang University.'
+    },
+    {
+          date:'Jun 2023',
+          content:'One paper about 6-DoF grasps synthesis is accepted by IROS 2023! Congratulations to Tasbolat!'
+    },
+    {
+          date:'15 Jun 2023',
+          content:'Prof. Zhao Na is invited to give a talk at the School of Computer Science, Fudan University.'
+    },
+    {
+          date:'09 Jun 2023',
+          content:'Prof. Zhao Na is invited to give a talk at the Intelligent Media Analysis Group, Nanjing University of Science and Technology.'
+    },
+    {
+          date:'04 Jul 2023',
+          content:'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023! Congratulations to Yating!'
+    },
+    {
+          date:'26 May 2023',
+          content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE’s Transactions on Knowledge and Data Engineering (TKDE).'
+    },
+    {
+          date:'26 May 2023',
+          content:'We are delighted to welcome Pan Yining to join our lab as a PhD student. '
+    },
+    {
+          date:'09 May 2023',
+          content:'One paper about monocular 3D object detection is accepted by TCSVT 2023! Congratulations to Hualian!'
+    },
+    {
+          date:'25 Apr 2023',
+          content:'We are delighted to welcome Jiao Pengkun, a PhD student from FDU, to visit our lab.'
+    },
+    {
+          date:'09 Apr 2023',
+          content:'Prof. Zhao Na is invited to serve as a reviewer for NeurIPS 2023.'
+    },
+    {
+          date:'06 Mar 2023',
+          content:'Prof. Zhao Na is invited to serve as Demo Chair at Sixth IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR) 2023!'
+    },
+    {
+          date:'20 Feb 2023',
+          content:'We are delighted to welcome Hong Zexian, a master student from NTU, to join our lab as an intern.'
+    },
+    {
+          date:'06 Feb 2023',
+          content:'Prof. Zhao Na is invited to serve as a reviewer for ICCV 2023.'
+    },
+    {
+          date:'19 Dec 2022',
+          content:'Prof. Zhao Na is invited to serve as a program committee for IJCAI 2023.'
+    },
+    {
+          date:'15 Dec 2022',
+          content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).'
+    },
+    {
+          date:'09 Dec 2022',
+          content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE Transactions on Image Processing (TIP).'
+    },
+    {
+          date:'15 Nov 2022',
+          content:'Prof. Zhao Na is invited to join the Organising Committee of IEEE ICME 2023 Workshop on 3D Multimedia Analytics, Search and Generation!'
+    },
+    {
+          date:'02 Nov 2022',
+          content:'Prof. Zhao Na is invited to serve as a reviewer for CVPR 2023.'
+    },
+    {
+          date:'18 Oct 2022',
+          content:'Our lab receives a research grant from SUTD-ZJU IDEA! Thanks SUTD-ZJU IDEA! This project will focus on multi-modal joint learning for scene understanding. '
+    },
+    {
+          date:'28 Sep 2022',
+          content:'Our lab receives a research grant from Temasek Laboratories @ SUTD! Thanks TL@SUTD! The project will focus on data-efficient 3D object detection for robot perception.'
+    },
+    {
+          date:'03 Aug 2022',
+          content:'Prof. Zhao Na is invited to serve as a program committee for AAAI 2023.'
+    },
+    {
+          date:'01 Aug 2022',
+          content:'Prof. Zhao Na joins the Singapore University of Technology and Design as an Assistant Professor!'
+    }
+
+    // {
+    //   date:'Dec 2023',
+    //   content:'We are awarded a grant titled "MANTIS - Cross-modality Resiliency against Real-world Attacks" from DSO!'
+    // },
+    // {
+    //   date:'Dec 2023',
+    //   content:'Two papers about semi-supervised 3D object detection and robust visual recognition are accepted by AAAI 2024!'
+    // },
     
-    {
-      date:'Aug 2023',
-      content:'We are awarded a grant titled "Towards Realistic Deep Learning for 3D Vision" from A*STAR!'
-    },
-    {
-      date:'25 Jul 2023',
-      content:'Asst Prof. Na Zhao gives talks at Temasek Laboratories@SUTD.'
-    },
+    // {
+    //   date:'Oct 2023',
+    //   content:'One paper about self-supervised point cloud representation learning is accepted by 3DV 2024 as an oral paper!'
+    // },
+    // {
+    //   date:'14 Oct 2023',
+    //   content:'Our team is delighted to welcome Guohang, a new visiting student, to our research group.'
+    // },
+    // {
+    //   date:'Sep 2023',
+    //   content:'One paper about visual domain generalization is accepted by IJCV 2023!'
+    // },
+    // {
+    //   date:'2 Sep 2023',
+    //   content:'Our team is delighted to welcome Wang Chengshun, a new PhD student, to our research group.'
+    // },
+    // {
+    //   date:'1 Sep 2023',
+    //   content:'Asst Prof. Na Zhao is invited as a reviewer for ICLR 2024.'
+    // },
+    // {
+    //   date:'1 Sep 2023',
+    //   content:'Our team is delighted to welcome Qian Peisheng, a new PhD student, to our research group.'
+    // },
+    // {
+    //   date:'30 Aug 2023',
+    //   content:'Asst Prof. Na Zhao gives talks at A*STAR.'
+    // },
+    // {
+    //   date:'19 Aug 2023',
+    //   content:'Our team is delighted to welcome Jia Heng(ZJU PhD), a new visiting student, to our research group.'
+    // },
+    // {
+    //   date:'Aug 2023',
+    //   content:'One paper about robust few-shot point cloud segmentation is accepted by BMVC 2023!'
+    // },
     
-    {
-      date:'Jun 2023',
-      content:'Our team is delighted to welcome Liu Chao, a new PhD student, to our research group.'
-    },
-    {
-      date:'19 Jun 2023',
-      content:'Asst Prof. Na Zhao gives talks at Zhejiang University (ZJU).'
-    },
-    {
-      date:'Jun 2023',
-      content:'One paper about 6-DoF grasps synthesis is accepted by IROS 2023!'
-    },
-    {
-      date:'15 Jun 2023',
-      content:'Asst Prof. Na Zhao gives talks at Fudan University (FDU).'
-    },
-    {
-      date:'9 Jun 2023',
-      content:'Asst Prof. Na Zhao gives talks at Nanjing University of Science and Technology (NJUST).'
-    },
-    {
-      date:'4 Jul 2023',
-      content:'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023!'
-    },
-    {
-      date:'26 May 2023',
-      content:'Asst Prof. Na Zhao is invited as a reviewer for TKDE (IEEE’s Transactions on Knowledge and Data Engineering).'
-    },
-    {
-      date:'May 2023',
-      content:'One paper about monocular 3D object detection is accepted by TCSVT 2023!'
-    },
-    {
-      date:'26 May 2023',
-      content:'Our team is delighted to welcome Yining, a new PhD student, to our research group.'
-    },
-    {
-      date:'Apr 2023',
-      content:'Our team is delighted to welcome Pengkun(FDU PhD), a new visiting student, to our research group.'
-    },
-    {
-      date:'9 Apr 2023',
-      content:'Asst Prof. Na Zhao is invited as a reviewer for NeurIPS 2023.'
-    },
-    {
-      date:'Mar 2023',
-      content:'Asst Prof. Na Zhao is invited to serve as Demo Chair at Sixth IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR 2023)!'
-    },
-    {
-      date:'Feb 2023',
-      content:'Our team is delighted to welcome Zexian(NTU master), a new Intern, to our research group.'
-    },
-    {
-      date:'Feb 2023',
-      content:'Asst Prof. Na Zhao is invited to join the Organising Committee of IEEE ICME 2023 Workshop on 3D Multimedia Analytics, Search and Generation!'
-    },
-    {
-      date:'6 Feb 2023',
-      content:'Asst Prof. Na Zhao is invited as a reviewer for ICCV 2023.'
-    },
-    {
-      date:'19 Dec 2022',
-      content:'Asst Prof. Na Zhao is invited as a program committee for IJCAI 2023.'
-    },
-    {
-      date:'15 Dec 2022',
-      content:'Asst Prof. Na Zhao is invited as a reviewer for TCSVT (IEEE Transactions on Circuits and Systems for Video Technology).'
-    },
-    {
-      date:'9 Dec 2022',
-      content:'Asst Prof. Na Zhao is invited as a reviewer for TIP (IEEE  Transactions on Image Processing).'
-    },
-    {
-      date:'2 Nov 2022',
-      content:'Asst Prof. Na Zhao is invited as a reviewer for CVPR 2023.'
-    },
-    {
-      date:'Oct 2022',
-      content:'We are awarded a grant titled "Multi-modal Joint Learning for Scene Understanding" from SUTD-ZJU IDEA!'
-    },
-    {
-      date:'Sep 2022',
-      content:'We are awarded a grant titled "Data-efficient 3D Object Detection for Robot Perception" from TL@SUTD as the sole Principal Investigator!'
-    },
-    {
-      date:'3 Aug 2022',
-      content:'Asst Prof. Na Zhao is invited as a program committee for AAAI 2023.'
-    },
-    {
-      date:'Aug 2022',
-      content:'Asst Prof. Na Zhao join the Singapore University of Technology and Design as an Assistant Professor!'
-    },
+    // {
+    //   date:'Aug 2023',
+    //   content:'We are awarded a grant titled "Towards Realistic Deep Learning for 3D Vision" from A*STAR!'
+    // },
+    // {
+    //   date:'25 Jul 2023',
+    //   content:'Asst Prof. Na Zhao gives talks at Temasek Laboratories@SUTD.'
+    // },
+    
+    // {
+    //   date:'Jun 2023',
+    //   content:'Our team is delighted to welcome Liu Chao, a new PhD student, to our research group.'
+    // },
+    // {
+    //   date:'19 Jun 2023',
+    //   content:'Asst Prof. Na Zhao gives talks at Zhejiang University (ZJU).'
+    // },
+    // {
+    //   date:'Jun 2023',
+    //   content:'One paper about 6-DoF grasps synthesis is accepted by IROS 2023!'
+    // },
+    // {
+    //   date:'15 Jun 2023',
+    //   content:'Asst Prof. Na Zhao gives talks at Fudan University (FDU).'
+    // },
+    // {
+    //   date:'9 Jun 2023',
+    //   content:'Asst Prof. Na Zhao gives talks at Nanjing University of Science and Technology (NJUST).'
+    // },
+    // {
+    //   date:'4 Jul 2023',
+    //   content:'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023!'
+    // },
+    // {
+    //   date:'26 May 2023',
+    //   content:'Asst Prof. Na Zhao is invited as a reviewer for TKDE (IEEE’s Transactions on Knowledge and Data Engineering).'
+    // },
+    // {
+    //   date:'May 2023',
+    //   content:'One paper about monocular 3D object detection is accepted by TCSVT 2023!'
+    // },
+    // {
+    //   date:'26 May 2023',
+    //   content:'Our team is delighted to welcome Yining, a new PhD student, to our research group.'
+    // },
+    // {
+    //   date:'Apr 2023',
+    //   content:'Our team is delighted to welcome Pengkun(FDU PhD), a new visiting student, to our research group.'
+    // },
+    // {
+    //   date:'9 Apr 2023',
+    //   content:'Asst Prof. Na Zhao is invited as a reviewer for NeurIPS 2023.'
+    // },
+    // {
+    //   date:'Mar 2023',
+    //   content:'Asst Prof. Na Zhao is invited to serve as Demo Chair at Sixth IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR 2023)!'
+    // },
+    // {
+    //   date:'Feb 2023',
+    //   content:'Our team is delighted to welcome Zexian(NTU master), a new Intern, to our research group.'
+    // },
+    // {
+    //   date:'Feb 2023',
+    //   content:'Asst Prof. Na Zhao is invited to join the Organising Committee of IEEE ICME 2023 Workshop on 3D Multimedia Analytics, Search and Generation!'
+    // },
+    // {
+    //   date:'6 Feb 2023',
+    //   content:'Asst Prof. Na Zhao is invited as a reviewer for ICCV 2023.'
+    // },
+    // {
+    //   date:'19 Dec 2022',
+    //   content:'Asst Prof. Na Zhao is invited as a program committee for IJCAI 2023.'
+    // },
+    // {
+    //   date:'15 Dec 2022',
+    //   content:'Asst Prof. Na Zhao is invited as a reviewer for TCSVT (IEEE Transactions on Circuits and Systems for Video Technology).'
+    // },
+    // {
+    //   date:'9 Dec 2022',
+    //   content:'Asst Prof. Na Zhao is invited as a reviewer for TIP (IEEE  Transactions on Image Processing).'
+    // },
+    // {
+    //   date:'2 Nov 2022',
+    //   content:'Asst Prof. Na Zhao is invited as a reviewer for CVPR 2023.'
+    // },
+    // {
+    //   date:'Oct 2022',
+    //   content:'We are awarded a grant titled "Multi-modal Joint Learning for Scene Understanding" from SUTD-ZJU IDEA!'
+    // },
+    // {
+    //   date:'Sep 2022',
+    //   content:'We are awarded a grant titled "Data-efficient 3D Object Detection for Robot Perception" from TL@SUTD as the sole Principal Investigator!'
+    // },
+    // {
+    //   date:'3 Aug 2022',
+    //   content:'Asst Prof. Na Zhao is invited as a program committee for AAAI 2023.'
+    // },
+    // {
+    //   date:'Aug 2022',
+    //   content:'Asst Prof. Na Zhao join the Singapore University of Technology and Design as an Assistant Professor!'
+    // },
   
     
     // {
@@ -510,46 +659,51 @@ const data = {
       type:'Faculty',
       comment:'',
       // bg:'Research Fellow, CVRPLab, NUS|PhD, NUS',
-      bg:'PhD, NUS',
+      bg:'PhD in CS, National University Singapore',
       title:'Assistant Professor',
       image:'/members/nazhao.png',
       mail:'na_zhao@sutd.edu.sg',
+      homepage:'https://istd.sutd.edu.sg/people/faculty/zhao-na/'
     },
     {
       name:'Peisheng Qian',
       type:'PhD',
-      comment:'Since started in Sep 2023',
+      comment:'Since Sep 2023',
       title:'',
-      bg:'Research Engineer, A*STAR',
+      bg:'B.E, National University Singapore',
       image:'/members/peisheng.png',
       mail:'',
+      homepage:''
     },
     {
       name:'Yining Pan',
       type:'PhD',
-      comment:'Since started in Sep 2023',
+      comment:'Since Sep 2023',
       title:'',
-      bg:'M.Eng , ZJU',
+      bg:'M.Eng , Zhejiang University',
       image:'/members/yining.png',
       mail:'',
+      homepage:''
     },
     {
       name:'Chao Liu',
       type:'PhD',
       title:'',
-      comment:'Since started in Sep 2023',
-      bg:'M.Sc, UCAS',
+      comment:'Since Sep 2023',
+      bg:'M.Sc, University of Chinese Academy of Sciences',
       image:'/members/liuchao.png',
       mail:'',
+      homepage:''
     },
     {
       name:'Chengshun wang',
       type:'PhD',
       title:'',
-      comment:'Since started in Sep 2023',
-      bg:'MF, FDU',
+      comment:'Since Sep 2023',
+      bg:'MF, FUDAN University',
       image:'/members/chengshun.png',
       mail:'',
+      homepage:''
     },
     {
       name:'XXX XXX',
@@ -559,6 +713,7 @@ const data = {
       bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
+      homepage:''
     },
     // {
     //   name:'XXX XXX',
@@ -577,42 +732,47 @@ const data = {
       bg:'M.Sc in xxx',
       image:'/members/placeHolder.png',
       mail:'',
+      homepage:''
     },
     {
       name:'Heng Jia',
       type:'Visitor',
-      title:'',
+      title:'visiting student',
       comment:'',
-      bg:'PhD studenet, ZJU',
+      bg:'PhD studenet, Zhejiang University',
       image:'/members/jiaheng.png',
       mail:'',
+      homepage:''
     },
     {
-      name:'Guohang ',
+      name:'Guohang Zhuang',
       type:'Visitor',
       comment:'',
-      title:'',
-      bg:'PhD studenet, HFUT',
+      title:'visiting student',
+      bg:'PhD studenet, Hefei University of Technology',
       image:'/members/guohang.png',
       mail:'',
+      homepage:''
     },
     {
       name:'Zexian Hong',
       type:'Visitor',
-      title:'',
+      title:'Intern',
       comment:'',
-      bg:'Master, NTU',
-      image:'/members/placeHolder.png',
+      bg:'Master, Nanyang Technological University',
+      image:'/members/zexian.png',
       mail:'',
+      homepage:''
     },
     {
       name:'Pengkun Jiao',
       type:'Alumni',
-      comment:'',
+      comment:'from 25 Apr 2023 to 19 Nov 2023',
       title:'',
-      bg:'PhD student, FDU',
+      bg:'PhD student, FUDAN University',
       image:'/members/pengkun.png',
       mail:'',
+      homepage:''
     },
     // {
     //   name:'XXX XXX',

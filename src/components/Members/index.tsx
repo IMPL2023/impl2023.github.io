@@ -45,15 +45,15 @@ export const Members = () => {
         ))}
       </div>
 
-      <Title  title="Research Staff" />
+      {/* <Title  title="Research Staff" />
       <div className="flex flex-wrap  mt-10">
         {PostDocs_RAs.map((member, i) => (
           <Member key={i} member={member} />
         ))}
-      </div>
+      </div> */}
 
 
-      <Title  title="PhD" />
+      <Title  title="PhD Students" />
       <div className="flex flex-wrap  mt-10">
         {PhDs.map((member, i) => (
           <Member key={i} member={member} />
@@ -61,7 +61,7 @@ export const Members = () => {
       </div>
 
 
-      <Title  title="Visitors" />
+      <Title  title="Visitors and Interns" />
       <div className="flex flex-wrap  mt-10">
         {Visitors.map((member, i) => (
           <Member key={i} member={member} />

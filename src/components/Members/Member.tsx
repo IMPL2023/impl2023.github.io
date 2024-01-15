@@ -18,7 +18,17 @@ export const Member: FC<IMemberProps> = ({ member }) => {
     <Card className='flex flex-col p-4 pb-4 ' style={{ width: '18rem' }}>
         <Card.Img variant="top" src={member.image} sizes='' />
         <Card.Body className='bg-card p-2'>
-          <Card.Title className='p-2'>{member.name}</Card.Title>
+          {/* <a style={{ textDecoration: 'underline' }}></a> */}
+          {
+            member.homepage === ''
+              ? <Card.Title className='p-2'>{member.name}</Card.Title>
+              : <a style={{ textDecoration: 'underline' }} href={ member.homepage }>
+                  <Card.Text className='p-1'>
+                    {member.name}
+                  </Card.Text>
+                </a>
+          }
+          {/* <Card.Title className='p-2'>{member.name}</Card.Title> */}
           <ul style={{listStyleType: 'square'}} className='ml-4 pl-2'>
  
             {member.title==='' ? '' :
