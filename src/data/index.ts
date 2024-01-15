@@ -700,7 +700,7 @@ const data = {
       type:'PhD',
       title:'',
       comment:'Since Sep 2023',
-      bg:'MF, FUDAN University',
+      bg:'MF, Fudan University',
       image:'/members/chengshun.png',
       mail:'',
       homepage:''
@@ -770,7 +770,7 @@ const data = {
       title:'Intern',
       comment:'',
       bg:'Master, Xi\'an Jiaotong University',
-      image:'/members/placeHolder.png',
+      image:'/members/zhangjie.png',
       mail:'',
       homepage:''
     },
@@ -779,7 +779,7 @@ const data = {
       type:'Alumni',
       comment:'from 25 Apr 2023 to 19 Nov 2023',
       title:'',
-      bg:'PhD student, FUDAN University',
+      bg:'PhD student, Fudan University',
       image:'/members/pengkun.png',
       mail:'',
       homepage:''
