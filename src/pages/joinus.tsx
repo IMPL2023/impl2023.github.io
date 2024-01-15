@@ -102,29 +102,29 @@ const Joinus: FC = () => {
               <li style={{ padding: '2px' }}>
                 You should have strong programming skills and be familiar with deep learning frameworks like PyTorch.
                 <b className='text-white pl-1 pr-1'>     
-                Winners of ACM/ICPC or NOI/IOIare preferred.
+                Winners of ACM/ICPC or NOI/IOIare preferred
                 </b>
-              </li>
+              .</li>
               <li style={{ padding: '2px' }}>
                 You should have some research experience in computer vision/machine learning. 
                 <b className='text-white pl-1'>     
                 Having relevant research papers is a plus
-                </b></li>
+                </b>.</li>
               <li style={{ padding: '2px' }}>
                 You should have good English reading, writing, and oral communication skills. 
                 The English requirement for admission to SUTD's PhD program is approximately:
                 <b className='text-white pl-1'>     
-                TOEFL &gt;=90, IELTS &gt;=6.5.
-                </b>
+                TOEFL &gt;=90, IELTS &gt;=6.5
+                </b>.
               </li>
               <li style={{ padding: '2px' }}>
                 You should be 
                 <b className='text-white pl-1'> self-motivated 
                 </b>&nbsp;
                 and 
-                <b className='text-white pl-1'> self-motivated 
-                passionate about research.
-                </b></li>
+                <b className='text-white pl-1'>
+                passionate about research
+                </b>.</li>
               
             </ol>
         </div>

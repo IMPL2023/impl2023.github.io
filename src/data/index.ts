@@ -146,18 +146,16 @@ const data = {
           date:'25 Jul 2023',
           content:'Prof. Zhao Na is invited to give a talk at DSO-TL@SUTD Dialogue Session.'
     },
+    
     {
-          date:'Jun 2023',
-          content:'We are delighted to welcome Liu Chao to join our lab as a PhD student.'
+          date:'22 Jun 2023',
+          content:'One paper about 6-DoF grasps synthesis is accepted by IROS 2023! Congratulations to Tasbolat!'
     },
     {
           date:'19 Jun 2023',
           content:'Prof. Zhao Na is invited to give a talk at the College of Computer Science, Zhejiang University.'
     },
-    {
-          date:'Jun 2023',
-          content:'One paper about 6-DoF grasps synthesis is accepted by IROS 2023! Congratulations to Tasbolat!'
-    },
+    
     {
           date:'15 Jun 2023',
           content:'Prof. Zhao Na is invited to give a talk at the School of Computer Science, Fudan University.'
@@ -165,6 +163,10 @@ const data = {
     {
           date:'09 Jun 2023',
           content:'Prof. Zhao Na is invited to give a talk at the Intelligent Media Analysis Group, Nanjing University of Science and Technology.'
+    },
+    {
+          date:'05 Jun 2023',
+          content:'We are delighted to welcome Liu Chao to join our lab as a PhD student.'
     },
     {
           date:'04 Jul 2023',
@@ -534,7 +536,7 @@ const data = {
       title:'Few-shot 3D Point Cloud Semantic Segmentation',
       authors:['Na Zhao', 'Tat-Seng Chua', 'Gim Hee Lee'],
       content:'',
-      comment:'IEEE Conference on Computer Vision and Patten Recognition (CVPR), 2021',
+      comment:'Computer Vision and Patten Recognition (CVPR), 2021',
       pdf:'https://arxiv.org/pdf/2006.12052.pdf',
       video:'https://www.youtube.com/watch?v=i5X1L1_03Rs',
       project:'',
@@ -545,7 +547,7 @@ const data = {
       title:'SESS: Self-Ensembling Semi-Supervised 3D Object Detection',
       authors:['Na Zhao', 'Tat-Seng Chua', 'Gim Hee Lee'],
       content:'',
-      comment:'IEEE Conference on Computer Vision and Patten Recognition (CVPR), 2020 Oral Presentation',
+      comment:'Computer Vision and Patten Recognition (CVPR), 2020 Oral Presentation',
       pdf:'https://arxiv.org/pdf/1912.11803.pdf',
       video:'https://www.youtube.com/watch?v=AGJsp4aksS0',
       project:'',
@@ -567,7 +569,7 @@ const data = {
       title:'End2End semantic segmentation for 3D indoor scenes',
       authors:['Na Zhao', ],
       content:'',
-      comment:'Proceedings of the 26th ACM international conference on Multimedia, 2018',
+      comment:'26th ACM international conference on Multimedia, 2018',
       pdf:'https://dl.acm.org/doi/pdf/10.1145/3240508.3243933',
       video:'',
       project:'',
@@ -600,7 +602,7 @@ const data = {
       title:'Discrete image hashing using large weakly annotated photo collections',
       authors:['Hanwang Zhang', 'Na Zhao', 'Xindi Shang', 'Huanbo Luan', 'Tat-seng Chua'],
       content:'',
-      comment:'Proceedings of the AAAI Conference on Artificial Intelligence, 2016',
+      comment:'30th AAAI Conference on Artificial Intelligence, 2016',
       pdf:'https://ojs.aaai.org/index.php/AAAI/article/download/10453/10312',
       video:'',
       project:'',
@@ -612,7 +614,7 @@ const data = {
       title:'Searching for recent celebrity images in microblog platform',
       authors:['Na Zhao','Richang Hong', 'Meng Wang', 'Xuegang Hu', 'Tat-Seng Chua'],
       content:'',
-      comment:'Proceedings of the 22nd ACM international conference on Multimedia, 2014',
+      comment:'22nd ACM international conference on Multimedia, 2014',
       pdf:'https://dl.acm.org/doi/pdf/10.1145/2647868.2655011',
       video:'',
       project:'',
@@ -696,7 +698,7 @@ const data = {
       homepage:''
     },
     {
-      name:'Chengshun wang',
+      name:'Chengshun Wang',
       type:'PhD',
       title:'',
       comment:'Since Sep 2023',
@@ -737,7 +739,7 @@ const data = {
     {
       name:'Heng Jia',
       type:'Visitor',
-      title:'visiting student',
+      title:'Visiting student',
       comment:'',
       bg:'PhD student, Zhejiang University',
       image:'/members/jiaheng.png',
@@ -748,7 +750,7 @@ const data = {
       name:'Guohang Zhuang',
       type:'Alumni',
       comment:'',
-      title:'visiting student',
+      title:'Visiting student',
       bg:'PhD student, Hefei University of Technology',
       image:'/members/guohang.png',
       mail:'',
@@ -769,7 +771,7 @@ const data = {
       type:'Visitor',
       title:'Visiting student',
       comment:'',
-      bg:'Master, Xi\'an Jiaotong University',
+      bg:'Master student, Xi\'an Jiaotong University',
       image:'/members/zhangjie.png',
       mail:'',
       homepage:''

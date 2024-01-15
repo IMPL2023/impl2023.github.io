@@ -14,7 +14,30 @@ function replaceSpecialCharactersWithSuperscript(inputString:string) {
 }
 
 
+
 export const Paper: FC<IPaperProps> = ({ paper }) => {
+  const renderComment = (comment:string )=> {
+    // 检查 comment 中是否包含 'Oral'
+    const hasOral = comment.includes('Oral Presentation');
+  
+    if (hasOral) {
+      // 分割字符串
+      const parts = comment.split('Oral Presentation');
+      return (
+        <p className="text-textDark mt-3 md:max-w-[700px] italic-text">
+          {parts[0]}
+          <b className='text-white pl-1'>Oral Presentation</b>
+          {parts[1]}
+        </p>)
+    }
+    else{
+      console.log(comment)
+      return (
+        <p className="text-textDark mt-3 md:max-w-[700px] italic-text">
+          {comment}
+        </p>)
+    }
+  }
   const renderItem = (author:string) => {
     author = replaceSpecialCharactersWithSuperscript(author)
     if (author.includes('Na Zhao')) {
@@ -58,8 +81,11 @@ export const Paper: FC<IPaperProps> = ({ paper }) => {
           :
           renderItem(author)
         ))}
-        <p className="text-textDark mt-3 md:max-w-[700px] italic-text">{paper.content}</p>
-        <p className="text-textDark mt-3 md:max-w-[700px] italic-text">{paper.comment}</p>
+        
+        {/* <p className="text-textDark mt-3 md:max-w-[700px] italic-text">{paper.content}</p> */}
+        {renderComment(paper.content)}
+        {renderComment(paper.comment)}
+        {/* <p className="text-textDark mt-3 md:max-w-[700px] italic-text">{paper.comment}</p> */}
         
         
         {paper.pdf.trim() != "" &&<span className="text-textDark mt-2">
