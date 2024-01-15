@@ -469,7 +469,7 @@ const data = {
       authors:['Yating Xu', 'Conghui Hu', 'Na Zhao', 'Gim Hee Lee'],
       content:'',
       comment:'International Conference on Computer Vision (ICCV), 2023',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://arxiv.org/pdf/2309.11222.pdf',
       video:'',
       project:'',
       code:'https://github.com/Pixie8888/GFS-3DSeg_GWs',
@@ -690,7 +690,7 @@ const data = {
       type:'PhD',
       title:'',
       comment:'Since Sep 2023',
-      bg:'M.Sc, University of Chinese Academy of Sciences',
+      bg:'M.Sc, Chinese Academy of Sciences',
       image:'/members/liuchao.png',
       mail:'',
       homepage:''
@@ -739,17 +739,17 @@ const data = {
       type:'Visitor',
       title:'visiting student',
       comment:'',
-      bg:'PhD studenet, Zhejiang University',
+      bg:'PhD student, Zhejiang University',
       image:'/members/jiaheng.png',
       mail:'',
       homepage:''
     },
     {
       name:'Guohang Zhuang',
-      type:'Visitor',
+      type:'Alumni',
       comment:'',
       title:'visiting student',
-      bg:'PhD studenet, Hefei University of Technology',
+      bg:'PhD student, Hefei University of Technology',
       image:'/members/guohang.png',
       mail:'',
       homepage:''
@@ -767,7 +767,7 @@ const data = {
     {
       name:'Jie Zhang',
       type:'Visitor',
-      title:'Intern',
+      title:'Visiting student',
       comment:'',
       bg:'Master, Xi\'an Jiaotong University',
       image:'/members/zhangjie.png',
@@ -777,7 +777,7 @@ const data = {
     {
       name:'Pengkun Jiao',
       type:'Alumni',
-      comment:'from 25 Apr 2023 to 19 Nov 2023',
+      comment:'Visiting student',
       title:'',
       bg:'PhD student, Fudan University',
       image:'/members/pengkun.png',

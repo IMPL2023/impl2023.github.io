@@ -189,6 +189,13 @@ const Joinus: FC = () => {
               computer vision/machine learning</b>.
             </li>
             <li style={{ padding: '2px' }}>
+              You should be proficient in programming languages and familiar with 
+              <b className='text-white pl-1'>
+              pytorch/tensorflow or other deep learning frameworks
+              </b>
+              .
+            </li>
+            <li style={{ padding: '2px' }}>
               You should have multiple project experiences in 
               <b className='text-white pl-1'>
               computer vision/machine learning</b>
@@ -240,14 +247,6 @@ const Joinus: FC = () => {
                </b>
               .
             </li> 
-            <li style={{ padding: '2px' }}>
-            You should have              
-            <b className='text-white pl-1 '>     
-            strong self-motivation 
-            and 
-            research enthusiasm</b>.
-            Postdocs should have the ability to conduct independent research.
-            </li> 
             
           </ol>
         </div>
@@ -260,8 +259,9 @@ const Joinus: FC = () => {
           </b>, 
           together with a 
           <b className='text-white pl-1 '> 
-          research proposal 
+          research proposal   
           </b>
+          &nbsp;
           stating your interested research topic in 
           3D computer vision, to Professor Zhao Na at 
           <b className='text-white pl-1 '> 
