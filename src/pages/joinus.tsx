@@ -120,7 +120,7 @@ const Joinus: FC = () => {
               <li style={{ padding: '2px' }}>
                 You should be 
                 <b className='text-white pl-1'> self-motivated 
-                </b>
+                </b>&nbsp;
                 and 
                 <b className='text-white pl-1'> self-motivated 
                 passionate about research.
