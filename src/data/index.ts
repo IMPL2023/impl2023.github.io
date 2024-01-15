@@ -670,7 +670,7 @@ const data = {
       type:'PhD',
       comment:'Since Sep 2023',
       title:'',
-      bg:'B.E, National University Singapore',
+      bg:'B.Sc, National University Singapore',
       image:'/members/peisheng.png',
       mail:'',
       homepage:''
