@@ -765,6 +765,16 @@ const data = {
       homepage:''
     },
     {
+      name:'Jie Zhang',
+      type:'Visitor',
+      title:'Intern',
+      comment:'',
+      bg:'Master, Xi\'an Jiaotong University',
+      image:'/members/placeHolder.png',
+      mail:'',
+      homepage:''
+    },
+    {
       name:'Pengkun Jiao',
       type:'Alumni',
       comment:'from 25 Apr 2023 to 19 Nov 2023',
