@@ -113,7 +113,7 @@ const data = {
     },
     {
       date: '29 Oct 2023',
-      content: 'Prof. Na Zhao is invited as a reviewer for CVPR 2024.',
+      content: 'Prof. Zhao Na is invited as a reviewer for CVPR 2024.',
     },
     {
       date: '23 Oct 2023',
