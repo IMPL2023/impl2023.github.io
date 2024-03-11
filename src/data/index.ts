@@ -449,7 +449,7 @@ const data = {
       image:'/papers/laso_teaser.png',
       title:'LASO: Language-guided Affordance Segmentation on 3D Object',
       authors:['Yicong Li', 'Na Zhao', 'Junbin Xiao', 'Chun Feng', 'Xiang Wang', 'Tat-Seng Chua'],
-      content:'* indicates corresponding author',
+      content:'',
       comment:'IEEE Conference on Computer Vision and Patten Recognition (CVPR), 2024',
       pdf:'https://na-z.github.io/',
       video:'',
