@@ -1,12 +1,13 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/group": "pages/group.js",
-  "/fun": "pages/fun.js",
-  "/joinus": "pages/joinus.js",
-  "/publications": "pages/publications.js",
   "/_error": "pages/_error.js",
-  "/funding": "pages/funding.js",
-  "/blog": "pages/blog.js",
-  "/": "pages/index.js"
+  "/_document": "pages/_document.js",
+  "/blog": "pages/blog.html",
+  "/joinus": "pages/joinus.html",
+  "/group": "pages/group.html",
+  "/fun": "pages/fun.html",
+  "/publications": "pages/publications.html",
+  "/funding": "pages/funding.html",
+  "/": "pages/index.html",
+  "/404": "pages/404.html"
 }

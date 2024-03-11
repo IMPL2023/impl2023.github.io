@@ -289,7 +289,7 @@ const data = {
                 "Xiang Wang",
                 "Tat-Seng Chua"
             ],
-            content: "* indicates corresponding author",
+            content: "",
             comment: "IEEE Conference on Computer Vision and Patten Recognition (CVPR), 2024",
             pdf: "https://na-z.github.io/",
             video: "",
