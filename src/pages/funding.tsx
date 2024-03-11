@@ -20,13 +20,13 @@ const Funding: FC = () => {
 
 export default Funding;
 
-export const getStaticProps: GetStaticProps = async () => {
-  const Posts = await getPosts(data.username);
+// export const getStaticProps: GetStaticProps = async () => {
+//   const Posts = await getPosts(data.username);
 
-  return {
-    props: {
-      Posts: Posts.publication.posts,
-    },
-    revalidate: 60 * 60 * 24,
-  };
-};
+//   return {
+//     props: {
+//       Posts: Posts.publication.posts,
+//     },
+//     revalidate: 60 * 60 * 24,
+//   };
+// };

@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "export": "next build && next export",
-    "build": "next build --no-eslint",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "pre-commit": "yarn run format && yarn run lint && git add -A .",
