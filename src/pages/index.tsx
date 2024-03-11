@@ -2,7 +2,7 @@ import Layout from '@/Layout/Main.Layout';
 import { About, Blog, Contact, Intro, Projects,News } from '@/components';
 import data from '@/data';
 import { PostType } from '@/types';
-// import getPosts from '@/utils/getPosts';
+import getPosts from '@/utils/getPosts';
 import { GetStaticProps } from 'next';
 import { FC } from 'react';
 

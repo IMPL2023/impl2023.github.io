@@ -3,6 +3,7 @@ import { About, Blog, Contact, Intro, Projects,News,Members } from '@/components
 import data from '@/data';
 import { FunType } from '@/types';
 
+import getPosts from '@/utils/getPosts';
 import { GetStaticProps } from 'next';
 import { FC } from 'react';
 import React, { useState } from 'react';

@@ -45,12 +45,12 @@ export const Members = () => {
         ))}
       </div>
 
-      {/* <Title  title="Research Staff" />
+      <Title  title="Research Staff" />
       <div className="flex flex-wrap  mt-10">
         {PostDocs_RAs.map((member, i) => (
           <Member key={i} member={member} />
         ))}
-      </div> */}
+      </div>
 
 
       <Title  title="PhD Students" />
