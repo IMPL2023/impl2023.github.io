@@ -91,11 +91,15 @@ const data = {
   ],
   news:[
     {
-      date:'11 March 2024',
+      date:'22 Mar 2024',
+      content:'We are delighted to welcome Dr. Cui Qiongjie to join our lab as research fellow!'
+    },
+    {
+      date:'11 Mar 2024',
       content:'Congratulations to Hong Zexian for obtaining his master’s degree from NTU and continuing as a senior research assistant with us!'
     },
     {
-      date:'1 March 2024',
+      date:'1 Mar 2024',
       content:'We are delighted to welcome Wang Jiangyi and Qin You to join our lab as senior research assistants!'
     },
     {
@@ -777,6 +781,16 @@ const data = {
       homepage:''
     },
     {
+      name:'Qiongjie Cui',
+      type:'PostDoc',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., Nanjing University of Science and Technology',
+      image:'/members/qiongjie.png',
+      mail:'',
+      homepage:''
+    },
+    {
       name:'Jiangyi Wang',
       type:'RA',
       title:'Senior Research Assistant',
@@ -786,15 +800,7 @@ const data = {
       mail:'',
       homepage:''
     },
-    // {
-    //   name:'XXX XXX',
-    //   type:'PostDoc',
-    //   title:'Research Fellow',
-    //   comment:'',
-    //   bg:'M.Sc in xxx',
-    //   image:'/members/placeHolder.png',
-    //   mail:'',
-    // },
+    
     {
       name:'You Qin',
       type:'RA',
