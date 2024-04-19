@@ -192,10 +192,10 @@ const data = {
           date:'09 Jun 2023',
           content:'Prof. Zhao Na is invited to give a talk at the Intelligent Media Analysis Group, Nanjing University of Science and Technology.'
     },
-    {
-          date:'05 Jun 2023',
-          content:'We are delighted to welcome Liu Chao to join our lab as a PhD student.'
-    },
+    // {
+    //       date:'05 Jun 2023',
+    //       content:'We are delighted to welcome Liu Chao to join our lab as a PhD student.'
+    // },
     {
           date:'04 Jul 2023',
           content:'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023! Congratulations to Yating!'
@@ -760,16 +760,16 @@ const data = {
       mail:'',
       homepage:''
     },
-    {
-      name:'Chao Liu',
-      type:'PhD',
-      title:'',
-      comment:'Since Sep 2023',
-      bg:'M.Sc, Chinese Academy of Sciences',
-      image:'/members/liuchao.png',
-      mail:'',
-      homepage:''
-    },
+    // {
+    //   name:'Chao Liu',
+    //   type:'PhD',
+    //   title:'',
+    //   comment:'Since Sep 2023',
+    //   bg:'M.Sc, Chinese Academy of Sciences',
+    //   image:'/members/liuchao.png',
+    //   mail:'',
+    //   homepage:''
+    // },
     {
       name:'Chengshun Wang',
       type:'PhD',
@@ -796,7 +796,7 @@ const data = {
       title:'Senior Research Assistant',
       comment:'',
       bg:'Master, National University of Singapore',
-      image:'/members/placeHolder.png',
+      image:'/members/jiangyi.png',
       mail:'',
       homepage:''
     },
