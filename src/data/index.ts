@@ -91,6 +91,26 @@ const data = {
   ],
   news:[
     {
+      date:'2 July 2024',
+      content:'Two papers are accepted by ECCV 2024! Congratulations to Pengkun and Yuxuan!'
+    },
+    {
+      date:'1 July 2024',
+      content:'We are delighted to welcome Dr. Wang Zhoutao to join our lab as research fellow!'
+    },
+    {
+      date:'22 May 2024',
+      content:'Prof. Zhao Na is invited to give a talk at iData, Anhui, China.'
+    },
+    {
+      date:'7 May 2024',
+      content:'Prof. Zhao Na is invited to serve as a reviewer for NeurIPS 2024.'
+    },
+    {
+      date:'26 Mar 2024',
+      content:'Congratulations to Wu Yuchen on receiving the SUTD PhD scholarship! He will be joining us as a PhD student in September 2024.'
+    },
+    {
       date:'22 Mar 2024',
       content:'We are delighted to welcome Dr. Cui Qiongjie to join our lab as research fellow!'
     },
@@ -452,8 +472,8 @@ const data = {
     {
       image:'/papers/laso_teaser.png',
       title:'LASO: Language-guided Affordance Segmentation on 3D Object',
-      authors:['Yicong Li', 'Na Zhao', 'Junbin Xiao', 'Chun Feng', 'Xiang Wang', 'Tat-Seng Chua'],
-      content:'',
+      authors:['Yicong Li', 'Na Zhao*', 'Junbin Xiao', 'Chun Feng', 'Xiang Wang', 'Tat-Seng Chua'],
+      content:'* indicates corresponding author',
       comment:'IEEE Conference on Computer Vision and Patten Recognition (CVPR), 2024',
       pdf:'https://na-z.github.io/',
       video:'',
@@ -464,7 +484,7 @@ const data = {
       image:'/papers/pcteacher_framework.png',
       title:'End-to-End Semi-Supervised 3D Instance Segmentation with PCTeacher',
       authors:['Linfeng Li', 'Na Zhao*'],
-      content:'',
+      content:'* indicates corresponding author',
       comment:'IEEE International Conference on Robotics and Automation (ICRA), 2024',
       pdf:'https://na-z.github.io/',
       video:'',
@@ -781,12 +801,32 @@ const data = {
       homepage:''
     },
     {
+      name:'Yuchen Wu',
+      type:'PhD',
+      title:'',
+      comment:'Since Sep 2024',
+      bg:'M.Eng, University of Science and Technology Beijing',
+      image:'/members/yuchen.png',
+      mail:'',
+      homepage:''
+    },
+    {
       name:'Qiongjie Cui',
       type:'PostDoc',
       title:'Research Fellow',
       comment:'',
       bg:'Ph.D., Nanjing University of Science and Technology',
       image:'/members/qiongjie.png',
+      mail:'',
+      homepage:''
+    },
+    {
+      name:'Zhoutao Wang',
+      type:'PostDoc',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., Nanjing University of Aeronautics and Astronautics',
+      image:'/members/zhoutao.jpg',
       mail:'',
       homepage:''
     },
@@ -811,6 +851,16 @@ const data = {
       mail:'',
       homepage:''
     },
+    // {
+    //   name:'Heng Jia',
+    //   type:'Alumni',
+    //   title:'Visiting student',
+    //   comment:'',
+    //   bg:'PhD student, Zhejiang University',
+    //   image:'/members/jiaheng.png',
+    //   mail:'',
+    //   homepage:''
+    // },
     {
       name:'Heng Jia',
       type:'Visitor',
@@ -843,7 +893,7 @@ const data = {
     },
     {
       name:'Jie Zhang',
-      type:'Visitor',
+      type:'Alumni',
       title:'Visiting student',
       comment:'',
       bg:'Master student, Xi\'an Jiaotong University',
