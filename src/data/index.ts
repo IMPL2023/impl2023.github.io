@@ -91,6 +91,30 @@ const data = {
   ],
   news:[
     {
+      date:'18 August 2024',
+      content:'Congratulations to Prof. Zhao Na on her new appointment as a Technical Committee Member for Multimedia Systems and Applications (MSA).'
+    },
+    {
+      date:'15 August 2024',
+      content:'We are delighted to welcome Wang Xinyi, a PhD student from USTC, to visit our lab!'
+    },
+    {
+      date:'13 August 2024',
+      content:'Prof. Zhao Na is invited to serve as a reviewer for ICLR 2025.'
+    },
+    {
+      date:'26 July 2024',
+      content:'Prof. Zhao Na is invited to give a talk at ChinaMM 2024.'
+    },
+    {
+      date:'20 July 2024',
+      content:'Two papers are accepted by BMVC 2024! Congratulations to Yuyang and Yunsong!'
+    },
+    {
+      date:'16 July 2024',
+      content:'Two papers are accepted by MM 2024! Congratulations to Chengshun and Jiangyi!'
+    },
+    {
       date:'2 July 2024',
       content:'Two papers are accepted by ECCV 2024! Congratulations to Pengkun and Yuxuan!'
     },
@@ -470,6 +494,50 @@ const data = {
   ],
   papers:[
     {
+      image:'/papers/GS^2-GNeSF.png',
+      title:'GS^2-GNeSF: Geometry-Semantics Synergy for Generalizable Neural Semantic Fields',
+      authors:['Chengshun Wang', 'Na Zhao*'],
+      content:'* indicates corresponding author',
+      comment:'ACM Multimedia (MM), 2024',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'https://na-z.github.io/',
+    },
+    {
+      image:'/papers/On-the-fly.png',
+      title:'On-the-fly Point Feature Representation for Point Clouds Analysis',
+      authors:['Jiangyi Wang', 'Zhongyao Cheng', 'Na Zhao#', 'Jun Cheng', 'Xulei Yang#'],
+      content:'# indicates corresponding author',
+      comment:'ACM Multimedia (MM), 2024',
+      pdf:'https://arxiv.org/pdf/2407.21335',
+      video:'',
+      project:'',
+      code:'https://na-z.github.io/',
+    },
+    {
+      image:'/papers/Unlocking.png',
+      title:'Unlocking Textual and Visual Wisdom: Open-Vocabulary 3D Object',
+      authors:['Pengkun Jiao', 'Na Zhao*', 'Jingjing Chen', 'Yu-Gang Jiang'],
+      content:'* indicates corresponding author',
+      comment:'European Conference on Computer Vision (ECCV), 2024',
+      pdf:'https://arxiv.org/pdf/2407.05256',
+      video:'',
+      project:'',
+      code:'https://na-z.github.io/',
+    },
+    {
+      image:'/papers/view-consistent.png',
+      title:'View-Consistent 3D Editing with Gaussian Splatting',
+      authors:['Yuxuan Wang', 'Xuanyu Yi', 'Zike Wu', 'Na Zhao', 'Long Chen', 'Hanwang Zhang'],
+      content:'',
+      comment:'European Conference on Computer Vision (ECCV), 2024',
+      pdf:'https://arxiv.org/abs/2403.11868',
+      video:'',
+      project:'',
+      code:'https://github.com/Yuxuan-W/vcedit',
+    },
+    {
       image:'/papers/laso_teaser.png',
       title:'LASO: Language-guided Affordance Segmentation on 3D Object',
       authors:['Yicong Li', 'Na Zhao*', 'Junbin Xiao', 'Chun Feng', 'Xiang Wang', 'Tat-Seng Chua'],
@@ -843,7 +911,8 @@ const data = {
     
     {
       name:'You Qin',
-      type:'RA',
+      // type:'RA',
+      type:'Alumni',
       title:'Senior Research Assistant',
       comment:'',
       bg:'Master, National University of Singapore',
@@ -861,6 +930,16 @@ const data = {
     //   mail:'',
     //   homepage:''
     // },
+    {
+      name:'Xinyi Wang',
+      type:'Visitor',
+      title:'Visiting student',
+      comment:'',
+      bg:'PhD student, University of Science and Technology of China',
+      image:'/members/xinyi.png',
+      mail:'',
+      homepage:''
+    },
     {
       name:'Heng Jia',
       type:'Visitor',
@@ -883,7 +962,8 @@ const data = {
     },
     {
       name:'Zexian Hong',
-      type:'RA',
+      // type:'RA',
+      type:'Alumni',
       title:'Senior Research Assistant',
       comment:'',
       bg:'Master, Nanyang Technological University',
