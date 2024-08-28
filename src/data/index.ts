@@ -91,9 +91,17 @@ const data = {
   ],
   news:[
     {
-      date:'18 August 2024',
-      content:'Congratulations to Prof. Zhao Na on her new appointment as a Technical Committee Member for Multimedia Systems and Applications (MSA).'
+      date:'22 August 2024',
+      content:'Our lab receives a MoE Tier2 research grant! Thanks MoE! The grant will focus on navigating noise, distribution shifts, and incremental learning for real-world 3D scene understanding.'
     },
+    {
+      date:'18 August 2024',
+      content:'Congratulations to Prof. Zhao Na on her new appointment as a Technical Committee Member for IEEE-CAS Multimedia Systems and Applications (MSA).'
+    },
+    // {
+    //   date:'18 August 2024',
+    //   content:'Congratulations to Prof. Zhao Na on her new appointment as a Technical Committee Member for Multimedia Systems and Applications (MSA).'
+    // },
     {
       date:'15 August 2024',
       content:'We are delighted to welcome Wang Xinyi, a PhD student from USTC, to visit our lab!'
@@ -502,7 +510,7 @@ const data = {
       pdf:'https://na-z.github.io/',
       video:'',
       project:'',
-      code:'https://na-z.github.io/',
+      code:'',
     },
     {
       image:'/papers/On-the-fly.png',
@@ -513,7 +521,7 @@ const data = {
       pdf:'https://arxiv.org/pdf/2407.21335',
       video:'',
       project:'',
-      code:'https://na-z.github.io/',
+      code:'',
     },
     {
       image:'/papers/Unlocking.png',
@@ -524,7 +532,7 @@ const data = {
       pdf:'https://arxiv.org/pdf/2407.05256',
       video:'',
       project:'',
-      code:'https://na-z.github.io/',
+      code:'',
     },
     {
       image:'/papers/view-consistent.png',
@@ -543,10 +551,10 @@ const data = {
       authors:['Yicong Li', 'Na Zhao*', 'Junbin Xiao', 'Chun Feng', 'Xiang Wang', 'Tat-Seng Chua'],
       content:'* indicates corresponding author',
       comment:'IEEE Conference on Computer Vision and Patten Recognition (CVPR), 2024',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://openaccess.thecvf.com/content/CVPR2024/papers/Li_LASO_Language-guided_Affordance_Segmentation_on_3D_Object_CVPR_2024_paper.pdf',
       video:'',
       project:'',
-      code:'https://na-z.github.io/',
+      code:'',
     },
     {
       image:'/papers/pcteacher_framework.png',
@@ -554,10 +562,10 @@ const data = {
       authors:['Linfeng Li', 'Na Zhao*'],
       content:'* indicates corresponding author',
       comment:'IEEE International Conference on Robotics and Automation (ICRA), 2024',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://ieeexplore.ieee.org/document/10610145',
       video:'',
       project:'',
-      code:'https://na-z.github.io/',
+      code:'',
     },
     {
       image:'/papers/Robust Visual Recognition.png',
@@ -565,10 +573,10 @@ const data = {
       authors:['Na Zhao', 'Gim Hee Lee'],
       content:'',
       comment:'Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://ojs.aaai.org/index.php/AAAI/article/view/29642',
       video:'',
       project:'',
-      code:'https://na-z.github.io/',
+      code:'',
     },
     {
       image:'/papers/Dual-Perspective Knowledge.png',
@@ -576,10 +584,10 @@ const data = {
       authors:['Yucheng Han', 'Na Zhao*', 'Weiling Chen', 'Keng-Teck Ma', 'Hanwang Zhang',],
       content:'* indicates corresponding author',
       comment:'Thirty-Eighth AAAI Conference on Artificial Intelligence, 2024',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://ojs.aaai.org/index.php/AAAI/article/view/27976/27970',
       video:'',
       project:'',
-      code:'https://na-z.github.io/',
+      code:'',
     },
     {
       image:'/papers/Enhancing Generalizability.png',
@@ -587,10 +595,10 @@ const data = {
       authors:['Yunsong Wang', 'Na Zhao', 'Gim Hee Lee'],
       content:'Oral Presentation',
       comment:'International Conference on 3D Vision (3DV), 2024',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://arxiv.org/abs/2406.11283#:~:text=Enhancing%20Generalizability%20of%20Representation%20Learning%20for%20Data%2DEfficient%203D%20Scene%20Understanding,-Yunsong%20Wang%2C%20Na&text=The%20field%20of%20self%2Dsupervised,extensive%2C%20well%2Dannotated%20datasets.',
       video:'',
       project:'',
-      code:'https://na-z.github.io/',
+      code:'',
     },
     {
       image:'/papers/Style-Hallucinated.png',
@@ -879,6 +887,46 @@ const data = {
       homepage:''
     },
     {
+      name:'Shuyi Jiang (co-advising)',
+      type:'PhD',
+      title:'',
+      comment:'Since Jan 2024',
+      bg:'Master of Philsophy, University of Sydney',
+      image:'/members/shuyi.png',
+      mail:'',
+      homepage:''
+    },
+    {
+      name:'Jiayi Yuan (co-advising)',
+      type:'PhD',
+      title:'',
+      comment:'Since Jan 2024',
+      bg:'M.Eng, Nanjing University of Science and Technology',
+      image:'/members/jiayi.png',
+      mail:'',
+      homepage:''
+    },
+    {
+      name:'Ziyan Guo (co-advising)',
+      type:'PhD',
+      title:'',
+      comment:'Since Sep 2024',
+      bg:'B.Eng Harbin Institute of Technology, Shenzhen',
+      image:'/members/placeHolder.png',
+      mail:'',
+      homepage:''
+    },
+    {
+      name:'Qun Li',
+      type:'PostDoc',
+      title:'Visiting Teacher',
+      comment:'Associate Professor',
+      bg:'Nanjing University of Posts and Telecommunications',
+      image:'/members/liqun.png',
+      mail:'',
+      homepage:''
+    },
+    {
       name:'Qiongjie Cui',
       type:'PostDoc',
       title:'Research Fellow',
@@ -909,17 +957,7 @@ const data = {
       homepage:''
     },
     
-    {
-      name:'You Qin',
-      // type:'RA',
-      type:'Alumni',
-      title:'Senior Research Assistant',
-      comment:'',
-      bg:'Master, National University of Singapore',
-      image:'/members/qinyou.png',
-      mail:'',
-      homepage:''
-    },
+    
     // {
     //   name:'Heng Jia',
     //   type:'Alumni',
@@ -933,7 +971,7 @@ const data = {
     {
       name:'Xinyi Wang',
       type:'Visitor',
-      title:'Visiting student',
+      title:'Visiting Student',
       comment:'',
       bg:'PhD student, University of Science and Technology of China',
       image:'/members/xinyi.png',
@@ -943,23 +981,16 @@ const data = {
     {
       name:'Heng Jia',
       type:'Visitor',
-      title:'Visiting student',
+      title:'Visiting Student',
       comment:'',
       bg:'PhD student, Zhejiang University',
       image:'/members/jiaheng.png',
       mail:'',
       homepage:''
     },
-    {
-      name:'Guohang Zhuang',
-      type:'Alumni',
-      comment:'',
-      title:'Visiting student',
-      bg:'PhD student, Hefei University of Technology',
-      image:'/members/guohang.png',
-      mail:'',
-      homepage:''
-    },
+    
+    
+    
     {
       name:'Zexian Hong',
       // type:'RA',
@@ -972,9 +1003,20 @@ const data = {
       homepage:''
     },
     {
+      name:'You Qin',
+      // type:'RA',
+      type:'Alumni',
+      title:'Senior Research Assistant',
+      comment:'',
+      bg:'Master, National University of Singapore',
+      image:'/members/qinyou.png',
+      mail:'',
+      homepage:''
+    },
+    {
       name:'Jie Zhang',
       type:'Alumni',
-      title:'Visiting student',
+      title:'Visiting Student',
       comment:'',
       bg:'Master student, Xi\'an Jiaotong University',
       image:'/members/zhangjie.png',
@@ -982,9 +1024,19 @@ const data = {
       homepage:''
     },
     {
+      name:'Guohang Zhuang',
+      type:'Alumni',
+      comment:'',
+      title:'Visiting Student',
+      bg:'PhD student, Hefei University of Technology',
+      image:'/members/guohang.png',
+      mail:'',
+      homepage:''
+    },
+    {
       name:'Pengkun Jiao',
       type:'Alumni',
-      comment:'Visiting student',
+      comment:'Visiting Student',
       title:'',
       bg:'PhD student, Fudan University',
       image:'/members/pengkun.png',
