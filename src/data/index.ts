@@ -891,7 +891,7 @@ const data = {
       type:'PhD',
       title:'',
       comment:'Since Jan 2024',
-      bg:'Master of Philsophy, University of Sydney',
+      bg:'Master of Philosophy, University of Sydney',
       image:'/members/shuyi.png',
       mail:'',
       homepage:''
