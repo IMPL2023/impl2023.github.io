@@ -554,7 +554,7 @@ const data = {
       pdf:'https://openaccess.thecvf.com/content/CVPR2024/papers/Li_LASO_Language-guided_Affordance_Segmentation_on_3D_Object_CVPR_2024_paper.pdf',
       video:'',
       project:'',
-      code:'',
+      code:'https://github.com/yl3800/LASO',
     },
     {
       image:'/papers/pcteacher_framework.png',
@@ -576,7 +576,7 @@ const data = {
       pdf:'https://ojs.aaai.org/index.php/AAAI/article/view/29642',
       video:'',
       project:'',
-      code:'',
+      code:'https://github.com/Na-Z/LIOND',
     },
     {
       image:'/papers/Dual-Perspective Knowledge.png',
@@ -653,7 +653,7 @@ const data = {
       pdf:'https://papers.bmvc2023.org/0081.pdf',
       video:'',
       project:'',
-      code:'',
+      code:'https://github.com/Pixie8888/R3DFSSeg',
     },
     
     {
@@ -887,7 +887,7 @@ const data = {
       homepage:''
     },
     {
-      name:'Shuyi Jiang (co-advising)',
+      name:'Shuyi Jiang',
       type:'PhD',
       title:'',
       comment:'Since Jan 2024',
@@ -911,21 +911,12 @@ const data = {
       type:'PhD',
       title:'',
       comment:'Since Sep 2024',
-      bg:'B.Eng Harbin Institute of Technology, Shenzhen',
+      bg:'B.Eng, Harbin Institute of Technology, Shenzhen',
       image:'/members/placeHolder.png',
       mail:'',
       homepage:''
     },
-    {
-      name:'Qun Li',
-      type:'PostDoc',
-      title:'Visiting Teacher',
-      comment:'Associate Professor',
-      bg:'Nanjing University of Posts and Telecommunications',
-      image:'/members/liqun.png',
-      mail:'',
-      homepage:''
-    },
+    
     {
       name:'Qiongjie Cui',
       type:'PostDoc',
@@ -968,6 +959,16 @@ const data = {
     //   mail:'',
     //   homepage:''
     // },
+    {
+      name:'Qun Li',
+      type:'Visitor',
+      title:'Visiting Professor',
+      comment:'',
+      bg:'Associate Professor, Nanjing University of Posts and Telecommunications',
+      image:'/members/liqun.png',
+      mail:'',
+      homepage:''
+    },
     {
       name:'Xinyi Wang',
       type:'Visitor',
