@@ -12,7 +12,7 @@ const Document = () => {
           title="RSS"
           type="application/rss+xml"
         />
-        <meta content="/og-image.png" property="og:image" />
+        <meta content="/sutd1.jpg" property="og:image" />
         <meta content={data.keywords} name="keywords" />
         <link href="/manifest.json" rel="manifest" />
         <link href="/icon.png" rel="apple-touch-icon" />
