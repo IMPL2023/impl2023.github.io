@@ -91,6 +91,10 @@ const data = {
   ],
   news:[
     {
+      date:'12 September 2024',
+      content:'Prof. Zhao Na is invited to serve as an Area Chair for ICLR 2025!'
+    },
+    {
       date:'22 August 2024',
       content:'Our lab receives a MoE Tier2 research grant! Thanks MoE! The grant will focus on navigating noise, distribution shifts, and incremental learning for real-world 3D scene understanding.'
     },
@@ -106,10 +110,10 @@ const data = {
       date:'15 August 2024',
       content:'We are delighted to welcome Wang Xinyi, a PhD student from USTC, to visit our lab!'
     },
-    {
-      date:'13 August 2024',
-      content:'Prof. Zhao Na is invited to serve as a reviewer for ICLR 2025.'
-    },
+    // {
+    //   date:'13 August 2024',
+    //   content:'Prof. Zhao Na is invited to serve as a reviewer for ICLR 2025.'
+    // },
     {
       date:'26 July 2024',
       content:'Prof. Zhao Na is invited to give a talk at ChinaMM 2024.'
@@ -980,15 +984,16 @@ const data = {
       homepage:''
     },
     {
-      name:'Heng Jia',
+      name:'Vishal Thengane',
       type:'Visitor',
       title:'Visiting Student',
       comment:'',
-      bg:'PhD student, Zhejiang University',
-      image:'/members/jiaheng.png',
+      bg:'PhD student, University of Surrey',
+      image:'/members/Vishal.png',
       mail:'',
       homepage:''
     },
+    
     
     
     
@@ -1000,6 +1005,16 @@ const data = {
       comment:'',
       bg:'Master, Nanyang Technological University',
       image:'/members/zexian.png',
+      mail:'',
+      homepage:''
+    },
+    {
+      name:'Heng Jia',
+      type:'Alumni',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, Zhejiang University',
+      image:'/members/jiaheng.png',
       mail:'',
       homepage:''
     },
