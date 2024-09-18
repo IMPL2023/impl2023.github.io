@@ -916,7 +916,7 @@ const data = {
       title:'',
       comment:'Since Sep 2024',
       bg:'B.Eng, Harbin Institute of Technology, Shenzhen',
-      image:'/members/placeHolder.png',
+      image:'/members/ziyan.png',
       mail:'',
       homepage:''
     },
