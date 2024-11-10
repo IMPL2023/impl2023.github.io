@@ -91,15 +91,23 @@ const data = {
   ],
   news:[
     {
-      date:'12 September 2024',
+      date:'20 Oct 2024',
+      content:'One paper about open-set single-source domain generalization is accepted by Transaction on Multimedia 2024! Congratulations to Pengkun! '
+    },
+    {
+      date:'25 Sep 2024',
+      content:'Our lab receives a joint SMU-SUTD research grant! The grant will involve collaboration with Prof. Zhou Pan from SMU and will focus on generative models for generalizable 3D world understanding.'
+    },
+    {
+      date:'12 Sep 2024',
       content:'Prof. Zhao Na is invited to serve as an Area Chair for ICLR 2025!'
     },
     {
-      date:'22 August 2024',
+      date:'22 Aug 2024',
       content:'Our lab receives a MoE Tier2 research grant! Thanks MoE! The grant will focus on navigating noise, distribution shifts, and incremental learning for real-world 3D scene understanding.'
     },
     {
-      date:'18 August 2024',
+      date:'18 Aug 2024',
       content:'Congratulations to Prof. Zhao Na on her new appointment as a Technical Committee Member for IEEE-CAS Multimedia Systems and Applications (MSA).'
     },
     // {
@@ -107,7 +115,7 @@ const data = {
     //   content:'Congratulations to Prof. Zhao Na on her new appointment as a Technical Committee Member for Multimedia Systems and Applications (MSA).'
     // },
     {
-      date:'15 August 2024',
+      date:'15 Aug 2024',
       content:'We are delighted to welcome Wang Xinyi, a PhD student from USTC, to visit our lab!'
     },
     // {
@@ -115,19 +123,19 @@ const data = {
     //   content:'Prof. Zhao Na is invited to serve as a reviewer for ICLR 2025.'
     // },
     {
-      date:'26 July 2024',
+      date:'26 Jul 2024',
       content:'Prof. Zhao Na is invited to give a talk at ChinaMM 2024.'
     },
     {
-      date:'20 July 2024',
+      date:'20 Jul 2024',
       content:'Two papers are accepted by BMVC 2024! Congratulations to Yuyang and Yunsong!'
     },
     {
-      date:'16 July 2024',
+      date:'16 Jul 2024',
       content:'Two papers are accepted by MM 2024! Congratulations to Chengshun and Jiangyi!'
     },
     {
-      date:'2 July 2024',
+      date:'2 Jul 2024',
       content:'Two papers are accepted by ECCV 2024! Congratulations to Pengkun and Yuxuan!'
     },
     {
@@ -511,7 +519,7 @@ const data = {
       authors:['Chengshun Wang', 'Na Zhao*'],
       content:'* indicates corresponding author',
       comment:'ACM Multimedia (MM), 2024',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://dl.acm.org/doi/10.1145/3664647.3681156',
       video:'',
       project:'',
       code:'',
@@ -554,7 +562,7 @@ const data = {
       title:'LASO: Language-guided Affordance Segmentation on 3D Object',
       authors:['Yicong Li', 'Na Zhao*', 'Junbin Xiao', 'Chun Feng', 'Xiang Wang', 'Tat-Seng Chua'],
       content:'* indicates corresponding author',
-      comment:'IEEE Conference on Computer Vision and Patten Recognition (CVPR), 2024',
+      comment:'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024',
       pdf:'https://openaccess.thecvf.com/content/CVPR2024/papers/Li_LASO_Language-guided_Affordance_Segmentation_on_3D_Object_CVPR_2024_paper.pdf',
       video:'',
       project:'',
@@ -709,7 +717,7 @@ const data = {
       title:'Few-shot 3D Point Cloud Semantic Segmentation',
       authors:['Na Zhao', 'Tat-Seng Chua', 'Gim Hee Lee'],
       content:'',
-      comment:'Computer Vision and Patten Recognition (CVPR), 2021',
+      comment:'Computer Vision and Pattern Recognition (CVPR), 2021',
       pdf:'https://arxiv.org/pdf/2006.12052.pdf',
       video:'https://www.youtube.com/watch?v=i5X1L1_03Rs',
       project:'',
@@ -720,7 +728,7 @@ const data = {
       title:'SESS: Self-Ensembling Semi-Supervised 3D Object Detection',
       authors:['Na Zhao', 'Tat-Seng Chua', 'Gim Hee Lee'],
       content:'',
-      comment:'Computer Vision and Patten Recognition (CVPR), 2020 Oral Presentation',
+      comment:'Computer Vision and Pattern Recognition (CVPR), 2020 Oral Presentation',
       pdf:'https://arxiv.org/pdf/1912.11803.pdf',
       video:'https://www.youtube.com/watch?v=AGJsp4aksS0',
       project:'',
