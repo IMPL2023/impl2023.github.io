@@ -3,6 +3,7 @@ import { Paper } from './Paper';
 import {PaperText} from './PaperText'
 import data from '@/data';
 import { PaperType } from '@/types';
+const List_2025:PaperType[] =[]
 const List_2024:PaperType[] =[]
 const List_2023:PaperType[] =[]
 const List_2022:PaperType[] =[]
@@ -10,7 +11,11 @@ const List_2021_and_before:PaperType[] =[]
 
 data.papers.forEach((item) => {
 
-  if (item.comment.includes("2024")) {
+  
+  if (item.comment.includes("2025")) {
+    List_2025.push(item)
+  }
+  else if (item.comment.includes("2024")) {
     List_2024.push(item)
   }
   else if (item.comment.includes("2023")) {
@@ -39,6 +44,17 @@ export const Papers = () => {
           </p> */}
         </div>
         
+        <div className="flex flex-col">
+          <article className="flex flex-col items-center mt-5 md:flex-row">
+            <span className="text-2xl">
+              <b>2025:</b>
+            </span>
+          </article>
+          {List_2025.map((paper, i) => (
+            <Paper key={i} paper={paper} />
+          ))}
+        </div>
+
         <div className="flex flex-col">
           <article className="flex flex-col items-center mt-5 md:flex-row">
             <span className="text-2xl">
