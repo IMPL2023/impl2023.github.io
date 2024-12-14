@@ -91,6 +91,26 @@ const data = {
   ],
   news:[
     {
+      date:'10 Dec 2024',
+      content:'One paper about 3D visual grounding is accepted by AAAI 2025! Congratulations to Xinyi!'
+    },
+    {
+      date:'1 Dec 2024',
+      content:'One paper about class-incremental 3D object detection is accepted by Transaction on Image Processing 2024! Congratulations to all co-authors! '
+    },
+    {
+      date:'29 Nov 2024',
+      content:'Prof. Zhao Na is invited to serve as a senior PC for IJCAI 2025!'
+    },
+    {
+      date:'25 Nov 2024',
+      content:'We are delighted to welcome Fu Jingyun, a PhD student from ZJU, to visit our lab!'
+    },
+    {
+      date:'15 Nov 2024',
+      content:'Our lab receives a research grant from Temasek Laboratories @ SUTD! Thanks TL@SUTD! The project will focus on 3D reasoning and object manipulation.'
+    },
+    {
       date:'20 Oct 2024',
       content:'One paper about open-set single-source domain generalization is accepted by Transaction on Multimedia 2024! Congratulations to Pengkun! '
     },
@@ -514,6 +534,28 @@ const data = {
   ],
   papers:[
     {
+      image:'/papers/AugRefer.png',
+      title:'AugRefer: Advancing 3D Visual Grounding via Cross-Modal Augmentation and Spatial Relation-based Referring',
+      authors:["Xinyi Wang", "Na Zhao*", "Zhiyuan Han", "Dan Guo", "Xun Yang"],
+      content:'* indicates corresponding author',
+      comment:'Thirty-Ninth AAAI Conference on Artificial Intelligence, 2025',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
+      image:'/papers/DomainExpansion.png',
+      title:'Domain Expansion and Boundary Growth for Open-Set Single-Source Domain Generalization',
+      authors:["Pengkun Jiao", "Na Zhao*", "Jingjing Chen", "Yu-Gang Jiang"],
+      content:'* indicates corresponding author',
+      comment:'IEEE Transactions on Multimedia (TMM), 2024',
+      pdf:'https://arxiv.org/pdf/2411.02920',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
       image:'/papers/GS^2-GNeSF.png',
       title:'GS^2-GNeSF: Geometry-Semantics Synergy for Generalizable Neural Semantic Fields',
       authors:['Chengshun Wang', 'Na Zhao*'],
@@ -842,7 +884,7 @@ const data = {
       type:'Faculty',
       comment:'',
       // bg:'Research Fellow, CVRPLab, NUS|PhD, NUS',
-      bg:'PhD in CS, National University Singapore',
+      bg:'PhD in CS, National University of Singapore',
       title:'Assistant Professor',
       image:'/members/nazhao.png',
       mail:'na_zhao@sutd.edu.sg',
@@ -853,10 +895,10 @@ const data = {
       type:'PhD',
       comment:'Since Sep 2023',
       title:'',
-      bg:'B.Sc, National University Singapore',
+      bg:'B.Sc, National University of Singapore',
       image:'/members/peisheng.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=fRZk4PkAAAAJ&hl=en'
     },
     {
       name:'Yining Pan',
@@ -866,7 +908,7 @@ const data = {
       bg:'M.Eng , Zhejiang University',
       image:'/members/yining.png',
       mail:'',
-      homepage:''
+      homepage:'https://pynsigrid.github.io/'
     },
     // {
     //   name:'Chao Liu',
@@ -886,7 +928,7 @@ const data = {
       bg:'MF, Fudan University',
       image:'/members/chengshun.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com.hk/citations?hl=zh-CN&user=1_2F_eUAAAAJ'
     },
     {
       name:'Yuchen Wu',
@@ -896,7 +938,7 @@ const data = {
       bg:'M.Eng, University of Science and Technology Beijing',
       image:'/members/yuchen.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=SNF-N7YAAAAJ&hl=en'
     },
     {
       name:'Shuyi Jiang',
@@ -906,7 +948,7 @@ const data = {
       bg:'Master of Philosophy, University of Sydney',
       image:'/members/shuyi.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=Us7chsYAAAAJ&hl=en'
     },
     {
       name:'Jiayi Yuan (co-advising)',
@@ -916,7 +958,7 @@ const data = {
       bg:'M.Eng, Nanjing University of Science and Technology',
       image:'/members/jiayi.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=BjQbZ_wAAAAJ&hl=zh-CN'
     },
     {
       name:'Ziyan Guo (co-advising)',
@@ -926,7 +968,7 @@ const data = {
       bg:'B.Eng, Harbin Institute of Technology, Shenzhen',
       image:'/members/ziyan.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=u8E2VQUAAAAJ&hl=en'
     },
     
     {
@@ -937,7 +979,7 @@ const data = {
       bg:'Ph.D., Nanjing University of Science and Technology',
       image:'/members/qiongjie.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com.hk/citations?user=VoPGwJQAAAAJ&hl=zh-CN'
     },
     {
       name:'Zhoutao Wang',
@@ -947,7 +989,7 @@ const data = {
       bg:'Ph.D., Nanjing University of Aeronautics and Astronautics',
       image:'/members/zhoutao.jpg',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com.hk/citations?user=Bj29izQAAAAJ&hl=zh-CN'
     },
     {
       name:'Jiangyi Wang',
@@ -957,7 +999,7 @@ const data = {
       bg:'Master, National University of Singapore',
       image:'/members/jiangyi.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=K1hbWlkAAAAJ&hl=en'
     },
     
     
@@ -979,7 +1021,7 @@ const data = {
       bg:'Associate Professor, Nanjing University of Posts and Telecommunications',
       image:'/members/liqun.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=hQZFOQYAAAAJ&hl=en'
     },
     {
       name:'Xinyi Wang',
@@ -999,6 +1041,16 @@ const data = {
       bg:'PhD student, University of Surrey',
       image:'/members/Vishal.png',
       mail:'',
+      homepage:'https://vgthengane.github.io/'
+    },
+    {
+      name:'Fu Jingyun',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, Zhejiang University',
+      image:'/members/fujingyun.png',
+      mail:'',
       homepage:''
     },
     
@@ -1014,7 +1066,7 @@ const data = {
       bg:'Master, Nanyang Technological University',
       image:'/members/zexian.png',
       mail:'',
-      homepage:''
+      homepage:'https://www.linkedin.com/in/zexian-hong-zach-b7483424a/?locale=zh_CN'
     },
     {
       name:'Heng Jia',
@@ -1024,7 +1076,7 @@ const data = {
       bg:'PhD student, Zhejiang University',
       image:'/members/jiaheng.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=n0Mq4wcAAAAJ&hl=en'
     },
     {
       name:'You Qin',
@@ -1035,7 +1087,7 @@ const data = {
       bg:'Master, National University of Singapore',
       image:'/members/qinyou.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=qC39v8kAAAAJ&hl=zh-CN'
     },
     {
       name:'Jie Zhang',
@@ -1065,7 +1117,7 @@ const data = {
       bg:'PhD student, Fudan University',
       image:'/members/pengkun.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=LT8XmBUAAAAJ&hl=en'
     },
     // {
     //   name:'XXX XXX',
