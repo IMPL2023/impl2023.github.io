@@ -91,6 +91,10 @@ const data = {
   ],
   news:[
     {
+      date:'23 Jan 2025',
+      content:'One paper about 3D reconstructionand & editing is accepted by ICLR 2025! Congratulations to Shuyi!'
+    },
+    {
       date:'10 Dec 2024',
       content:'One paper about 3D visual grounding is accepted by AAAI 2025! Congratulations to Xinyi!'
     },
@@ -533,6 +537,17 @@ const data = {
     // },
   ],
   papers:[
+    {
+      image:'/papers/gaussianblock.png',
+      title:'GaussianBlock: Building Part-Aware Compositional and Editable 3D Scene by Primitives and Gaussians',
+      authors:["Shuyi Jiang", "De Wen Soh", "Na Zhao*"],
+      content:'* indicates corresponding author',
+      comment:'International Conference on Learning Representations (ICLR), 2025',
+      pdf:'https://arxiv.org/abs/2410.01535',
+      video:'',
+      project:'',
+      code:'',
+    },
     {
       image:'/papers/AugRefer.png',
       title:'AugRefer: Advancing 3D Visual Grounding via Cross-Modal Augmentation and Spatial Relation-based Referring',
