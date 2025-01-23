@@ -92,7 +92,7 @@ const data = {
   news:[
     {
       date:'23 Jan 2025',
-      content:'One paper about 3D reconstructionand & editing is accepted by ICLR 2025! Congratulations to Shuyi!'
+      content:'One paper about 3D reconstruction & editing is accepted by ICLR 2025! Congratulations to Shuyi!'
     },
     {
       date:'10 Dec 2024',
