@@ -540,7 +540,7 @@ const data = {
     {
       image:'/papers/gaussianblock.png',
       title:'GaussianBlock: Building Part-Aware Compositional and Editable 3D Scene by Primitives and Gaussians',
-      authors:["Shuyi Jiang", "De Wen Soh", "Na Zhao*"],
+      authors:["Shuyi Jiang", "Qihao Zhao", "Hossein Rahmani", "De Wen Soh", "Jun Liu", "Na Zhao*"],
       content:'* indicates corresponding author',
       comment:'International Conference on Learning Representations (ICLR), 2025',
       pdf:'https://arxiv.org/abs/2410.01535',
