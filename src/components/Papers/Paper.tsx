@@ -70,6 +70,7 @@ export const Paper: FC<IPaperProps> = ({ paper }) => {
         className="relative md:w-[450px] pb-5 w-full ml-4 h-[250px] rounded-lg object-contain"
         height={250}
         loading="lazy"
+        style={{ minWidth: '450px', minHeight: '250px' }}
         src={paper.image}
         width={450}
       />
