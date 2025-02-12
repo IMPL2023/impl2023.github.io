@@ -91,6 +91,10 @@ const data = {
   ],
   news:[
     {
+      date:'31 Oct 2024',
+      content:'Prof. Zhao Na is invited to serve as Demo Chair at the 34th ACM International Conference on Multimedia 2025!'
+    },
+    {
       date:'23 Jan 2025',
       content:'One paper about 3D reconstruction & editing is accepted by ICLR 2025! Congratulations to Shuyi!'
     },
@@ -170,10 +174,10 @@ const data = {
       date:'22 May 2024',
       content:'Prof. Zhao Na is invited to give a talk at iData, Anhui, China.'
     },
-    {
-      date:'7 May 2024',
-      content:'Prof. Zhao Na is invited to serve as a reviewer for NeurIPS 2024.'
-    },
+    // {
+    //   date:'7 May 2024',
+    //   content:'Prof. Zhao Na is invited to serve as a reviewer for NeurIPS 2024.'
+    // },
     {
       date:'26 Mar 2024',
       content:'Congratulations to Wu Yuchen on receiving the SUTD PhD scholarship! He will be joining us as a PhD student in September 2024.'
@@ -202,18 +206,18 @@ const data = {
         date:'29 Jan 2024',
         content:'One paper about semi-supervised 3D instance segmentation is accepted by ICRA 2024! Congratulations to Linfeng!'
     },
-    {
-      date:'17 Jan 2024',
-      content:'Prof. Zhao Na is invited to serve as a reviewer for ECCV 2024.'
-    },
+    // {
+    //   date:'17 Jan 2024',
+    //   content:'Prof. Zhao Na is invited to serve as a reviewer for ECCV 2024.'
+    // },
     {
       date:'08 Jan 2024',
       content:'We are delighted to welcome Zhang Jie, a master student from XJUT, to visit our lab.'
     },
-    {
-      date:'23 Dec 2023',
-      content:'Prof. Zhao Na is invited to serve as a reviewer for ICML 2024.'
-    },
+    // {
+    //   date:'23 Dec 2023',
+    //   content:'Prof. Zhao Na is invited to serve as a reviewer for ICML 2024.'
+    // },
     {
       date:'09 Dec 2023',
       content:'Two papers are accepted by AAAI 2024! Congratulations to all authors!'
@@ -222,10 +226,10 @@ const data = {
       date:'08 Dec 2023',
       content:'Our lab receives a research grant from DSO! Thanks DSO! The grant will focus on cross-modality resiliency against real-world attacks.'
     },
-    {
-      date:'29 Oct 2023',
-      content:'Prof. Na Zhao is invited as a reviewer for CVPR 2024.'
-    },
+    // {
+    //   date:'29 Oct 2023',
+    //   content:'Prof. Na Zhao is invited as a reviewer for CVPR 2024.'
+    // },
     {
       date:'23 Oct 2023',
       content:'One paper about self-supervised point cloud representation learning is accepted by 3DV 2024 as an oral paper! Congratulations to Yunsong! '
@@ -242,10 +246,10 @@ const data = {
           date:'02 Sep 2023',
           content:'We are delighted to welcome Wang Chengshun and  Qian Peisheng  to join our lab as PhD students.'
     },
-    {
-          date:'01 Sep 2023',
-          content:'Prof. Zhao Na is invited to serve as a reviewer for ICLR 2024.'
-    },
+    // {
+    //       date:'01 Sep 2023',
+    //       content:'Prof. Zhao Na is invited to serve as a reviewer for ICLR 2024.'
+    // },
     {
           date:'19 Aug 2023',
           content:'We are delighted to welcome Jia Heng, a PhD student from ZJU, to visit our lab.'
@@ -288,10 +292,10 @@ const data = {
           date:'04 Jul 2023',
           content:'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023! Congratulations to Yating!'
     },
-    {
-          date:'26 May 2023',
-          content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE’s Transactions on Knowledge and Data Engineering (TKDE).'
-    },
+    // {
+    //       date:'26 May 2023',
+    //       content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE’s Transactions on Knowledge and Data Engineering (TKDE).'
+    // },
     {
           date:'26 May 2023',
           content:'We are delighted to welcome Pan Yining to join our lab as a PhD student. '
@@ -304,10 +308,10 @@ const data = {
           date:'25 Apr 2023',
           content:'We are delighted to welcome Jiao Pengkun, a PhD student from FDU, to visit our lab.'
     },
-    {
-          date:'09 Apr 2023',
-          content:'Prof. Zhao Na is invited to serve as a reviewer for NeurIPS 2023.'
-    },
+    // {
+    //       date:'09 Apr 2023',
+    //       content:'Prof. Zhao Na is invited to serve as a reviewer for NeurIPS 2023.'
+    // },
     {
           date:'06 Mar 2023',
           content:'Prof. Zhao Na is invited to serve as Demo Chair at Sixth IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR) 2023!'
@@ -316,30 +320,30 @@ const data = {
           date:'20 Feb 2023',
           content:'We are delighted to welcome Hong Zexian, a master student from NTU, to join our lab as an intern.'
     },
-    {
-          date:'06 Feb 2023',
-          content:'Prof. Zhao Na is invited to serve as a reviewer for ICCV 2023.'
-    },
+    // {
+    //       date:'06 Feb 2023',
+    //       content:'Prof. Zhao Na is invited to serve as a reviewer for ICCV 2023.'
+    // },
     {
           date:'19 Dec 2022',
           content:'Prof. Zhao Na is invited to serve as a program committee for IJCAI 2023.'
     },
-    {
-          date:'15 Dec 2022',
-          content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).'
-    },
-    {
-          date:'09 Dec 2022',
-          content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE Transactions on Image Processing (TIP).'
-    },
+    // {
+    //       date:'15 Dec 2022',
+    //       content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).'
+    // },
+    // {
+    //       date:'09 Dec 2022',
+    //       content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE Transactions on Image Processing (TIP).'
+    // },
     {
           date:'15 Nov 2022',
           content:'Prof. Zhao Na is invited to join the Organising Committee of IEEE ICME 2023 Workshop on 3D Multimedia Analytics, Search and Generation!'
     },
-    {
-          date:'02 Nov 2022',
-          content:'Prof. Zhao Na is invited to serve as a reviewer for CVPR 2023.'
-    },
+    // {
+    //       date:'02 Nov 2022',
+    //       content:'Prof. Zhao Na is invited to serve as a reviewer for CVPR 2023.'
+    // },
     {
           date:'18 Oct 2022',
           content:'Our lab receives a research grant from SUTD-ZJU IDEA! Thanks SUTD-ZJU IDEA! This project will focus on multi-modal joint learning for scene understanding. '
@@ -669,6 +673,40 @@ const data = {
       project:'',
       code:'',
     },
+    {
+      image:'/papers/SDCoT++.png',
+      title:'SDCoT++: Improved Static-Dynamic Co-Teaching for Class-Incremental 3D Object Detection',
+      authors:['Na Zhao', 'Peisheng Qian', 'Fang Wu', 'Xun Xu', 'Xulei Yang', 'Gim Hee Lee'],
+      content:'',
+      comment:'IEEE Transactions on Image Processing (TIP), 2024',
+      pdf:'https://ieeexplore.ieee.org/document/10819355',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
+      image:'/papers/Syn-to-Real.png',
+      title:'Syn-to-Real Unsupervised Domain Adaptation for Indoor 3D Object Detection',
+      authors:['Yunsong Wang', 'Na Zhao', 'Gim Hee Lee'],
+      content:'',
+      comment:'The British Machine Vision Conference (BMVC), 2024',
+      pdf:'https://arxiv.org/pdf/2406.11311',
+      video:'',
+      project:'',
+      code:'https://github.com/wangys16/OHDA',
+    },
+    {
+      image:'/papers/Synthetic-to-Real.png',
+      title:'Synthetic-to-Real Domain Generalized Semantic Segmentation for 3D Indoor Point Clouds',
+      authors:['Yuyang Zhao', 'Na Zhao', 'Gim Hee Lee'],
+      content:'',
+      comment:'The British Machine Vision Conference (BMVC), 2024',
+      pdf:'https://arxiv.org/pdf/2212.04668',
+      video:'',
+      project:'',
+      code:'',
+    },
+    
     {
       image:'/papers/Style-Hallucinated.png',
       title:'Style-Hallucinated Dual Consistency Learning: A Unified Framework for Visual Domain Generalization',
@@ -1006,16 +1044,7 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com.hk/citations?user=Bj29izQAAAAJ&hl=zh-CN'
     },
-    {
-      name:'Jiangyi Wang',
-      type:'RA',
-      title:'Senior Research Assistant',
-      comment:'',
-      bg:'Master, National University of Singapore',
-      image:'/members/jiangyi.png',
-      mail:'',
-      homepage:'https://scholar.google.com/citations?user=K1hbWlkAAAAJ&hl=en'
-    },
+    
     
     
     // {
@@ -1071,7 +1100,16 @@ const data = {
     
     
     
-    
+    {
+      name:'Jiangyi Wang',
+      type:'Alumni',
+      title:'Senior Research Assistant',
+      comment:'',
+      bg:'Master, National University of Singapore',
+      image:'/members/jiangyi.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=K1hbWlkAAAAJ&hl=en'
+    },
     {
       name:'Zexian Hong',
       // type:'RA',
