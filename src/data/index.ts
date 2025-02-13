@@ -90,10 +90,7 @@ const data = {
     },
   ],
   news:[
-    {
-      date:'31 Oct 2024',
-      content:'Prof. Zhao Na is invited to serve as Demo Chair at the 34th ACM International Conference on Multimedia 2025!'
-    },
+    
     {
       date:'23 Jan 2025',
       content:'One paper about 3D reconstruction & editing is accepted by ICLR 2025! Congratulations to Shuyi!'
@@ -117,6 +114,10 @@ const data = {
     {
       date:'15 Nov 2024',
       content:'Our lab receives a research grant from Temasek Laboratories @ SUTD! Thanks TL@SUTD! The project will focus on 3D reasoning and object manipulation.'
+    },
+    {
+      date:'31 Oct 2024',
+      content:'Prof. Zhao Na is invited to serve as Demo Chair at the 34th ACM International Conference on Multimedia 2025!'
     },
     {
       date:'20 Oct 2024',
