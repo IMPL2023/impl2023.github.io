@@ -90,7 +90,22 @@ const data = {
     },
   ],
   news:[
-    
+    {
+      date:'14 Feb 2025',
+      content:'Congratulations to Prof. Zhao Na on her new appointment as an Associate Editor for Knowledge-based Systems (Impact factor: 7.2)!'
+    },
+    {
+      date:'13 Feb 2025',
+      content:'We are delighted to welcome Yuan Zhihao, a PhD student from CUHK(SZ), to visit our lab!'
+    },
+    {
+      date:'10 Feb 2025',
+      content:'One paper about semi-supervised medical domain generalization is accepted by TMM 2025! Congratulations to Jincai!'
+    },
+    {
+      date:'5 Feb 2025',
+      content: 'We are delighted to welcome Dr. Xu Jie to join our lab as research fellow!'
+    },
     {
       date:'23 Jan 2025',
       content:'One paper about 3D reconstruction & editing is accepted by ICLR 2025! Congratulations to Shuyi!'
@@ -942,7 +957,8 @@ const data = {
       title:'Assistant Professor',
       image:'/members/nazhao.png',
       mail:'na_zhao@sutd.edu.sg',
-      homepage:'https://istd.sutd.edu.sg/people/faculty/zhao-na/'
+      // homepage:'https://istd.sutd.edu.sg/people/faculty/zhao-na/'
+      homepage:'https://www.sutd.edu.sg/profile/zhao-na'
     },
     {
       name:'Peisheng Qian',
@@ -1035,16 +1051,7 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com.hk/citations?user=VoPGwJQAAAAJ&hl=zh-CN'
     },
-    {
-      name:'Zhoutao Wang',
-      type:'PostDoc',
-      title:'Research Fellow',
-      comment:'',
-      bg:'Ph.D., Nanjing University of Aeronautics and Astronautics',
-      image:'/members/zhoutao.jpg',
-      mail:'',
-      homepage:'https://scholar.google.com.hk/citations?user=Bj29izQAAAAJ&hl=zh-CN'
-    },
+    
     
     
     
@@ -1100,6 +1107,16 @@ const data = {
     },
     
     
+    {
+      name:'Zhoutao Wang',
+      type:'Alumni',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., Nanjing University of Aeronautics and Astronautics',
+      image:'/members/zhoutao.jpg',
+      mail:'',
+      homepage:'https://scholar.google.com.hk/citations?user=Bj29izQAAAAJ&hl=zh-CN'
+    },
     
     {
       name:'Jiangyi Wang',

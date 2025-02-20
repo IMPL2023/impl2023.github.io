@@ -23,70 +23,45 @@ const Joinus: FC = () => {
     <Layout>
       <div className='space-y-5 max-w-7xl w-full mx-auto p-5 md:p-0'>
         <p className="w-4/5 md:w-4/5 text-white text-xl">
-          We are currently looking for self-motivated PhD students 
-          (starting from Fall 2024 or later) and Post-docs to work together on 
-          3D computer vision. The specific research topics include (but are not limited to):
+        We are currently looking for self-motivated PhD students (starting from Fall 2025 or later), 
+        Post-docs (starting at any time), and Visiting graduate students (CSC-funded or self-funded) 
+        to work together on 3D computer vision. The specific research topics include (but are not limited to):
         </p>
         <div className="w-4/5 md:w-4/5 text-textDark  pl-4">
           <ol style={{ listStyleType: 'decimal' }}>
             <li style={{ padding: '2px' }}>
-              Data-efficient learning (includes semi-supervised learning, 
-              few-shot learning, self-supervised learning) for 3D scene understanding;
+              <b className='text-white pl-1'>3D Scene Understanding with practical learning problems</b>:
+              <ol style={{ listStyleType: 'disc' }}>
+                <li>Data-efficient learning (e.g., semi-supervised, few-shot learning, self-supervised learning, active learning)</li>
+                <li>Multi-modal joint learning</li>
+                <li>Out-of-distribution learning (e.g., domain adaptation/generalization, open-vocabulary)</li>
+                <li>Multi-task learning</li>
+                <li>Continual learning</li>
+              </ol>
             </li>
             <li style={{ padding: '2px' }}>
-              
-              Multi-modal joint learning for scene understanding with images and point clouds;
+            <b className='text-white pl-1'>3D Scene Reconstruction</b>:
+              <ol style={{ listStyleType: 'disc' }}>
+                <li>Generalizable 3D scene reconstruction</li>
+                <li>Simultaneous 3D scene reconstruction and understanding</li>
+                <li>Holistic 3D scene reconstruction (reconstruct both objects and humans)</li>
+                <li>3D scene reconstruction and editing/generation</li>
+              </ol>
             </li>
             <li style={{ padding: '2px' }}>
-              
-              Out-of-distribution learning (includes domain adaptation/generalization and 
-              open-vocabulary learning) for scene understanding;
+            <b className='text-white pl-1'>3D Scene Generation and Editing</b>:
+              <ol style={{ listStyleType: 'disc' }}>
+                <li>Text-to-3D</li>
+                <li>Image-to-3D</li>
+              </ol>
             </li>
             <li style={{ padding: '2px' }}>
-              
-              Continual/incremental learning for 3D scene understanding;
+            <b className='text-white pl-1'>Embodied Task-Oriented Learning</b>:
+              <ol style={{ listStyleType: 'disc' }}>
+                <li>Object grasping</li>
+                <li>Object manipulation</li>
+              </ol>
             </li>
-            <li style={{ padding: '2px' }}>
-              
-              Semantic 3D scene reconstruction that jointly reconstructs and understands scenes;
-            </li>
-            <li style={{ padding: '2px' }}>
-              
-              Language-guided 3D scene understanding such as 3D Visual Grounding and 3D QA;
-            </li>
-            <li style={{ padding: '2px' }}>
-              
-              3D Generation and Editing (object-level or scene-level).
-            </li>
-            {/* <li style={{ padding: '2px' }}>  
-              <b className='text-white pl-1 pr-1'>   3D Reconstruction and 3D Generation
-              </b>
-              .
-            </li> */}
-            
-            {/* <li style={{ padding: '2px' }}>
-              <b className='text-white pl-1 pr-1'>     Data-efficient learning 
-              </b>
-                   (e.g., semi-supervised, few-shot learning, self-supervised learning) for 3D scene understanding;</li>
-            <li style={{ padding: '2px' }}>
-              <b className='text-white pl-1 pr-1'>     Multi-modal joint learning</b> 
-            
-            for scene understanding with images and point clouds;</li>
-            <li style={{ padding: '2px' }}>
-              
-              <b className='text-white pl-1 pr-1'>     Out-of-distribution learning</b>
-              (e.g., domain adaptation/generalization) on scene understanding;</li>
-            
-            <li style={{ padding: '2px' }}>
-              <b className='text-white pl-1 pr-1'>     Online 3D scene understanding
-              </b> that reconstructs and understands 3D scenes simultaneously;</li>
-            
-            <li style={{ padding: '2px' }}>
-              <b className='text-white pl-1'> Language-guided 3D scene understanding
-              </b>;</li>
-            <li style={{ padding: '2px' }}>
-            <b className='text-white pl-1 pr-1'>     Lifelong/continual learning
-            </b>     for 3D scene understanding;</li> */}
           </ol>
         </div>
       
@@ -115,16 +90,15 @@ const Joinus: FC = () => {
                 The English requirement for admission to SUTD's PhD program is approximately:
                 <b className='text-white pl-1'>     
                 TOEFL &gt;=90, IELTS &gt;=6.5
+                (For exceptionally qualified applicants, English proficiency requirements may be relaxed).
                 </b>.
               </li>
               <li style={{ padding: '2px' }}>
                 You should be 
-                <b className='text-white pl-1'> self-motivated 
-                </b>&nbsp;
-                and 
-                <b className='text-white pl-1'>
-                passionate about research
-                </b>.</li>
+                <b className='text-white pl-1'>self-motivated, passionate about research</b>, 
+                and be able to 
+                <b className='text-white pl-1'>withstand challenges and the intense pressure</b> of PhD work.
+              </li>
               
             </ol>
         </div>
@@ -134,23 +108,29 @@ const Joinus: FC = () => {
         <div className="w-4/5 md:w-4/5 text-textDark pl-4 ">
           <ol style={{ listStyleType: 'decimal' }}>
               <li style={{ padding: '2px' }}>
-                SUTD Graduate Fellowship: The application deadline for Fall 2024 admission is 
-                February 2024. For more details, please see  
-                <b className='text-white pl-1'>     <a  style={{ textDecoration: 'underline' }} href='https://sutd.edu.sg/Admissions/Graduate/PhD-Programmes/SUTD-PhD-Programme'>
-                  SUTD PhD Programme</a></b>.</li>
+                SUTD Graduate Fellowship: The application deadline for Fall 2025 admission is 31 March 2025. 
+                For more details, please see   
+                <b className='text-white pl-1'>     
+                  <a  style={{ textDecoration: 'underline' }} href='https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/financing/scholarship/'>
+                  SUTD PhD Programme</a>
+                </b>.
+              </li>
               <li style={{ padding: '2px' }}>
                 SINGA Scholarship: The application deadline for 
-                <b className='text-white pl-1'> Spring 2025</b> admission is 
-                <b className='text-white pl-1'> 1 June, 2023</b>. 
+                <b className='text-white pl-1'> Spring 2026 </b> admission is 
+                <b className='text-white pl-1'> 1 June, 2025</b>. 
                 For more details, please see  
                 <b className='text-white pl-1'>     <a  style={{ textDecoration: 'underline' }} href='https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa'>
                   SINGA</a></b>.
               </li>
               <li style={{ padding: '2px' }}>
                 If you have published a top conference paper as the first author, 
-                you can also apply for the AISG Scholarship (5000 SGD per month 
-                for international students). The application deadline for Fall 
-                2024 admission is 7 February 2024. For more details, please see  
+                you can also apply for the AISG Scholarship (6300 SGD per month 
+                for international students). The application deadline for 
+                <b className='text-white pl-1'>Fall 2025 </b> 
+                 admission is 
+                <b className='text-white pl-1'>24 March 2025 </b>. 
+                For more details, please see  
                 <b className='text-white pl-1'>     <a  style={{ textDecoration: 'underline' }} href='https://aisingapore.org/research/phd-fellowship-programme/'>
                   AISG PhD Fellowship Programme
                 </a></b>.</li>
@@ -159,11 +139,20 @@ const Joinus: FC = () => {
                 there are more scholarship options available 
                 (please email for consultation).
               </li>
-              
-              
             </ol>
+        
         </div>
-
+        <p className="w-4/5 md:w-4/5 text-white text-xl">
+        <h2 >What We Offer:</h2>
+        </p>
+        <div className="w-4/5 md:w-4/5 text-textDark pl-4 ">
+          <ol style={{ listStyleType: 'disc' }}>
+            <li style={{ padding: '2px' }}><b className='text-white pl-1'>Hands-on research guidance</b></li>
+            <li style={{ padding: '2px' }}><b className='text-white pl-1'>Comprehensive research support</b>, including sufficient computational resources and recruitment of undergraduate research assistants</li>
+            <li style={{ padding: '2px' }}><b className='text-white pl-1'>Diverse collaboration opportunities</b></li>
+            <li style={{ padding: '2px' }}><b className='text-white pl-1'>Recommended internship opportunities at leading companies</b></li>
+           </ol>
+          </div>
         <TitleS  title="PostDoc" />
         <p className="w-4/5 md:w-4/5 text-white text-xl">
           <h2 >General Requirements:</h2>
@@ -171,108 +160,69 @@ const Joinus: FC = () => {
         <div className="w-4/5 md:w-4/5 text-textDark pl-4 ">
           <ol style={{ listStyleType: 'decimal'}}>
 
-            <li style={{ padding: '2px' }}>
-              You should have a 
-              <b className='text-white pl-1'>PhD degree in computer science or a related field</b>, 
-              with a specialization on computer vision.
-        
-            </li>
-            <li style={{ padding: '2px' }}>
-              You should have a strong background in 
-              <b className='text-white pl-1'>
-                computer vision/machine learning/3D geometry 
-              </b>,
-              along with a 
-              <b className='text-white pl-1'>solid grasp of mathematical concepts </b> 
-              related to 
-              <b className='text-white pl-1'>
-              computer vision/machine learning</b>.
-            </li>
-            <li style={{ padding: '2px' }}>
-              You should be proficient in programming languages and familiar with 
-              <b className='text-white pl-1'>
-              pytorch/tensorflow or other deep learning frameworks
-              </b>
-              .
-            </li>
-            <li style={{ padding: '2px' }}>
-              You should have multiple project experiences in 
-              <b className='text-white pl-1'>
-              computer vision/machine learning</b>
-              , 
-              coupled with a track record of 
-              <b className='text-white pl-1'>
-              publishing research papers in esteemed conferences or journals
-              </b>
-              . 
-            </li> 
-            <li style={{ padding: '2px' }}>
-              You should have excellent 
-              <b className='text-white pl-1'>
-              problem-solving 
-              
-              and 
-              
-              analytical abilities
-              </b>
-              .
-            </li> 
-            <li style={{ padding: '2px' }}>
-              You should have strong 
-              <b className='text-white pl-1'>
-              English reading 
-              
-              and 
-              
-              academic writing skills
-              </b>
-              .
-            </li> 
-            <li style={{ padding: '2px' }}>
-              You should have 
-              <b className='text-white pl-1'>
-              effective communication skills 
-              and 
-              the ability to work collaboratively </b>
-              in a research group.
-            </li> 
-            <li style={{ padding: '2px' }}>
-              You should have strong 
-              <b className='text-white pl-1'>
-              self-motivation
-              
-              and 
-              
-               research enthusiasm
-               </b>
-              .
-            </li> 
+          <li style={{ padding: '2px' }}>
+            A PhD in 
+            <b className='text-white pl-1'>
+              computer science (artificial intelligence, machine learning, computer vision, or related fields)
+            </b>
+            , with a solid theoretical foundation and extensive research experience.
+          </li>
+          <li style={{ padding: '2px' }}>
+          <b className='text-white pl-1'>Significant research achievements in computer vision, machine learning</b>, etc. 
+            Ability to independently conduct research work, with relevant research papers or academic works 
+            (Preference will be given to applicants with experience in 
+            <b className='text-white pl-1'>
+            3D computer vision or those who have published in top journals or international conferences
+            </b>
+            ).
+          </li>
+          <li style={{ padding: '2px' }}><b className='text-white pl-1'>Strong programming skills</b>, proficient in Python, C++, and familiar with common deep learning frameworks (such as TensorFlow, PyTorch).
+          </li>
+          <li style={{ padding: '2px' }}><b className='text-white pl-1'>Good teamwork spirit and academic communication skills</b>, able to collaborate effectively with team members from diverse backgrounds. Preference will be given to those with international academic exchange and project management experience.
+          </li>
+          <li style={{ padding: '2px' }}><b className='text-white pl-1'>Proficiency in both written and spoken English</b>, with the ability to write academic papers/reports and communicate fluently with project collaborators.
+          </li>
+          <li style={{ padding: '2px' }}><b className='text-white pl-1'>Strong self-motivation and problem-solving abilities</b>, able to independently conduct high-quality research. Innovation and passion for research, capable of driving project progress within a team.
+          </li>
+          <li style={{ padding: '2px' }}><b className='text-white pl-1'>Strong research interest and curiosity</b>, willing to actively undertake research projects, mentor students, and participate in academic presentations and seminars. Ability to handle high-intensity research work and demonstrate independent working capabilities.
+          </li>
+
             
           </ol>
         </div>
+        <p className="w-4/5 md:w-4/5 text-white text-xl">
+          <h2 >What We Offer:</h2>
+        </p>
+        <div className="w-4/5 md:w-4/5 text-textDark pl-4 ">
+          <ol style={{ listStyleType: 'disc'}}>
+          <li style={{ padding: '2px' }}><b className='text-white pl-1'>Highly competitive salary and benefits</b>  .
+          </li>
+          <li style={{ padding: '2px' }}><b className='text-white pl-1'>Comprehensive academic support and resources</b>, with <b className='text-white pl-1'>sufficient research funding</b>.
+          </li>
+          <li style={{ padding: '2px' }}><b className='text-white pl-1'>A positive academic atmosphere and an international work environment</b>, encouraging personal growth and career development.
+          </li>
+          </ol>
+        </div>
+        <TitleS  title="Visiting Students" />
+        <p className="w-4/5 md:w-4/5 text-white text-xl">
+        We welcome CSC-funded or self-funded visiting graduate students with research experience in 3D computer vision 
+        or machine learning to visit and study in our lab.
+        </p>
+        
 
         <Title  title="How to apply?" />
         <p className="w-4/5 md:w-4/5 text-textDark ">
-          Please send your 
-          <b className='text-white pl-1 '>  
-          English resume, transcripts
-          </b>, 
-          together with a 
-          <b className='text-white pl-1 '> 
-          research proposal   
-          </b>
-          &nbsp;
-          stating your interested research topic in 
-          3D computer vision, to Professor Zhao Na at 
-          <b className='text-white pl-1 '> 
-          <a href='mailto:na_zhao@sutd.edu.sg'>na_zhao@sutd.edu.sg</a>
-          </b>
-          . 
-          The email title should be: [Target Position (PhD/Postdoc) Application] 
-          Your Name + Institution Name + Qualification (Bachelor/Master/PhD).
+         Please send your 
+         <b className='text-white pl-1'> English resume </b>, 
+         <b className='text-white pl-1'>transcripts </b>, together with 
+         <b className='text-white pl-1'>a research proposal in English </b>
+         (optional for visiting students) stating your interested research topic in 3D computer vision, to Professor Zhao Na at 
+         <b className='text-white pl-1'>na_zhao@sutd.edu.sg </b>
+         . The email title should be: [Target Position (PhD/Postdoc/Visiting) Application] Your Name + Institution Name + Qualification (Bachelor/Master/PhD)
         </p>
       </div>
       
+       
     </Layout>
   );
 };
