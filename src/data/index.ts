@@ -340,10 +340,10 @@ const data = {
     //       date:'06 Feb 2023',
     //       content:'Prof. Zhao Na is invited to serve as a reviewer for ICCV 2023.'
     // },
-    {
-          date:'19 Dec 2022',
-          content:'Prof. Zhao Na is invited to serve as a program committee for IJCAI 2023.'
-    },
+    // {
+    //       date:'19 Dec 2022',
+    //       content:'Prof. Zhao Na is invited to serve as a program committee for IJCAI 2023.'
+    // },
     // {
     //       date:'15 Dec 2022',
     //       content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).'
@@ -368,10 +368,10 @@ const data = {
           date:'28 Sep 2022',
           content:'Our lab receives a research grant from Temasek Laboratories @ SUTD! Thanks TL@SUTD! The project will focus on data-efficient 3D object detection for robot perception.'
     },
-    {
-          date:'03 Aug 2022',
-          content:'Prof. Zhao Na is invited to serve as a program committee for AAAI 2023.'
-    },
+    // {
+    //       date:'03 Aug 2022',
+    //       content:'Prof. Zhao Na is invited to serve as a program committee for AAAI 2023.'
+    // },
     {
           date:'01 Aug 2022',
           content:'Prof. Zhao Na joins the Singapore University of Technology and Design as an Assistant Professor!'
@@ -1051,6 +1051,16 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com.hk/citations?user=VoPGwJQAAAAJ&hl=zh-CN'
     },
+    {
+      name:'Jie Xu',
+      type:'PostDoc',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., University of Electronic Science and Technology of China',
+      image:'/members/xujie.png',
+      mail:'jie_xu2@sutd.edu.sg',
+      homepage:'https://scholar.google.com/citations?user=YT1_9swAAAAJ&hl=en'
+    },
     
     
     
@@ -1104,6 +1114,16 @@ const data = {
       image:'/members/fujingyun.png',
       mail:'',
       homepage:''
+    },
+    {
+      name:'Zhihao Yuan',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, The Chinese Universtiy of Hong Kong, Shenzhen',
+      image:'/members/zhihao.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=jLqS89IAAAAJ&hl=en'
     },
     
     

@@ -204,7 +204,7 @@ const Joinus: FC = () => {
           </ol>
         </div>
         <TitleS  title="Visiting Students" />
-        <p className="w-4/5 md:w-4/5 text-white text-xl">
+        <p className="w-4/5 md:w-4/5 text-white pl-4">
         We welcome CSC-funded or self-funded visiting graduate students with research experience in 3D computer vision 
         or machine learning to visit and study in our lab.
         </p>
