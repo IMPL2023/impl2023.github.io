@@ -91,6 +91,14 @@ const data = {
   ],
   news:[
     {
+      date:'27 Feb 2025',
+      content:'Two papers about active 3D object detection and embodied multi-agent collaboration are accepted by CVPR 2025! Congratulations to Jiangyi and co-authors!'
+    },
+    {
+      date:'20 Feb 2025',
+      content:'One paper about 3D object detection for autonomous driving is accepted by IJCV 2025! Congratulations to Hualian!'
+    },
+    {
       date:'14 Feb 2025',
       content:'Congratulations to Prof. Zhao Na on her new appointment as an Associate Editor for Knowledge-based Systems (Impact factor: 7.2)!'
     },
@@ -558,6 +566,28 @@ const data = {
   ],
   papers:[
     {
+      image:'/papers/CT3D++.png',
+      title:'CT3D++: Improving 3D Object Detection with Keypoint-induced Channel-wise Transformer',
+      authors:["Hualian Sheng", "Sijia Cai", "Na Zhao", "Bing Deng", "Qiao Liang", "Min-Jian Zhao", "Jieping Ye"],
+      content:'',
+      comment:'International Journal on Computer Vision (IJCV), 2025',
+      pdf:'https://arxiv.org/pdf/2406.08152',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
+      image:'/papers/Dual-supervised.png',
+      title:'Dual-supervised Asymmetric Co-training for Semi-supervised Medical Domain Generalization',
+      authors:["Jincai Song", "Haipeng Chen", "Jun Qin", "Na Zhao*"],
+      content:'* indicates corresponding author',
+      comment:'IEEE Transactions on Multimedia (TMM), 2025',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
       image:'/papers/gaussianblock.png',
       title:'GaussianBlock: Building Part-Aware Compositional and Editable 3D Scene by Primitives and Gaussians',
       authors:["Shuyi Jiang", "Qihao Zhao", "Hossein Rahmani", "De Wen Soh", "Jun Liu", "Na Zhao*"],
@@ -1000,16 +1030,7 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com.hk/citations?hl=zh-CN&user=1_2F_eUAAAAJ'
     },
-    {
-      name:'Yuchen Wu',
-      type:'PhD',
-      title:'',
-      comment:'Since Sep 2024',
-      bg:'M.Eng, University of Science and Technology Beijing',
-      image:'/members/yuchen.png',
-      mail:'',
-      homepage:'https://scholar.google.com/citations?user=SNF-N7YAAAAJ&hl=en'
-    },
+    
     {
       name:'Shuyi Jiang',
       type:'PhD',
@@ -1019,6 +1040,16 @@ const data = {
       image:'/members/shuyi.png',
       mail:'',
       homepage:'https://scholar.google.com/citations?user=Us7chsYAAAAJ&hl=en'
+    },
+    {
+      name:'Yuchen Wu',
+      type:'PhD',
+      title:'',
+      comment:'Since Sep 2024',
+      bg:'M.Eng, University of Science and Technology Beijing',
+      image:'/members/yuchen.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=SNF-N7YAAAAJ&hl=en'
     },
     {
       name:'Jiayi Yuan (co-advising)',
@@ -1039,6 +1070,16 @@ const data = {
       image:'/members/ziyan.png',
       mail:'',
       homepage:'https://scholar.google.com/citations?user=u8E2VQUAAAAJ&hl=en'
+    },
+    {
+      name:'Qiqi Tao',
+      type:'PhD',
+      title:'',
+      comment:'Since Jan 2025',
+      bg:'MS (Statistics), National University of Singapore',
+      image:'/members/qiqitao.png',
+      mail:'tao.qiqi@outlook.com',
+      homepage:'https://www.linkedin.com/in/qiqi-tao-5063341aa/?originalSubdomain=sg'
     },
     
     {
@@ -1126,6 +1167,16 @@ const data = {
       homepage:'https://scholar.google.com/citations?user=jLqS89IAAAAJ&hl=en'
     },
     
+    {
+      name:'Nathan Linarto',
+      type:'Master',
+      title:'Master Student',
+      comment:'',
+      bg:'B.Eng. (EEE), Nanyang Technology University',
+      image:'/members/Nathan Linarto.png',
+      mail:'nathan.linarto@amd.com',
+      homepage:''
+    },
     
     {
       name:'Zhoutao Wang',
