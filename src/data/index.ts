@@ -1171,7 +1171,7 @@ const data = {
     {
       name:'Nathan Linarto',
       type:'Master',
-      title:'Master Student',
+      title:'Master\'s Student',
       comment:'',
       bg:'B.Eng. (EEE), Nanyang Technological University',
       image:'/members/Nathan Linarto.png',
