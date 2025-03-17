@@ -579,8 +579,8 @@ const data = {
     {
       image:'/papers/Dual-supervised.png',
       title:'Dual-supervised Asymmetric Co-training for Semi-supervised Medical Domain Generalization',
-      authors:["Jincai Song", "Haipeng Chen", "Jun Qin", "Na Zhao*"],
-      content:'* indicates corresponding author',
+      authors:["Jincai Song", "Haipeng Chen", "Jun Qin#", "Na Zhao#"],
+      content:'# indicates co-corresponding author',
       comment:'IEEE Transactions on Multimedia (TMM), 2025',
       pdf:'https://na-z.github.io/',
       video:'',
@@ -635,7 +635,7 @@ const data = {
       image:'/papers/On-the-fly.png',
       title:'On-the-fly Point Feature Representation for Point Clouds Analysis',
       authors:['Jiangyi Wang', 'Zhongyao Cheng', 'Na Zhao#', 'Jun Cheng', 'Xulei Yang#'],
-      content:'# indicates corresponding author',
+      content:'# indicates co-corresponding author',
       comment:'ACM Multimedia (MM), 2024',
       pdf:'https://arxiv.org/pdf/2407.21335',
       video:'',
@@ -1173,7 +1173,7 @@ const data = {
       type:'Master',
       title:'Master Student',
       comment:'',
-      bg:'B.Eng. (EEE), Nanyang Technology University',
+      bg:'B.Eng. (EEE), Nanyang Technological University',
       image:'/members/Nathan Linarto.png',
       mail:'nathan.linarto@amd.com',
       homepage:''

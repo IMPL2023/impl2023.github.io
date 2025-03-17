@@ -64,7 +64,7 @@ export const Members = () => {
         ))}
       </div>
 
-      <Title  title="Master Students" />
+      <Title  title="Master's Student(s)" />
       <div className="flex flex-wrap  mt-10">
         {Masters.map((member, i) => (
           <Member key={i} member={member} />
