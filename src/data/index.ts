@@ -1052,6 +1052,16 @@ const data = {
       homepage:'https://scholar.google.com/citations?user=SNF-N7YAAAAJ&hl=en'
     },
     {
+      name:'Qiqi Tao',
+      type:'PhD',
+      title:'',
+      comment:'Since Jan 2025',
+      bg:'MS (Statistics), National University of Singapore',
+      image:'/members/qiqitao.png',
+      mail:'tao.qiqi@outlook.com',
+      homepage:'https://www.linkedin.com/in/qiqi-tao-5063341aa/?originalSubdomain=sg'
+    },
+    {
       name:'Jiayi Yuan (co-advising)',
       type:'PhD',
       title:'',
@@ -1071,16 +1081,7 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com/citations?user=u8E2VQUAAAAJ&hl=en'
     },
-    {
-      name:'Qiqi Tao',
-      type:'PhD',
-      title:'',
-      comment:'Since Jan 2025',
-      bg:'MS (Statistics), National University of Singapore',
-      image:'/members/qiqitao.png',
-      mail:'tao.qiqi@outlook.com',
-      homepage:'https://www.linkedin.com/in/qiqi-tao-5063341aa/?originalSubdomain=sg'
-    },
+    
     
     {
       name:'Qiongjie Cui',
