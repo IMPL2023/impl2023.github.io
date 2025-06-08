@@ -45,7 +45,7 @@ export const Papers = () => {
         </div>
         
         <div className="flex flex-col">
-          <article className="flex flex-col items-center mt-5 md:flex-row">
+          <article className="flex flex-col items-center mt-5 mb-5 md:flex-row">
             <span className="text-2xl">
               <b>2025:</b>
             </span>
@@ -56,7 +56,7 @@ export const Papers = () => {
         </div>
 
         <div className="flex flex-col">
-          <article className="flex flex-col items-center mt-5 md:flex-row">
+          <article className="flex flex-col items-center mt-5 mb-5 md:flex-row">
             <span className="text-2xl">
               <b>2024:</b>
             </span>
@@ -68,7 +68,7 @@ export const Papers = () => {
 
 
         <div className="flex flex-col">
-          <article className="flex flex-col items-center mt-5 md:flex-row">
+          <article className="flex flex-col items-center mt-5 mb-5 md:flex-row">
             <span className="text-2xl">
               <b>2023:</b>
             </span>
@@ -79,7 +79,7 @@ export const Papers = () => {
         </div>
 
         <div className="flex flex-col">
-          <article className="flex flex-col  mt-5 ">
+          <article className="flex flex-col  mt-5 mb-5">
             <div className=''>
               <span className="text-2xl" >
                   <b>2022:</b>
@@ -93,7 +93,7 @@ export const Papers = () => {
         </div>
 
         <div className="flex flex-col">
-          <article className="flex flex-col  mt-5 mb-5">
+          <article className="flex flex-col  mt-5 mb-5 ">
             <div className=''>
               <span className="text-2xl" >
                   <b>2021 and before:</b>

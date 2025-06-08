@@ -91,6 +91,38 @@ const data = {
   ],
   news:[
     {
+      date:'23 May 2025',
+      content:'One paper about consistent video customization is accepted by EGSR 2025! Congratulations to Jia Heng!'
+    },
+    {
+      date:'20 May 2025',
+      content:'We are delighted to welcome Zhu Yun, a PhD student from NJUST, to visit our lab!'
+    },
+    {
+      date:'1 May 2025',
+      content:'One paper about multi-modal 3D panoptic segmentation is accepted by ICML 2025! Congratulations to Yining!'
+    },
+    {
+      date:'29 Apr 2025',
+      content:'One paper about multi-view clustering is accepted by IJCAI 2025! Congratulations to Xu Jie and co-authors!'
+    },
+    {
+      date:'21 Apr 2025',
+      content:'Prof. Zhao Na is invited to serve as an area chair for MM 2025!'
+    },
+    {
+      date:'21 Apr 2025',
+      content:'We are thrilled to welcome Prof. Cathal Gurrin from Dublin City University to visit our lab and deliver a talk titled “A Review of the First Decade of Progress in Interactive Lifelog Retrieval”!'
+    },
+    {
+      date:'9 Apr 2025',
+      content:'We are delighted to welcome Dr. Wu Zijie to join our lab as research fellow!'
+    },
+    {
+      date:'21 Mar 2025',
+      content:'One paper about occluded human reconstruction is accepted by ICME 2025! Congratulations to Zhang Jie!'
+    },
+    {
       date:'27 Feb 2025',
       content:'Two papers about active 3D object detection and embodied multi-agent collaboration are accepted by CVPR 2025! Congratulations to Jiangyi and co-authors!'
     },
@@ -117,6 +149,10 @@ const data = {
     {
       date:'23 Jan 2025',
       content:'One paper about 3D reconstruction & editing is accepted by ICLR 2025! Congratulations to Shuyi!'
+    },
+    {
+      date:'28 Dec 2024',
+      content:'Prof. Zhao Na is invited to serve as an area chair for NLPCC 2025!'
     },
     {
       date:'10 Dec 2024',
@@ -198,10 +234,10 @@ const data = {
       date:'22 May 2024',
       content:'Prof. Zhao Na is invited to give a talk at iData, Anhui, China.'
     },
-    // {
-    //   date:'7 May 2024',
-    //   content:'Prof. Zhao Na is invited to serve as a reviewer for NeurIPS 2024.'
-    // },
+    {
+      date:'18 Apr 2024',
+      content:'Prof. Zhao Na is invited to chair a session at ICRA 2024, Japan'
+    },
     {
       date:'26 Mar 2024',
       content:'Congratulations to Wu Yuchen on receiving the SUTD PhD scholarship! He will be joining us as a PhD student in September 2024.'
@@ -565,6 +601,50 @@ const data = {
     // },
   ],
   papers:[
+    {
+      image:'/papers/IAL.png',
+      title:'How Do Images Align and Complement LiDAR? Towards a Harmonized Multi-modal 3D Panoptic Segmentation',
+      authors:['Yining Pan', 'Qiongjie Cui', 'Xulei Yang', 'Na Zhao*'],
+      content:'* indicates corresponding author',
+      comment:'International Conference on Machine Learning (ICML), 2025',
+      pdf:'https://arxiv.org/pdf/2505.18956',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
+      image:'/papers/OcSplats.png',
+      title:'OcSplats: Occlusion-Aware 3D Scene Reconstruction with Splatting',
+      authors:['Jie Zhang', 'Qiongjie Cui', 'Xulei Yang', 'Na Zhao*'],
+      content:'* indicates corresponding author',
+      comment:'IEEE International Conference on Multimedia & Expo (ICME), 2025',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
+      image:'/papers/Uncertainty.png',
+      title:'Uncertainty Meets Diversity: A Comprehensive Active Learning Framework for Indoor 3D Object Detection',
+      authors:['Jiangyi Wang', 'Na Zhao*'],
+      content:'* indicates corresponding author',
+      comment:'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025',
+      pdf:'https://arxiv.org/pdf/2503.16125',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
+      image:'/papers/Collaborative.png',
+      title:'Collaborative Tree Search for Enhancing Embodied Multi-Agent Collaboration',
+      authors:['Lizheng Zu', 'Lin Lin', 'Song Fu', 'Na Zhao', 'Pan Zhou'],
+      content:'',
+      comment:'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'',
+    },
     {
       image:'/papers/CT3D++.png',
       title:'CT3D++: Improving 3D Object Detection with Keypoint-induced Channel-wise Transformer',
@@ -1083,16 +1163,7 @@ const data = {
     },
     
     
-    {
-      name:'Qiongjie Cui',
-      type:'PostDoc',
-      title:'Research Fellow',
-      comment:'',
-      bg:'Ph.D., Nanjing University of Science and Technology',
-      image:'/members/qiongjie.png',
-      mail:'',
-      homepage:'https://scholar.google.com.hk/citations?user=VoPGwJQAAAAJ&hl=zh-CN'
-    },
+    
     {
       name:'Jie Xu',
       type:'PostDoc',
@@ -1117,16 +1188,16 @@ const data = {
     //   mail:'',
     //   homepage:''
     // },
-    {
-      name:'Qun Li',
-      type:'Visitor',
-      title:'Visiting Professor',
-      comment:'',
-      bg:'Associate Professor, Nanjing University of Posts and Telecommunications',
-      image:'/members/liqun.png',
-      mail:'',
-      homepage:'https://scholar.google.com/citations?user=hQZFOQYAAAAJ&hl=en'
-    },
+    // {
+    //   name:'Haiming Zhu',
+    //   type:'Visitor',
+    //   title:'Visiting Research Associate',
+    //   comment:'',
+    //   bg:'',
+    //   image:'/members/haiming.png',
+    //   mail:'',
+    //   homepage:''
+    // },
     {
       name:'Xinyi Wang',
       type:'Visitor',
@@ -1178,7 +1249,27 @@ const data = {
       mail:'nathan.linarto@amd.com',
       homepage:''
     },
-    
+
+    {
+      name:'Qun Li',
+      type:'Alumni',
+      title:'Visiting Professor',
+      comment:'',
+      bg:'Associate Professor, Nanjing University of Posts and Telecommunications',
+      image:'/members/liqun.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=hQZFOQYAAAAJ&hl=en'
+    },
+    {
+      name:'Qiongjie Cui',
+      type:'Alumni',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., Nanjing University of Science and Technology',
+      image:'/members/qiongjie.png',
+      mail:'',
+      homepage:'https://scholar.google.com.hk/citations?user=VoPGwJQAAAAJ&hl=zh-CN'
+    },
     {
       name:'Zhoutao Wang',
       type:'Alumni',

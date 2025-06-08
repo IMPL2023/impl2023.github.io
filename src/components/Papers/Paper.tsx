@@ -64,15 +64,25 @@ export const Paper: FC<IPaperProps> = ({ paper }) => {
     borderBottom: '2px solid rgba(255, 255, 255, 0.1)', // 设置白色下边框
   };
   return (
-    <article className="flex flex-col items-center mt-10 md:flex-row" style={divStyle}>
+    // <article className="flex flex-col items-center mt-10 md:flex-row" style={divStyle}>
+    <article
+    className="
+      flex flex-col  md:flex-row 
+      bg-neutral-600 rounded-lg shadow-md
+      
+      border-l-4 border-neutral-600
+      p-6 mb-6  
+      transition-transform transform hover:-translate-y-2
+    "
+  >
+
       <Image
-        alt={''}
-        className="relative md:w-[450px] pb-5 w-full ml-4 h-[250px] rounded-lg object-contain"
-        height={250}
-        loading="lazy"
-        style={{ minWidth: '450px', minHeight: '250px' }}
+        alt=""
         src={paper.image}
         width={450}
+        height={250}
+        className="self-start w-[450px]  object-contain object-left-top rounded-lg flex-shrink-0"
+        loading="lazy"
       />
       <div className="ml-2 mt-5 md:mt-0 md:ml-20">
         <h3 className="text-2xl font-semibold text-neon">{paper.title}</h3>

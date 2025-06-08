@@ -23,7 +23,7 @@ const Joinus: FC = () => {
     <Layout>
       <div className='space-y-5 max-w-7xl w-full mx-auto p-5 md:p-0'>
         <p className="w-4/5 md:w-4/5 text-white text-xl">
-        We are currently looking for self-motivated PhD students (starting from Fall 2025 or later), 
+        We are currently looking for self-motivated PhD students (starting from January 2026 or later), 
         Post-docs (starting at any time), and Visiting graduate students (CSC-funded or self-funded) 
         to work together on 3D computer vision. The specific research topics include (but are not limited to):
         </p>
@@ -108,7 +108,7 @@ const Joinus: FC = () => {
         <div className="w-4/5 md:w-4/5 text-textDark pl-4 ">
           <ol style={{ listStyleType: 'decimal' }}>
               <li style={{ padding: '2px' }}>
-                SUTD Graduate Fellowship: The application deadline for Fall 2025 admission is 31 March 2025. 
+                SUTD Graduate Fellowship: The application deadline for <b className='text-white pl-1'>January 2026</b> is <b className='text-white pl-1'>30 September 2025</b>. 
                 For more details, please see   
                 <b className='text-white pl-1'>     
                   <a  style={{ textDecoration: 'underline' }} href='https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/financing/scholarship/'>
@@ -117,7 +117,7 @@ const Joinus: FC = () => {
               </li>
               <li style={{ padding: '2px' }}>
                 SINGA Scholarship: The application deadline for 
-                <b className='text-white pl-1'> Spring 2026 </b> admission is 
+                <b className='text-white pl-1'> January 2026 </b> admission is 
                 <b className='text-white pl-1'> 1 June, 2025</b>. 
                 For more details, please see  
                 <b className='text-white pl-1'>     <a  style={{ textDecoration: 'underline' }} href='https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa'>
@@ -127,9 +127,9 @@ const Joinus: FC = () => {
                 If you have published a top conference paper as the first author, 
                 you can also apply for the AISG Scholarship (6300 SGD per month 
                 for international students). The application deadline for 
-                <b className='text-white pl-1'>Fall 2025 </b> 
+                <b className='text-white pl-1'>January 2026 </b> 
                  admission is 
-                <b className='text-white pl-1'>24 March 2025 </b>. 
+                <b className='text-white pl-1'>30 September 2025 </b>. 
                 For more details, please see  
                 <b className='text-white pl-1'>     <a  style={{ textDecoration: 'underline' }} href='https://aisingapore.org/research/phd-fellowship-programme/'>
                   AISG PhD Fellowship Programme
