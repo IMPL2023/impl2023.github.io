@@ -1194,19 +1194,9 @@ const data = {
       bg:'Ph.D., University of Auckland',
       image:'/members/yonghua.png',
       mail:'',
-      homepage:''
+      homepage:'https://scholar.google.com/citations?user=CVP8vGEAAAAJ&hl=zh-CN'
     },
-    {
-      name:'Yun Zhu',
-      type:'RA',
-      // type:'Alumni',
-      title:'Senior Research Assistant',
-      comment:'',
-      bg:'Ph.D., Nanjing University of Science and Technology',
-      image:'/members/yunzhu.png',
-      mail:'',
-      homepage:'https://scholar.google.com.hk/citations?user=eIZeK58AAAAJ&hl=zh-CN'
-    },
+    
     {
       name:'Anweshan Bor',
       type:'RA',
@@ -1239,36 +1229,18 @@ const data = {
     //   mail:'',
     //   homepage:''
     // },
-    {
-      name:'Haiming Zhu',
-      type:'Visitor',
-      title:'Visiting Research Associate',
-      comment:'',
-      bg:'Master, Tsinghua University',
-      image:'/members/haiming.png',
-      mail:'',
-      homepage:''
-    },
-    {
-      name:'Jincheng Huang',
-      type:'Visitor',
-      title:'Visiting Student',
-      comment:'',
-      bg:'PhD student, University of Electronic Science and Technology of China',
-      image:'/members/jincheng.png',
-      mail:'',
-      homepage:'https://huangjc0429.github.io'
-    },
-    {
-      name:'Zongqian Wu',
-      type:'Visitor',
-      title:'Visiting Student',
-      comment:'',
-      bg:'PhD candidate, University of Electronic Science and Technology of China',
-      image:'/members/zongqian.png',
-      mail:'',
-      homepage:'https://zongqianwu.github.io'
-    },
+
+    // {
+    //   name:'Haiming Zhu',
+    //   type:'Visitor',
+    //   title:'Visiting Research Associate',
+    //   comment:'',
+    //   bg:'Master, Tsinghua University',
+    //   image:'/members/haiming.png',
+    //   mail:'',
+    //   homepage:''
+    // },
+    
     {
       name:'Xinyi Wang',
       type:'Visitor',
@@ -1279,16 +1251,7 @@ const data = {
       mail:'',
       homepage:''
     },
-    {
-      name:'Vishal Thengane',
-      type:'Visitor',
-      title:'Visiting Student',
-      comment:'',
-      bg:'PhD student, University of Surrey',
-      image:'/members/Vishal.png',
-      mail:'',
-      homepage:'https://vgthengane.github.io/'
-    },
+    
     {
       name:'Fu Jingyun',
       type:'Visitor',
@@ -1309,7 +1272,37 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com/citations?user=jLqS89IAAAAJ&hl=en'
     },
-    
+    {
+      name:'Jincheng Huang',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, University of Electronic Science and Technology of China',
+      image:'/members/jincheng.png',
+      mail:'',
+      homepage:'https://huangjc0429.github.io'
+    },
+    {
+      name:'Zongqian Wu',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, University of Electronic Science and Technology of China',
+      image:'/members/zongqian.png',
+      mail:'',
+      homepage:'https://zongqianwu.github.io'
+    },
+    {
+      name:'Yun Zhu',
+      type:'Visitor',
+      // type:'Alumni',
+      title:'Visiting Student',
+      comment:'',
+      bg:'Ph.D., Nanjing University of Science and Technology',
+      image:'/members/yunzhu.png',
+      mail:'',
+      homepage:'https://scholar.google.com.hk/citations?user=eIZeK58AAAAJ&hl=zh-CN'
+    },
     {
       name:'Nathan Linarto',
       type:'Master',
@@ -1322,14 +1315,14 @@ const data = {
     },
 
     {
-      name:'Qun Li',
+      name:'Vishal Thengane',
       type:'Alumni',
-      title:'Visiting Professor',
+      title:'Visiting Student',
       comment:'',
-      bg:'Associate Professor, Nanjing University of Posts and Telecommunications',
-      image:'/members/liqun.png',
+      bg:'PhD student, University of Surrey',
+      image:'/members/Vishal.png',
       mail:'',
-      homepage:'https://scholar.google.com/citations?user=hQZFOQYAAAAJ&hl=en'
+      homepage:'https://vgthengane.github.io/'
     },
     {
       name:'Qiongjie Cui',
@@ -1340,6 +1333,16 @@ const data = {
       image:'/members/qiongjie.png',
       mail:'',
       homepage:'https://scholar.google.com.hk/citations?user=VoPGwJQAAAAJ&hl=zh-CN'
+    },
+    {
+      name:'Qun Li',
+      type:'Alumni',
+      title:'Visiting Professor',
+      comment:'',
+      bg:'Associate Professor, Nanjing University of Posts and Telecommunications',
+      image:'/members/liqun.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=hQZFOQYAAAAJ&hl=en'
     },
     {
       name:'Zhoutao Wang',

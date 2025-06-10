@@ -117,8 +117,8 @@ const Joinus: FC = () => {
               </li>
               <li style={{ padding: '2px' }}>
                 SINGA Scholarship: The application deadline for 
-                <b className='text-white pl-1'> January 2026 </b> admission is 
-                <b className='text-white pl-1'> 1 June, 2025</b>. 
+                <b className='text-white pl-1'> Fall 2026 </b> admission is 
+                <b className='text-white pl-1'> 1 December 2025</b>. 
                 For more details, please see  
                 <b className='text-white pl-1'>     <a  style={{ textDecoration: 'underline' }} href='https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa'>
                   SINGA</a></b>.
