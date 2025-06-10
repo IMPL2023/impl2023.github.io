@@ -1174,9 +1174,50 @@ const data = {
       mail:'jie_xu2@sutd.edu.sg',
       homepage:'https://scholar.google.com/citations?user=YT1_9swAAAAJ&hl=en'
     },
+
+    {
+      name:'Zijie Wu',
+      type:'PostDoc',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., Hunan University',
+      image:'/members/zijie.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=AFsLiBcAAAAJ&hl=zh-CN'
+    },
     
-    
-    
+    {
+      name:'Yonghua Zhu',
+      type:'PostDoc',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., University of Auckland',
+      image:'/members/yonghua.png',
+      mail:'',
+      homepage:''
+    },
+    {
+      name:'Yun Zhu',
+      type:'RA',
+      // type:'Alumni',
+      title:'Senior Research Assistant',
+      comment:'',
+      bg:'Ph.D., Nanjing University of Science and Technology',
+      image:'/members/yunzhu.png',
+      mail:'',
+      homepage:'https://scholar.google.com.hk/citations?user=eIZeK58AAAAJ&hl=zh-CN'
+    },
+    {
+      name:'Anweshan Bor',
+      type:'RA',
+      // type:'Alumni',
+      title:'Senior Research Assistant',
+      comment:'',
+      bg:'Master, National University of Singapore',
+      image:'/members/anweshanbor.png',
+      mail:'',
+      homepage:'https://www.linkedin.com/in/anweshanbor/?originalSubdomain=sg'
+    },
     
     // {
     //   name:'Heng Jia',
@@ -1198,6 +1239,36 @@ const data = {
     //   mail:'',
     //   homepage:''
     // },
+    {
+      name:'Haiming Zhu',
+      type:'Visitor',
+      title:'Visiting Research Associate',
+      comment:'',
+      bg:'Master, Tsinghua University',
+      image:'/members/haiming.png',
+      mail:'',
+      homepage:''
+    },
+    {
+      name:'Jincheng Huang',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, University of Electronic Science and Technology of China',
+      image:'/members/jincheng.png',
+      mail:'',
+      homepage:'https://huangjc0429.github.io'
+    },
+    {
+      name:'Zongqian Wu',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD candidate, University of Electronic Science and Technology of China',
+      image:'/members/zongqian.png',
+      mail:'',
+      homepage:'https://zongqianwu.github.io'
+    },
     {
       name:'Xinyi Wang',
       type:'Visitor',
