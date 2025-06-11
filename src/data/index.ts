@@ -99,6 +99,10 @@ const data = {
       content:'We are delighted to welcome Zhu Yun, a PhD student from NJUST, to visit our lab!'
     },
     {
+      date:'19 May 2025',
+      content:'We are delighted to welcome Anweshan Bor to join our lab as senior research assistant.'
+    },
+    {
       date:'1 May 2025',
       content:'One paper about multi-modal 3D panoptic segmentation is accepted by ICML 2025! Congratulations to Yining!'
     },
