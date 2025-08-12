@@ -91,9 +91,26 @@ const data = {
   ],
   news:[
     {
-      date:'23 May 2025',
-      content:'One paper about consistent video customization is accepted by EGSR 2025! Congratulations to Jia Heng!'
+      date:'7 Jul 2025',
+      content:'We are delighted to welcome Dr. Wang Kun to join our lab as research fellow!'
     },
+    {
+      date:'6 Jul 2025',
+      content:'One paper about assumptive reasoning in multimodal large language models is accepted by MM 2025! Congratulations to all co-authors!'
+    },
+    {
+      date:'1 Jul 2025',
+      content:'We are delighted to welcome Yuan Shangbo, a PhD student from UESTC, to visit our lab!'
+    },
+    {
+      date:'26 Jun 2025',
+      content:'Four papers are accepted by ICCV 2025! Congratulations to Jia Heng, Ziyan, Xu Jie, and coauthors!'
+    },
+
+    // {
+    //   date:'23 May 2025',
+    //   content:'One paper about consistent video customization is accepted by EGSR 2025! Congratulations to Jia Heng!'
+    // },
     {
       date:'20 May 2025',
       content:'We are delighted to welcome Zhu Yun, a PhD student from NJUST, to visit our lab!'
@@ -116,7 +133,7 @@ const data = {
     },
     {
       date:'21 Apr 2025',
-      content:'We are thrilled to welcome Prof. Cathal Gurrin from Dublin City University to visit our lab and deliver a talk titled “A Review of the First Decade of Progress in Interactive Lifelog Retrieval”!'
+      content:'We are thrilled to welcome Prof. Cathal Gurrin from Dublin City University to visit our lab and deliver a talk titled "A Review of the First Decade of Progress in Interactive Lifelog Retrieval"!'
     },
     {
       date:'9 Apr 2025',
@@ -140,7 +157,7 @@ const data = {
     },
     {
       date:'13 Feb 2025',
-      content:'We are delighted to welcome Yuan Zhihao, a PhD student from CUHK(SZ), to visit our lab!'
+      content:'We are delighted to welcome Yuan Zhihao, a PhD student from CUHK (SZ), to visit our lab!'
     },
     {
       date:'10 Feb 2025',
@@ -606,6 +623,61 @@ const data = {
   ],
   papers:[
     {
+      image:'/papers/Motionlab_teaser.png',
+      title:'MotionLab: Unified Human Motion Generation and Editing via the Motion-Condition-Motion Paradigm',
+      authors:['Ziyan Guo', 'Zeyu HU', 'De Wen Soh', 'Na Zhao*'],
+      content:'* indicates corresponding author',
+      comment:'International Conference on Computer Vision (ICCV), 2025',
+      pdf:'https://arxiv.org/pdf/2502.02358',
+      video:'',
+      project:'https://diouo.github.io/motionlab.github.io/',
+      code:'https://github.com/Diouo/MotionLab',
+    },
+    {
+      image:'/papers/H3R_framework.png',
+      title:'H3R: Hybrid Multi-view Correspondence for Generalizable 3D Reconstruction',
+      authors:['Heng Jia', 'Linchao Zhu', 'Na Zhao'],
+      content:'',
+      comment:'International Conference on Computer Vision (ICCV), 2025',
+      pdf:'https://arxiv.org/pdf/2508.03118',
+      video:'',
+      project:'',
+      code:'https://github.com/JiaHeng-DLUT/H3R',
+    },
+    {
+      image:'/papers/RML_framework.png',
+      title:'Robust Multi-View Learning via Representation Fusion of Sample-Level Attention and Alignment of Simulated Perturbation',
+      authors:['Jie Xu', 'Na Zhao#', 'Gang Niu', 'Masashi Sugiyama', 'Xiaofeng Zhu#'],
+      content:'# indicates co-corresponding author',
+      comment:'International Conference on Computer Vision (ICCV), 2025',
+      pdf:'https://www.arxiv.org/pdf/2503.04151',
+      video:'',
+      project:'',
+      code:'https://github.com/SubmissionsIn/RML',
+    },
+    {
+      image:'/papers/VGPCC_framework.png',
+      title:'Geometric Alignment and Prior Modulation for View-Guided Point Cloud Completion on Unseen Categories',
+      authors:['Jingqiao Xiu', 'Yicong Li', 'Na Zhao', 'Han Fang', 'Xiang Wang', 'Angela Yao'],
+      content:'',
+      comment:'International Conference on Computer Vision (ICCV), 2025',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
+      image:'/papers/MARS_framework.png',
+      title:'Look Before You Decide: Prompting Active Deduction of MLLMs for Assumptive Reasoning',
+      authors:['Yian Li', 'Wentao Tian', 'Yang Jiao', 'Jingjing Chen', 'Tianwen Qian', 'Bin Zhu', 'Na Zhao', 'Yu-Gang Jiang'],
+      content:'',
+      comment:'ACM Multimedia (MM), 2025',
+      pdf:'https://arxiv.org/pdf/2404.12966',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
       image:'/papers/IAL.png',
       title:'How Do Images Align and Complement LiDAR? Towards a Harmonized Multi-modal 3D Panoptic Segmentation',
       authors:['Yining Pan', 'Qiongjie Cui', 'Xulei Yang', 'Na Zhao*'],
@@ -636,7 +708,7 @@ const data = {
       pdf:'https://arxiv.org/pdf/2503.16125',
       video:'',
       project:'',
-      code:'',
+      code:'https://github.com/JoeWang-0519/CVPR25_UMD',
     },
     {
       image:'/papers/Collaborative.png',
@@ -658,7 +730,7 @@ const data = {
       pdf:'https://arxiv.org/pdf/2406.08152',
       video:'',
       project:'',
-      code:'',
+      code:'https://github.com/hlsheng1/CT3D-plusplus',
     },
     {
       image:'/papers/Dual-supervised.png',
@@ -1200,6 +1272,16 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com/citations?user=CVP8vGEAAAAJ&hl=zh-CN'
     },
+    {
+      name:'Kun Wang',
+      type:'PostDoc',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., Nanjing University of Science and Technology',
+      image:'/members/kunwang.png',
+      mail:'',
+      homepage:'https://w2kun.github.io/'
+    },
     
     {
       name:'Anweshan Bor',
@@ -1244,7 +1326,7 @@ const data = {
     //   mail:'',
     //   homepage:''
     // },
-    
+
     {
       name:'Xinyi Wang',
       type:'Visitor',
@@ -1286,16 +1368,16 @@ const data = {
       mail:'',
       homepage:'https://huangjc0429.github.io'
     },
-    {
-      name:'Zongqian Wu',
-      type:'Visitor',
-      title:'Visiting Student',
-      comment:'',
-      bg:'PhD student, University of Electronic Science and Technology of China',
-      image:'/members/zongqian.png',
-      mail:'',
-      homepage:'https://zongqianwu.github.io'
-    },
+    // {
+    //   name:'Zongqian Wu',
+    //   type:'Visitor',
+    //   title:'Visiting Student',
+    //   comment:'',
+    //   bg:'PhD student, University of Electronic Science and Technology of China',
+    //   image:'/members/zongqian.png',
+    //   mail:'',
+    //   homepage:'https://zongqianwu.github.io'
+    // },
     {
       name:'Yun Zhu',
       type:'Visitor',
@@ -1306,6 +1388,16 @@ const data = {
       image:'/members/yunzhu.png',
       mail:'',
       homepage:'https://scholar.google.com.hk/citations?user=eIZeK58AAAAJ&hl=zh-CN'
+    },
+    {
+      name:'Shangbo Yuan',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, University of Electronic Science and Technology of China',
+      image:'/members/shangbo.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=2_S2Fc0AAAAJ&hl=zh-CN'
     },
     {
       name:'Nathan Linarto',
