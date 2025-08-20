@@ -91,6 +91,10 @@ const data = {
   ],
   news:[
     {
+      date:'15 Aug 2025',
+      content:'We are delighted to welcome Zhu Haiming, a master\'s graduate from Tsinghua SIGS, to join our lab as a visiting researcher!'
+    },
+    {
       date:'7 Jul 2025',
       content:'We are delighted to welcome Dr. Wang Kun to join our lab as research fellow!'
     },
@@ -770,7 +774,7 @@ const data = {
       title:'Domain Expansion and Boundary Growth for Open-Set Single-Source Domain Generalization',
       authors:["Pengkun Jiao", "Na Zhao*", "Jingjing Chen", "Yu-Gang Jiang"],
       content:'* indicates corresponding author',
-      comment:'IEEE Transactions on Multimedia (TMM), 2024',
+      comment:'IEEE Transactions on Multimedia (TMM), 2025',
       pdf:'https://arxiv.org/pdf/2411.02920',
       video:'',
       project:'',
@@ -1305,27 +1309,18 @@ const data = {
     //   mail:'',
     //   homepage:''
     // },
-    // {
-    //   name:'Haiming Zhu',
-    //   type:'Visitor',
-    //   title:'Visiting Research Associate',
-    //   comment:'',
-    //   bg:'',
-    //   image:'/members/haiming.png',
-    //   mail:'',
-    //   homepage:''
-    // },
+    
 
-    // {
-    //   name:'Haiming Zhu',
-    //   type:'Visitor',
-    //   title:'Visiting Research Associate',
-    //   comment:'',
-    //   bg:'Master, Tsinghua University',
-    //   image:'/members/haiming.png',
-    //   mail:'',
-    //   homepage:''
-    // },
+    {
+      name:'Haiming Zhu',
+      type:'Visitor',
+      title:'Visiting Research Associate',
+      comment:'M.Eng., Tsinghua Shenzhen International Graduate School',
+      bg:'',
+      image:'/members/haiming.png',
+      mail:'',
+      homepage:''
+    },
 
     {
       name:'Xinyi Wang',
@@ -1339,7 +1334,7 @@ const data = {
     },
     
     {
-      name:'Fu Jingyun',
+      name:'Jingyun Fu',
       type:'Visitor',
       title:'Visiting Student',
       comment:'',
@@ -1348,16 +1343,7 @@ const data = {
       mail:'',
       homepage:''
     },
-    {
-      name:'Zhihao Yuan',
-      type:'Visitor',
-      title:'Visiting Student',
-      comment:'',
-      bg:'PhD student, The Chinese Universtiy of Hong Kong, Shenzhen',
-      image:'/members/zhihao.png',
-      mail:'',
-      homepage:'https://scholar.google.com/citations?user=jLqS89IAAAAJ&hl=en'
-    },
+    
     {
       name:'Jincheng Huang',
       type:'Visitor',
@@ -1409,7 +1395,16 @@ const data = {
       mail:'nathan.linarto@amd.com',
       homepage:''
     },
-
+    {
+      name:'Zhihao Yuan',
+      type:'Alumni',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, The Chinese Universtiy of Hong Kong, Shenzhen',
+      image:'/members/zhihao.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=jLqS89IAAAAJ&hl=en'
+    },
     {
       name:'Vishal Thengane',
       type:'Alumni',
