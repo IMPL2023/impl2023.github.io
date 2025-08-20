@@ -1315,8 +1315,8 @@ const data = {
       name:'Haiming Zhu',
       type:'Visitor',
       title:'Visiting Research Associate',
-      comment:'M.Eng., Tsinghua Shenzhen International Graduate School',
-      bg:'',
+      comment:'',
+      bg:'M.Eng., Tsinghua Shenzhen International Graduate School',
       image:'/members/haiming.png',
       mail:'',
       homepage:''
