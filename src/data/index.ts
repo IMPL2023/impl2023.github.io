@@ -91,6 +91,18 @@ const data = {
   ],
   news:[
     {
+      date:'17 Sep 2025',
+      content:'We are delighted to welcome Dr. Sun Yanpeng to join our lab as research fellow!'
+    },
+    {
+      date:'5  Sep 2025',
+      content:'We are delighted to welcome Pei Xuetong, a master student from Beihang University, to visit our lab!'
+    },
+    {
+      date:'16 Aug 2025',
+      content:'Prof. Zhao Na is invited to serve as an area chair for ICLR 2026!'
+    },
+    {
       date:'15 Aug 2025',
       content:'We are delighted to welcome Zhu Haiming, a master\'s graduate from Tsinghua SIGS, to join our lab as a visiting researcher!'
     },
@@ -1231,16 +1243,16 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com/citations?user=BjQbZ_wAAAAJ&hl=zh-CN'
     },
-    {
-      name:'Ziyan Guo (co-advising)',
-      type:'PhD',
-      title:'',
-      comment:'Since Sep 2024',
-      bg:'B.Eng, Harbin Institute of Technology, Shenzhen',
-      image:'/members/ziyan.png',
-      mail:'',
-      homepage:'https://scholar.google.com/citations?user=u8E2VQUAAAAJ&hl=en'
-    },
+    // {
+    //   name:'Ziyan Guo (co-advising)',
+    //   type:'PhD',
+    //   title:'',
+    //   comment:'Since Sep 2024',
+    //   bg:'B.Eng, Harbin Institute of Technology, Shenzhen',
+    //   image:'/members/ziyan.png',
+    //   mail:'',
+    //   homepage:'https://scholar.google.com/citations?user=u8E2VQUAAAAJ&hl=en'
+    // },
     
     
     
@@ -1394,6 +1406,16 @@ const data = {
       image:'/members/Nathan Linarto.png',
       mail:'nathan.linarto@amd.com',
       homepage:''
+    },
+    {
+      name:'Ziyan Guo (co-advising)',
+      type:'Alumni',
+      title:'',
+      comment:'Sep 2024 - July 2025',
+      bg:'Master\'s student, SUTD',
+      image:'/members/ziyan.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=u8E2VQUAAAAJ&hl=en'
     },
     {
       name:'Zhihao Yuan',
