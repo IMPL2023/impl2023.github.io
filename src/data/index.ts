@@ -91,12 +91,24 @@ const data = {
   ],
   news:[
     {
+      date:'19 Sep 2025',
+      content:'One paper about 3D Fine-grained Embodied Reasoning vis MLLMs is accepted by NeurIPS 2025! Congratulations to Xinyi!'
+    },
+    {
       date:'17 Sep 2025',
       content:'We are delighted to welcome Dr. Sun Yanpeng to join our lab as research fellow!'
     },
     {
-      date:'5  Sep 2025',
+      date:'8 Sep 2025',
+      content:'Prof. Zhao Na is invited to give a talk at NEXUS Japan–Singapore Joint Workshop 2025.'
+    },
+    {
+      date:'5 Sep 2025',
       content:'We are delighted to welcome Pei Xuetong, a master student from Beihang University, to visit our lab!'
+    },
+    {
+      date:'23 Aug 2025',
+      content:'Prof. Zhao Na is invited to give a talk at ChinaMM 2025.'
     },
     {
       date:'16 Aug 2025',
@@ -1298,6 +1310,16 @@ const data = {
       mail:'',
       homepage:'https://w2kun.github.io/'
     },
+    {
+      name:'Yanpeng Sun',
+      type:'PostDoc',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., Nanjing University of Science and Technology',
+      image:'/members/yanpeng.png',
+      mail:'',
+      homepage:'https://scholar.google.com/citations?user=a3FI8c4AAAAJ&hl=zh-CN'
+    },
     
     {
       name:'Anweshan Bor',
@@ -1334,16 +1356,7 @@ const data = {
       homepage:''
     },
 
-    {
-      name:'Xinyi Wang',
-      type:'Visitor',
-      title:'Visiting Student',
-      comment:'',
-      bg:'PhD student, University of Science and Technology of China',
-      image:'/members/xinyi.png',
-      mail:'',
-      homepage:''
-    },
+    
     
     {
       name:'Jingyun Fu',
@@ -1398,6 +1411,16 @@ const data = {
       homepage:'https://scholar.google.com/citations?user=2_S2Fc0AAAAJ&hl=zh-CN'
     },
     {
+      name:'Xuetong Pei',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'M.Eng., Beihang University',
+      image:'/members/xuetong.png',
+      mail:'',
+      homepage:''
+    },
+    {
       name:'Nathan Linarto',
       type:'Master',
       title:'Master\'s Student',
@@ -1405,6 +1428,16 @@ const data = {
       bg:'B.Eng. (EEE), Nanyang Technological University',
       image:'/members/Nathan Linarto.png',
       mail:'nathan.linarto@amd.com',
+      homepage:''
+    },
+    {
+      name:'Xinyi Wang',
+      type:'Alumni',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, University of Science and Technology of China',
+      image:'/members/xinyi.png',
+      mail:'',
       homepage:''
     },
     {
