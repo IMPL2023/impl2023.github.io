@@ -651,6 +651,17 @@ const data = {
   ],
   papers:[
     {
+      image:'/papers/AffordBot.png',
+      title:'AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models',
+      authors:['Xinyi Wang', 'Xun Yang#', 'Yanlong Xu', 'Yuchen Wu', 'Zhen Li', 'Na Zhao#'],
+      content:'# indicates co-corresponding author',
+      comment:'39th Annual Conference on Neural Information Processing Systems (NeurIPS), 2025',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
       image:'/papers/Motionlab_teaser.png',
       title:'MotionLab: Unified Human Motion Generation and Editing via the Motion-Condition-Motion Paradigm',
       authors:['Ziyan Guo', 'Zeyu HU', 'De Wen Soh', 'Na Zhao*'],
@@ -1343,18 +1354,18 @@ const data = {
     //   mail:'',
     //   homepage:''
     // },
-    
-
     {
-      name:'Haiming Zhu',
+      name:'Xinyi Wang',
       type:'Visitor',
-      title:'Visiting Research Associate',
+      title:'Visiting Student',
       comment:'',
-      bg:'M.Eng., Tsinghua Shenzhen International Graduate School',
-      image:'/members/haiming.png',
+      bg:'PhD student, University of Science and Technology of China',
+      image:'/members/xinyi.png',
       mail:'',
       homepage:''
     },
+
+    
 
     
     
@@ -1369,16 +1380,7 @@ const data = {
       homepage:''
     },
     
-    {
-      name:'Jincheng Huang',
-      type:'Visitor',
-      title:'Visiting Student',
-      comment:'',
-      bg:'PhD student, University of Electronic Science and Technology of China',
-      image:'/members/jincheng.png',
-      mail:'',
-      homepage:'https://huangjc0429.github.io'
-    },
+    
     // {
     //   name:'Zongqian Wu',
     //   type:'Visitor',
@@ -1411,6 +1413,16 @@ const data = {
       homepage:'https://scholar.google.com/citations?user=2_S2Fc0AAAAJ&hl=zh-CN'
     },
     {
+      name:'Haiming Zhu',
+      type:'Visitor',
+      title:'Visiting Research Associate',
+      comment:'',
+      bg:'M.Eng., Tsinghua Shenzhen International Graduate School',
+      image:'/members/haiming.png',
+      mail:'',
+      homepage:''
+    },
+    {
       name:'Xuetong Pei',
       type:'Visitor',
       title:'Visiting Student',
@@ -1431,14 +1443,14 @@ const data = {
       homepage:''
     },
     {
-      name:'Xinyi Wang',
+      name:'Jincheng Huang',
       type:'Alumni',
       title:'Visiting Student',
       comment:'',
-      bg:'PhD student, University of Science and Technology of China',
-      image:'/members/xinyi.png',
+      bg:'PhD student, University of Electronic Science and Technology of China',
+      image:'/members/jincheng.png',
       mail:'',
-      homepage:''
+      homepage:'https://huangjc0429.github.io'
     },
     {
       name:'Ziyan Guo (co-advising)',
