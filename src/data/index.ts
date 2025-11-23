@@ -91,8 +91,24 @@ const data = {
   ],
   news:[
     {
+      date:'8 Nov 2025',
+      content:'Two papers about point cloud representation learning and radar-LiDAR scene flow estimation are accepted by AAAI 2026, for oral and poster presentations, respectively! Congratulations to Shangbo and Jingyun!'
+    },
+    {
+      date:'29 Oct 2025',
+      content:'We are delighted to welcome Wu Lei and Yu Jiale, PhD students from Harbin Institute of Technology and Beijing Jiaotong University, to our lab as visiting students!'
+    },
+    {
+      date:'28 Oct 2025',
+      content:'Prof. Zhao Na is invited to give a keynote talk at the workshop on Multimodal Foundation Models for Spatial Intelligence at ACM Multimedia 2025.'
+    },
+    {
+      date:'22 Oct 2025',
+      content:'Congratulations to Prof. Zhao Na on her new appointment as an Associate Editor for IEEE Transactions on Circuits and Systems for Video Technology (Impact factor: 8.4)!'
+    },
+    {
       date:'19 Sep 2025',
-      content:'One paper about 3D Fine-grained Embodied Reasoning vis MLLMs is accepted by NeurIPS 2025! Congratulations to Xinyi!'
+      content:'One paper about 3D Fine-grained Embodied Reasoning via MLLMs is accepted by NeurIPS 2025! Congratulations to Xinyi!'
     },
     {
       date:'17 Sep 2025',
@@ -112,7 +128,7 @@ const data = {
     },
     {
       date:'16 Aug 2025',
-      content:'Prof. Zhao Na is invited to serve as an area chair for ICLR 2026!'
+      content:'Prof. Zhao Na and Dr.  Xu Jie are invited to serve as an area chair for ICLR 2026!'
     },
     {
       date:'15 Aug 2025',
@@ -651,12 +667,34 @@ const data = {
   ],
   papers:[
     {
+      image:'/papers/RaLiFlow.png',
+      title:'RaLiFlow: Scene Flow Estimation with 4D Radar and LiDAR Point Clouds',
+      authors:['Jingyun Fu', 'Zhiyu Xiang#', 'Na Zhao#'],
+      content:'# indicates co-corresponding author',
+      comment:'40th AAAI Conference on Artificial Intelligence, 2026',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
+      image:'/papers/GraphSmoothing.png',
+      title:'Graph Smoothing for Enhanced Local Geometry Learning in Point Cloud Analysis',
+      authors:['Shangbo Yuan', 'Jie Xu', 'Na Zhao', 'Ping Hu', 'Xiaofeng Zhu'],
+      content:'',
+      comment:'40th AAAI Conference on Artificial Intelligence, 2026 Oral Presentation',
+      pdf:'https://na-z.github.io/',
+      video:'',
+      project:'',
+      code:'',
+    },
+    {
       image:'/papers/AffordBot.png',
       title:'AffordBot: 3D Fine-grained Embodied Reasoning via Multimodal Large Language Models',
       authors:['Xinyi Wang', 'Xun Yang#', 'Yanlong Xu', 'Yuchen Wu', 'Zhen Li', 'Na Zhao#'],
       content:'# indicates co-corresponding author',
       comment:'39th Annual Conference on Neural Information Processing Systems (NeurIPS), 2025',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://arxiv.org/pdf/2511.10017',
       video:'',
       project:'',
       code:'',
@@ -700,7 +738,7 @@ const data = {
       authors:['Jingqiao Xiu', 'Yicong Li', 'Na Zhao', 'Han Fang', 'Xiang Wang', 'Angela Yao'],
       content:'',
       comment:'International Conference on Computer Vision (ICCV), 2025',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://openaccess.thecvf.com/content/ICCV2025/papers/Xiu_Geometric_Alignment_and_Prior_Modulation_for_View-Guided_Point_Cloud_Completion_ICCV_2025_paper.pdf',
       video:'',
       project:'',
       code:'',
@@ -708,7 +746,7 @@ const data = {
     {
       image:'/papers/MARS_framework.png',
       title:'Look Before You Decide: Prompting Active Deduction of MLLMs for Assumptive Reasoning',
-      authors:['Yian Li', 'Wentao Tian', 'Yang Jiao', 'Jingjing Chen', 'Tianwen Qian', 'Bin Zhu', 'Na Zhao', 'Yu-Gang Jiang'],
+      authors:['Yian Li', 'Wentao Tian', 'Yang Jiao', 'Tianwen Qian',  'Na Zhao', 'Bin Zhu', 'Jingjing Chen', 'Yu-Gang Jiang'],
       content:'',
       comment:'ACM Multimedia (MM), 2025',
       pdf:'https://arxiv.org/pdf/2404.12966',
@@ -777,7 +815,7 @@ const data = {
       authors:["Jincai Song", "Haipeng Chen", "Jun Qin#", "Na Zhao#"],
       content:'# indicates co-corresponding author',
       comment:'IEEE Transactions on Multimedia (TMM), 2025',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://arxiv.org/pdf/2509.20785',
       video:'',
       project:'',
       code:'',
@@ -1369,16 +1407,7 @@ const data = {
 
     
     
-    {
-      name:'Jingyun Fu',
-      type:'Visitor',
-      title:'Visiting Student',
-      comment:'',
-      bg:'PhD student, Zhejiang University',
-      image:'/members/fujingyun.png',
-      mail:'',
-      homepage:''
-    },
+    
     
     
     // {
@@ -1440,6 +1469,17 @@ const data = {
       bg:'B.Eng. (EEE), Nanyang Technological University',
       image:'/members/Nathan Linarto.png',
       mail:'nathan.linarto@amd.com',
+      homepage:''
+    },
+
+    {
+      name:'Jingyun Fu',
+      type:'Alumni',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, Zhejiang University',
+      image:'/members/fujingyun.png',
+      mail:'',
       homepage:''
     },
     {
