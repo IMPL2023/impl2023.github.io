@@ -1393,6 +1393,16 @@ const data = {
     //   homepage:''
     // },
     {
+      name:'Ling Ma',
+      type:'Visitor',
+      title:'Visiting Professor',
+      comment:'',
+      bg:'Associate Professor, Nankai University COLLEGE OF SOFTWARE',
+      image:'/members/maling.png',
+      mail:'',
+      homepage:'https://csen.nankai.edu.cn/info/1028/1068.htm'
+    },
+    {
       name:'Xinyi Wang',
       type:'Visitor',
       title:'Visiting Student',
@@ -1403,12 +1413,6 @@ const data = {
       homepage:''
     },
 
-    
-
-    
-    
-    
-    
     
     // {
     //   name:'Zongqian Wu',
@@ -1461,6 +1465,27 @@ const data = {
       mail:'',
       homepage:''
     },
+    {
+      name:'Lei Wu',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, Harbin Institute of Technology',
+      image:'/members/wulei.png',
+      mail:'',
+      homepage:''
+    },
+    {
+      name:'Jiale Yu',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, Beijing Jiaotong University',
+      image:'/members/yujiale.png',
+      mail:'',
+      homepage:'https://orcid.org/0000-0002-9335-0151'
+    },
+
     {
       name:'Nathan Linarto',
       type:'Master',
