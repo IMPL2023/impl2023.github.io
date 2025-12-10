@@ -90,6 +90,11 @@ const data = {
     },
   ],
   news:[
+   
+    {
+      date:'19 Nov 2025',
+      content:'We are delighted to welcome Prof. Ma Ling, an associate professor from Nankai University, to our lab as a visiting professor!'
+    },
     {
       date:'8 Nov 2025',
       content:'Two papers about point cloud representation learning and radar-LiDAR scene flow estimation are accepted by AAAI 2026, for oral and poster presentations, respectively! Congratulations to Shangbo and Jingyun!'
@@ -680,7 +685,7 @@ const data = {
     {
       image:'/papers/GraphSmoothing.png',
       title:'Graph Smoothing for Enhanced Local Geometry Learning in Point Cloud Analysis',
-      authors:['Shangbo Yuan', 'Jie Xu', 'Na Zhao', 'Ping Hu', 'Xiaofeng Zhu'],
+      authors:['Shangbo Yuan', 'Jie Xu', 'Ping Hu', 'Xiaofeng Zhu', 'Na Zhao'],
       content:'',
       comment:'40th AAAI Conference on Artificial Intelligence, 2026 Oral Presentation',
       pdf:'https://na-z.github.io/',
