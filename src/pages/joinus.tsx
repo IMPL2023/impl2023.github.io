@@ -23,43 +23,43 @@ const Joinus: FC = () => {
     <Layout>
       <div className='space-y-5 max-w-7xl w-full mx-auto p-5 md:p-0'>
         <p className="w-4/5 md:w-4/5 text-white text-xl">
-        We are currently looking for self-motivated PhD students (starting from January 2026 or later), 
-        Post-docs (starting at any time), and Visiting graduate students (CSC-funded or self-funded) 
-        to work together on 3D computer vision. The specific research topics include (but are not limited to):
+        We are currently looking for self-motivated PhD students (starting from Fall 2026 or later), 
+        Post-docs (starting at any time), and Visiting graduate students (CSC-funded or self-funded) to work 
+        together on 3D computer vision. The specific research topics include (but are not limited to):
         </p>
         <div className="w-4/5 md:w-4/5 text-textDark  pl-4">
           <ol style={{ listStyleType: 'decimal' }}>
             <li style={{ padding: '2px' }}>
-              <b className='text-white pl-1'>3D Scene Understanding with practical learning problems</b>:
+              <b className='text-white pl-1'>3D Scene Understanding with the following practical learning problems</b>:
               <ol style={{ listStyleType: 'disc' }}>
-                <li>Data-efficient learning (e.g., semi-supervised, few-shot learning, self-supervised learning, active learning)</li>
-                <li>Multi-modal joint learning</li>
-                <li>Out-of-distribution learning (e.g., domain adaptation/generalization, open-vocabulary)</li>
-                <li>Multi-task learning</li>
+                <li>Data-efficient learning (e.g., semi-supervised, few-shot, and active learning)</li>
+                <li>Multi-modal joint learning (modalities include text, images, depth maps, and point clouds)</li>
+                <li>Out-of-distribution learning (e.g., domain adaptation/generalization, open-vocabulary learning)</li>
                 <li>Continual learning</li>
               </ol>
             </li>
             <li style={{ padding: '2px' }}>
-            <b className='text-white pl-1'>3D Scene Reconstruction</b>:
+            <b className='text-white pl-1'>3D Scene Reconstruction and Generation/Editing</b>:
               <ol style={{ listStyleType: 'disc' }}>
                 <li>Generalizable 3D scene reconstruction</li>
-                <li>Simultaneous 3D scene reconstruction and understanding</li>
-                <li>Holistic 3D scene reconstruction (reconstruct both objects and humans)</li>
-                <li>3D scene reconstruction and editing/generation</li>
+                <li>Dynamic 3D scene reconstruction</li>
+                <li>3D/4D scene generation</li>
+                <li>3D/4D scene editing</li>
               </ol>
             </li>
-            <li style={{ padding: '2px' }}>
+            {/* <li style={{ padding: '2px' }}>
             <b className='text-white pl-1'>3D Scene Generation and Editing</b>:
               <ol style={{ listStyleType: 'disc' }}>
                 <li>Text-to-3D</li>
                 <li>Image-to-3D</li>
               </ol>
-            </li>
+            </li> */}
             <li style={{ padding: '2px' }}>
-            <b className='text-white pl-1'>Embodied Task-Oriented Learning</b>:
+            <b className='text-white pl-1'>Embodied AI</b>:
               <ol style={{ listStyleType: 'disc' }}>
-                <li>Object grasping</li>
-                <li>Object manipulation</li>
+                <li>Embodied perception (active perception)</li>
+                <li>Embodied navigation</li>
+                <li>Embodied manipulation</li>
               </ol>
             </li>
           </ol>
@@ -115,21 +115,21 @@ const Joinus: FC = () => {
                   SUTD PhD Programme</a>
                 </b>.
               </li>
-              <li style={{ padding: '2px' }}>
+              {/* <li style={{ padding: '2px' }}>
                 SINGA Scholarship: The application deadline for 
                 <b className='text-white pl-1'> Fall 2026 </b> admission is 
                 <b className='text-white pl-1'> 1 December 2025</b>. 
                 For more details, please see  
                 <b className='text-white pl-1'>     <a  style={{ textDecoration: 'underline' }} href='https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa'>
                   SINGA</a></b>.
-              </li>
+              </li> */}
               <li style={{ padding: '2px' }}>
                 If you have published a top conference paper as the first author, 
-                you can also apply for the AISG Scholarship (6300 SGD per month 
+                you can also apply for the AISG Scholarship (6700 SGD per month 
                 for international students). The application deadline for 
-                <b className='text-white pl-1'>January 2026 </b> 
+                <b className='text-white pl-1'>September 2026 </b> 
                  admission is 
-                <b className='text-white pl-1'>30 September 2025 </b>. 
+                <b className='text-white pl-1'>31 March 2026 </b>. 
                 For more details, please see  
                 <b className='text-white pl-1'>     <a  style={{ textDecoration: 'underline' }} href='https://aisingapore.org/research/phd-fellowship-programme/'>
                   AISG PhD Fellowship Programme
