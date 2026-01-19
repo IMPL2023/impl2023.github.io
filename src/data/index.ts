@@ -1531,6 +1531,16 @@ const data = {
       mail:'',
       homepage:'https://orcid.org/0000-0002-9335-0151'
     },
+    {
+      name:'Xiaoya Cheng',
+      type:'Visitor',
+      title:'Visiting Student',
+      comment:'',
+      bg:'PhD student, National University of Defense Technology',
+      image:'/members/xiaoya.png',
+      mail:'',
+      homepage:''
+    },
 
     {
       name:'Nathan Linarto',
