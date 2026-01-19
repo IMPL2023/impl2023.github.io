@@ -92,6 +92,10 @@ const data = {
   news:[
    
     {
+      date:'18 Jan 2026',
+      content:'We are delighted to welcome Xiaoya Cheng, PhD student from National University of Defense Technology, to join our lab as a visiting student!'
+    },
+    {
       date:'19 Nov 2025',
       content:'We are delighted to welcome Prof. Ma Ling, an associate professor from Nankai University, to our lab as a visiting professor!'
     },
@@ -109,7 +113,7 @@ const data = {
     },
     {
       date:'22 Oct 2025',
-      content:'Congratulations to Prof. Zhao Na on her new appointment as an Associate Editor for IEEE Transactions on Circuits and Systems for Video Technology (Impact factor: 8.4)!'
+      content:'Congratulations to Prof. Zhao Na on her new appointment as an Associate Editor for IEEE Transactions on Circuits and Systems for Video Technology (Impact factor: 11.1)!'
     },
     {
       date:'19 Sep 2025',
@@ -202,7 +206,7 @@ const data = {
     },
     {
       date:'14 Feb 2025',
-      content:'Congratulations to Prof. Zhao Na on her new appointment as an Associate Editor for Knowledge-based Systems (Impact factor: 7.2)!'
+      content:'Congratulations to Prof. Zhao Na on her new appointment as an Associate Editor for Knowledge-based Systems (Impact factor: 7.6)!'
     },
     {
       date:'13 Feb 2025',
@@ -1322,6 +1326,7 @@ const data = {
     
     
     
+
     {
       name:'Jie Xu',
       type:'PostDoc',
@@ -1374,7 +1379,16 @@ const data = {
       mail:'',
       homepage:'https://scholar.google.com/citations?user=a3FI8c4AAAAJ&hl=zh-CN'
     },
-    
+    {
+      name:'Jian Liu',
+      type:'PostDoc',
+      title:'Research Fellow',
+      comment:'',
+      bg:'Ph.D., Hunan University',
+      image:'/members/liujian.png',
+      mail:'jianliu666.cn@gmail.com',
+      homepage:'https://cnjliu.github.io/'
+    },
     {
       name:'Anweshan Bor',
       type:'RA',

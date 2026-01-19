@@ -108,7 +108,7 @@ const Joinus: FC = () => {
         <div className="w-4/5 md:w-4/5 text-textDark pl-4 ">
           <ol style={{ listStyleType: 'decimal' }}>
               <li style={{ padding: '2px' }}>
-                SUTD Graduate Fellowship: The application deadline for <b className='text-white pl-1'>January 2026</b> is <b className='text-white pl-1'>30 September 2025</b>. 
+                SUTD Graduate Fellowship: The application deadline for <b className='text-white pl-1'>September 2026</b> is <b className='text-white pl-1'>15 April 2026</b>. 
                 For more details, please see   
                 <b className='text-white pl-1'>     
                   <a  style={{ textDecoration: 'underline' }} href='https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/financing/scholarship/'>
