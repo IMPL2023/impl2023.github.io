@@ -96,6 +96,22 @@ const data = {
       content:'We are delighted to welcome Xiaoya Cheng, PhD student from National University of Defense Technology, to join our lab as a visiting student!'
     },
     {
+      date:'8 Jan 2026',
+      content:'Prof. Zhao Na is invited to serve as senior Area Chair at IEEE ICME 2026!'
+    },
+    {
+      date:'7 Jan 2026',
+      content:'We are delighted to welcome Dr. Liu Jian to join our lab as a research fellow!'
+    },
+    {
+      date:'6 Jan 2026',
+      content:'One paper about incremental few-shot semantic segmentation is accepted by TIP 2026! Congratulations to all co-authors!'
+    },
+    {
+      date:'23 Dec 2025',
+      content:'Prof. Zhao Na is invited to serve as Publicity Chair at ACM ICMR 2026!'
+    },
+    {
       date:'19 Nov 2025',
       content:'We are delighted to welcome Prof. Ma Ling, an associate professor from Nankai University, to our lab as a visiting professor!'
     },
@@ -676,12 +692,23 @@ const data = {
   ],
   papers:[
     {
+      image:'/papers/ifss-diff.png',
+      title:'Towards Generative Understanding: Incremental Few-shot Semantic Segmentation with Diffusion Models',
+      authors:['Qun Li', 'Lu Huang', 'Fu Xiao', 'Na Zhao', 'Bir Bhanu'],
+      content:'',
+      comment:'IEEE Transactions on Image Processing (TIP), 2026',
+      pdf:'https://ieeexplore.ieee.org/document/11353366',
+      video:'',
+      project:'https://ifss-diff.github.io/',
+      code:'https://github.com/totoropink/iFSS-Diff',
+    },
+    {
       image:'/papers/RaLiFlow.png',
       title:'RaLiFlow: Scene Flow Estimation with 4D Radar and LiDAR Point Clouds',
       authors:['Jingyun Fu', 'Zhiyu Xiang#', 'Na Zhao#'],
       content:'# indicates co-corresponding author',
       comment:'40th AAAI Conference on Artificial Intelligence, 2026',
-      pdf:'https://github.com/FuJingyun/RaLiFlow',
+      pdf:'https://arxiv.org/abs/2512.10376',
       video:'',
       project:'',
       code:'https://github.com/FuJingyun/RaLiFlow',
@@ -692,7 +719,7 @@ const data = {
       authors:['Shangbo Yuan', 'Jie Xu', 'Ping Hu', 'Xiaofeng Zhu', 'Na Zhao'],
       content:'',
       comment:'40th AAAI Conference on Artificial Intelligence, 2026 Oral Presentation',
-      pdf:'https://na-z.github.io/',
+      pdf:'https://www.arxiv.org/abs/2601.11102',
       video:'',
       project:'',
       code:'https://github.com/shangboyuan/GSPoint',
