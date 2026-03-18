@@ -16,7 +16,7 @@ export const Title: FC<TitleProps> = ({ title }) => {
       <h2 className="text-3xl md:text-4xl text-text">
         <span className="text-neon font-fira"></span> {title}
       </h2>
-      <LineSvg className="relative md:w-96 hidden md:inline-flex !ml-10" />
+      <LineSvg className="relative hidden text-textDark/70 md:inline-flex md:w-96 !ml-10" />
     </div>
   );
 };

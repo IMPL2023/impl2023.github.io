@@ -1,76 +1,45 @@
 import data from '@/data';
 import { motion } from 'framer-motion';
 import React from 'react';
-import { Link } from 'react-scroll';
 import Image from 'next/image';
+
 export const Intro = () => {
   return (
-    <motion.div
+    <motion.section
       animate={{ y: 0 }}
-      className="space-y-5 max-w-7xl w-full mx-auto p-5 md:p-0"
+      className="relative mx-auto w-full max-w-7xl overflow-hidden rounded-2xl p-5 md:p-8"
       id="intro"
       initial={{ y: 40 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="w-3/5 md:w-3/5 text-textDark float-left">
-        <div className="w-5/5 md:w-5/5 text-textDark ">
-          <p className="text-2xl text-neon font-fira">Welcome to </p>
-          <h1 className="text-5xl font-extrabold text-text md:text-5xl">
-            Intelligent Machine Perception Lab
+      <div className="absolute inset-0 -z-10">
+        <Image
+          alt="SUTD campus background"
+          className="scale-105 object-cover blur-xl"
+          fill
+          priority
+          src={data.school}
+        />
+        <div className="absolute inset-0 bg-bgblue/55" />
+      </div>
+
+      <div className="flex min-h-[560px] items-center px-8 py-10 md:px-10">
+        <div className="max-w-4xl text-white">
+          <p className="text-2xl font-fira text-white/90">Welcome to</p>
+          <h1 className="mt-2 text-5xl font-extrabold leading-tight md:text-7xl">
+            Intelligent Machine
+            <br />
+            Perception Lab
           </h1>
-          <h2 className="text-4xl text-textDark md:text-2xl">
-          at Singapore University of Technology and Design
+          <h2 className="mt-4 text-4xl text-white/90 md:text-5xl">
+            at Singapore University of Technology and Design
           </h2>
-        </div>
-      
-        <div className="w-5/5 md:w-5/5 text-textDark ">
-          <span className="text-neon">{data.intro} </span>
-          <p>
-            {data.intro2}
-          </p>
-          <p>
-            {data.intro3}
-          </p>
-          
+          <p className="mt-6 text-lg leading-8 text-white/90">{data.intro}</p>
+          <p className="text-lg leading-8 text-white/90">{data.intro2}</p>
+          <p className="text-lg leading-8 text-white/90">{data.intro3}</p>
+          <p className="text-lg leading-8 text-white/90">{data.intro4}</p>
         </div>
       </div>
-      <Image
-          alt='data.username'
-          className="object-contain float-left w-3/9 "
-          height={400}
-          src={data.school}
-          width={500}
-      />
-      
-      {/* <div className="flex space-x-3">
-        <Link
-          activeClass="active"
-          duration={500}
-          href="contact"
-          offset={-100}
-          smooth={true}
-          spy={true}
-          to="contact"
-        >
-          <button className="py-2 px-5 !mt-10 hover:bg-neon hover:border-neon hover:backdrop-blur-lg hover:text-darkerBlue duration-100 border-neon border-2 text-neon rounded-lg">
-            Reach out to me!
-          </button>
-        </Link>
-
-        <Link
-          activeClass="active"
-          duration={500}
-          href="contact"
-          offset={-100}
-          smooth={true}
-          spy={true}
-          to="work"
-        >
-          <button className="py-2 px-5 !mt-10 text-darkerBlue bg-neon border-neon hover:bg-transparent duration-100 hover:text-neon border-2 rounded-lg">
-            Check out my work!
-          </button>
-        </Link>
-      </div> */}
-    </motion.div>
+    </motion.section>
   );
 };

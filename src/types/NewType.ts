@@ -1,6 +1,16 @@
+type NewsCategory =
+  | 'paper'
+  | 'join'
+  | 'visit'
+  | 'service'
+  | 'talk'
+  | 'grant'
+  | 'milestone';
+
 interface NewType {
-  date:String
-  content:String
+  date: string;
+  content: string;
+  category?: NewsCategory;
 }
 
-export type { NewType };
+export type { NewType, NewsCategory };

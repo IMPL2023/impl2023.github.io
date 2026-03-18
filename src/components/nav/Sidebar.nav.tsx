@@ -20,7 +20,7 @@ const SideBar: NextComponentType = () => {
       )}
 
       <div
-        className={`bg-bgblue px-10 flex-col gap-4 flex md:hidden justify-center items-center fixed min-h-[120vh] top-0 right-0 z-50
+        className={`bg-bgblue/95 backdrop-blur-md px-10 flex-col gap-4 flex md:hidden justify-center items-center fixed min-h-[120vh] top-0 right-0 z-50
                     transition-all duration-500 ease-in-out 
                     ${showSidebar ? 'translate-x-0 ' : 'translate-x-full'}`}
       >

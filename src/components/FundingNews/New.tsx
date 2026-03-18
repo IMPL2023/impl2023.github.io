@@ -1,7 +1,5 @@
-
 import { NewType } from '@/types';
 import { FC } from 'react';
-import Image from 'next/image';
 
 interface NewProps {
   New_i: NewType;
@@ -9,8 +7,11 @@ interface NewProps {
 
 export const New: FC<NewProps> = ({ New_i }) => {
   return (
-    <article className="flex flex-col items-center mt-4 md:flex-row text-neon text-1xl text-textDark">
-      <p><b>[{New_i.date}]</b>:   {New_i.content}</p>
+    <article className="mt-4 flex flex-row items-start gap-2 text-base">
+      <span className="whitespace-nowrap font-semibold text-textDark">
+        [{New_i.date}]
+      </span>
+      <p className="flex-1 leading-relaxed text-text">{New_i.content}</p>
     </article>
   );
 };

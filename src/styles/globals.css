@@ -8,13 +8,24 @@
 .italic-text {
   font-style: italic;
 }
-.inline_img{
+.inline_img {
   display: inline;
 }
 
 @layer components {
   body {
     @apply w-screen overflow-x-hidden bg-bgblue font-sora text-text;
+    background-image: radial-gradient(
+        circle at 14% 18%,
+        rgba(29, 78, 216, 0.12),
+        transparent 40%
+      ),
+      radial-gradient(
+        circle at 82% 72%,
+        rgba(14, 165, 233, 0.1),
+        transparent 46%
+      );
+    background-attachment: fixed;
   }
 }
 
@@ -24,14 +35,14 @@ body::-webkit-scrollbar,
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #c7d3ff;
-  border: 3px solid var(--navy);
+  background-color: #1d4ed8;
+  border: 3px solid #dbeafe;
   border-radius: 10px;
 }
 
 body::-webkit-scrollbar-track {
-  /* background: #222e50 !important; */
-  background: #41403c !important;
+  /* background: #eaf2ff !important; */
+  background: #eaf2ff !important;
 }
 
 .hideScrollBar::-webkit-scrollbar-thumb {
@@ -53,7 +64,7 @@ body::-webkit-scrollbar-track {
 
 .neon-underline:hover {
   text-decoration: underline;
-  text-decoration-color: #52dee5;
+  text-decoration-color: #0284c7;
 }
 .slide-container {
   position: relative;

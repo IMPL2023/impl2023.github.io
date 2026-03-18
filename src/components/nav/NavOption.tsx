@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { Link } from 'react-scroll';
-import { useRouter } from "next/router";
+import { useRouter } from 'next/router';
 interface INavOption {
   item: {
     name: string;
@@ -12,7 +12,7 @@ interface INavOption {
 const NavOption: FC<INavOption> = ({ item }) => {
   const router = useRouter();
   return (
-    <p className="border-b-2 border-transparent cursor-pointer text-text hover:border-neon">
+    <p className="cursor-pointer border-b-2 border-transparent text-text transition-colors hover:border-neon hover:text-neon">
       <Link
         activeClass="active"
         duration={500}
