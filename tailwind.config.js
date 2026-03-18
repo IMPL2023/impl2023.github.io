@@ -3,18 +3,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // neon: '#52DEE5',
-        card:'#212529',
-        neon:'white',
-        // text: '#C7D3FF',
-        text: '#F1EFEF',
-        textDark: '#A1ABBF',
-        // bgblue: '#030B2E',
-        // bgblue: '#501c95',
-        // bgblue: '#3a0088',
-        bgblue: '#373632',
-        bgwhite:'white',
-        white:'white',
+        card: '#FDFEFF',
+        neon: '#335C85',
+        text: '#102A43',
+        textDark: '#4E6178',
+        bgblue: '#F7FAFF',
+        bgwhite: '#8AAED6',
+        white: 'white',
+        red: 'red',
         darkerBlue: '#0A192F',
       },
       fontFamily: {
