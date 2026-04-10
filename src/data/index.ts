@@ -111,7 +111,7 @@ const data = {
       date: '18 Jan 2026',
       content:
         'We are delighted to welcome Xiaoya Cheng, PhD student from National University of Defense Technology, to join our lab as a visiting student!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '8 Jan 2026',
@@ -141,7 +141,7 @@ const data = {
       date: '19 Nov 2025',
       content:
         'We are delighted to welcome Prof. Ma Ling, an associate professor from Nankai University, to our lab as a visiting professor!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '8 Nov 2025',
@@ -153,7 +153,7 @@ const data = {
       date: '29 Oct 2025',
       content:
         'We are delighted to welcome Wu Lei and Yu Jiale, PhD students from Harbin Institute of Technology and Beijing Jiaotong University, to our lab as visiting students!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '28 Oct 2025',
@@ -189,7 +189,7 @@ const data = {
       date: '5 Sep 2025',
       content:
         'We are delighted to welcome Pei Xuetong, a master student from Beihang University, to visit our lab!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '23 Aug 2025',
@@ -206,7 +206,7 @@ const data = {
       date: '15 Aug 2025',
       content:
         "We are delighted to welcome Zhu Haiming, a master's graduate from Tsinghua SIGS, to join our lab as a visiting researcher!",
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '7 Jul 2025',
@@ -224,7 +224,7 @@ const data = {
       date: '1 Jul 2025',
       content:
         'We are delighted to welcome Yuan Shangbo, a PhD student from UESTC, to visit our lab!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '26 Jun 2025',
@@ -241,7 +241,7 @@ const data = {
       date: '20 May 2025',
       content:
         'We are delighted to welcome Zhu Yun, a PhD student from NJUST, to visit our lab!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '19 May 2025',
@@ -307,7 +307,7 @@ const data = {
       date: '13 Feb 2025',
       content:
         'We are delighted to welcome Yuan Zhihao, a PhD student from CUHK (SZ), to visit our lab!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '10 Feb 2025',
@@ -355,7 +355,7 @@ const data = {
       date: '25 Nov 2024',
       content:
         'We are delighted to welcome Fu Jingyun, a PhD student from ZJU, to visit our lab!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '15 Nov 2024',
@@ -397,7 +397,7 @@ const data = {
       date: '18 Aug 2024',
       content:
         'Congratulations to Prof. Zhao Na on her new appointment as a Technical Committee Member for IEEE-CAS Multimedia Systems and Applications (MSA).',
-      category: 'milestone',
+      category: 'service',
     },
     // {
     //   date:'18 August 2024',
@@ -407,7 +407,7 @@ const data = {
       date: '15 Aug 2024',
       content:
         'We are delighted to welcome Wang Xinyi, a PhD student from USTC, to visit our lab!',
-      category: 'visit',
+      category: 'join',
     },
     // {
     //   date:'13 August 2024',
@@ -452,13 +452,13 @@ const data = {
       date: '18 Apr 2024',
       content:
         'Prof. Zhao Na is invited to chair a session at ICRA 2024, Japan',
-      category: 'milestone',
+      category: 'service',
     },
     {
       date: '26 Mar 2024',
       content:
         'Congratulations to Wu Yuchen on receiving the SUTD PhD scholarship! He will be joining us as a PhD student in September 2024.',
-      category: 'milestone',
+      category: 'service',
     },
     {
       date: '22 Mar 2024',
@@ -470,7 +470,7 @@ const data = {
       date: '11 Mar 2024',
       content:
         'Congratulations to Hong Zexian for obtaining his master’s degree from NTU and continuing as a senior research assistant with us!',
-      category: 'milestone',
+      category: 'service',
     },
     {
       date: '1 Mar 2024',
@@ -488,7 +488,7 @@ const data = {
       date: '12 Feb 2024',
       content:
         'We are thrilled to welcome Prof. Liao Yiyi, our collaborator on the SUTD-ZJU project, for a two-week visit to our lab!',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '29 Jan 2024',
@@ -504,7 +504,7 @@ const data = {
       date: '08 Jan 2024',
       content:
         'We are delighted to welcome Zhang Jie, a master student from XJUT, to visit our lab.',
-      category: 'visit',
+      category: 'join',
     },
     // {
     //   date:'23 Dec 2023',
@@ -536,7 +536,7 @@ const data = {
       date: '14 Oct 2023',
       content:
         'We are delighted to welcome Zhuang Guohang, a PhD student from HFUT, to visit our lab.',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '15 Sep 2023',
@@ -558,7 +558,7 @@ const data = {
       date: '19 Aug 2023',
       content:
         'We are delighted to welcome Jia Heng, a PhD student from ZJU, to visit our lab.',
-      category: 'visit',
+      category: 'join',
     },
     {
       date: '25 Aug 2023',
@@ -634,7 +634,7 @@ const data = {
       date: '25 Apr 2023',
       content:
         'We are delighted to welcome Jiao Pengkun, a PhD student from FDU, to visit our lab.',
-      category: 'visit',
+      category: 'join',
     },
     // {
     //       date:'09 Apr 2023',
@@ -672,7 +672,7 @@ const data = {
       date: '15 Nov 2022',
       content:
         'Prof. Zhao Na is invited to join the Organising Committee of IEEE ICME 2023 Workshop on 3D Multimedia Analytics, Search and Generation!',
-      category: 'talk',
+      category: 'service',
     },
     // {
     //       date:'02 Nov 2022',
@@ -698,7 +698,7 @@ const data = {
       date: '01 Aug 2022',
       content:
         'Prof. Zhao Na joins the Singapore University of Technology and Design as an Assistant Professor!',
-      category: 'milestone',
+      category: 'service',
     },
 
     // {
@@ -1739,6 +1739,8 @@ const data = {
       image: '/members/xujie.png',
       mail: 'jie_xu2@sutd.edu.sg',
       homepage: 'https://scholar.google.com/citations?user=YT1_9swAAAAJ&hl=en',
+      period: 'February, 2025 – present',
+      role: 'Research Fellow',
     },
 
     {
@@ -1751,6 +1753,8 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com/citations?user=AFsLiBcAAAAJ&hl=zh-CN',
+      period: 'April, 2025 – present',
+      role: 'Research Fellow',
     },
 
     {
@@ -1763,6 +1767,8 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com/citations?user=CVP8vGEAAAAJ&hl=zh-CN',
+      period: 'April, 2025 – present',
+      role: 'Senior Research Assistant',
     },
     {
       name: 'Kun Wang',
@@ -1773,6 +1779,8 @@ const data = {
       image: '/members/kunwang.png',
       mail: '',
       homepage: 'https://w2kun.github.io/',
+      period: 'July, 2025 – present',
+      role: 'Research Fellow',
     },
     {
       name: 'Yanpeng Sun',
@@ -1784,6 +1792,8 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com/citations?user=a3FI8c4AAAAJ&hl=zh-CN',
+      period: 'September, 2025 – present',
+      role: 'Research Fellow',
     },
     {
       name: 'Jian Liu',
@@ -1794,6 +1804,8 @@ const data = {
       image: '/members/liujian.png',
       mail: 'jianliu666.cn@gmail.com',
       homepage: 'https://cnjliu.github.io/',
+      period: 'January, 2026 – present',
+      role: 'Research Fellow',
     },
     {
       name: 'Anweshan Bor',
@@ -1805,6 +1817,8 @@ const data = {
       image: '/members/anweshanbor.png',
       mail: '',
       homepage: 'https://www.linkedin.com/in/anweshanbor/?originalSubdomain=sg',
+      period: 'May, 2025 – present',
+      role: 'Senior Research Assistant',
     },
 
     // {
@@ -1818,21 +1832,23 @@ const data = {
     //   homepage:''
     // },
     {
-      name: 'Ling Ma',
+      name: 'Lin Ma',
       type: 'Visitor',
       title: 'Visiting Professor',
       comment: '',
-      bg: 'Associate Professor, Nankai University COLLEGE OF SOFTWARE',
+      bg: 'Associate Professor, Nankai University College of Software',
       image: '/members/maling.png',
       mail: '',
       homepage: 'https://csen.nankai.edu.cn/info/1028/1068.htm',
+      period: 'November, 2025 – present',
+      role: 'Visiting Professor, Nankai University',
     },
     {
       name: 'Xinyi Wang',
       type: 'Visitor',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, University of Science and Technology of China',
+      bg: 'Ph.D. student, University of Science and Technology of China',
       image: '/members/xinyi.png',
       mail: '',
       homepage: '',
@@ -1859,17 +1875,21 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com.hk/citations?user=eIZeK58AAAAJ&hl=zh-CN',
+      period: 'May, 2025 – present',
+      role: 'Visiting Ph.D. Student, NJUST',
     },
     {
       name: 'Shangbo Yuan',
       type: 'Visitor',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, University of Electronic Science and Technology of China',
+      bg: 'Ph.D. student, University of Electronic Science and Technology of China',
       image: '/members/shangbo.png',
       mail: '',
       homepage:
         'https://scholar.google.com/citations?user=2_S2Fc0AAAAJ&hl=zh-CN',
+      period: 'July, 2025 – present',
+      role: 'Visiting Ph.D. Student, UESTC',
     },
     {
       name: 'Haiming Zhu',
@@ -1880,6 +1900,8 @@ const data = {
       image: '/members/haiming.png',
       mail: '',
       homepage: '',
+      period: 'August, 2025 – present',
+      role: 'Visiting Researcher, Tsinghua SIGS',
     },
     {
       name: 'Xuetong Pei',
@@ -1890,36 +1912,44 @@ const data = {
       image: '/members/xuetong.png',
       mail: '',
       homepage: '',
+      period: 'September, 2025 – present',
+      role: "Visiting Master's Student, Beihang University",
     },
     {
       name: 'Lei Wu',
       type: 'Visitor',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, Harbin Institute of Technology',
+      bg: 'Ph.D. student, Harbin Institute of Technology',
       image: '/members/wulei.png',
       mail: '',
       homepage: '',
+      period: 'October, 2025 – present',
+      role: 'Visiting Ph.D. Student, Harbin Institute of Technology',
     },
     {
       name: 'Jiale Yu',
       type: 'Visitor',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, Beijing Jiaotong University',
+      bg: 'Ph.D. student, Beijing Jiaotong University',
       image: '/members/yujiale.png',
       mail: '',
       homepage: 'https://orcid.org/0000-0002-9335-0151',
+      period: 'October, 2025 – present',
+      role: 'Visiting Ph.D. Student, Beijing Jiaotong University',
     },
     {
       name: 'Xiaoya Cheng',
       type: 'Visitor',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, National University of Defense Technology',
+      bg: 'Ph.D. student, National University of Defense Technology',
       image: '/members/xiaoya.png',
       mail: '',
       homepage: '',
+      period: 'January, 2026 – present',
+      role: 'Visiting Ph.D. Student, NUDT',
     },
 
     {
@@ -1938,55 +1968,67 @@ const data = {
       type: 'Alumni',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, Zhejiang University',
+      bg: 'Ph.D. student, Zhejiang University',
       image: '/members/fujingyun.png',
       mail: '',
       homepage: '',
       destination: 'Zhejiang University',
+      period: 'November, 2024 – November, 2025',
+      alumniGroup: 'Visitors',
+      role: 'Visiting Ph.D. Student',
     },
+    // {
+    //   name: 'Jincheng Huang',
+    //   type: 'Alumni',
+    //   title: 'Visiting Student',
+    //   comment: '',
+    //   bg: 'PhD student, University of Electronic Science and Technology of China',
+    //   image: '/members/jincheng.png',
+    //   mail: '',
+    //   homepage: 'https://huangjc0429.github.io',
+    //   destination: 'University of Electronic Science and Technology of China',
+    // },
     {
-      name: 'Jincheng Huang',
-      type: 'Alumni',
-      title: 'Visiting Student',
-      comment: '',
-      bg: 'PhD student, University of Electronic Science and Technology of China',
-      image: '/members/jincheng.png',
-      mail: '',
-      homepage: 'https://huangjc0429.github.io',
-      destination: 'University of Electronic Science and Technology of China',
-    },
-    {
-      name: 'Ziyan Guo (co-advising)',
+      name: 'Ziyan Guo',
       type: 'Alumni',
       title: '',
-      comment: 'Sep 2024 - July 2025',
-      bg: "Master's student, SUTD",
+      comment: '',
+      bg: '',
       image: '/members/ziyan.png',
       mail: '',
       homepage: 'https://scholar.google.com/citations?user=u8E2VQUAAAAJ&hl=en',
-      destination: 'Hong Kong University of Science and Technology',
+      destination: 'Ph.D. student, HKUST',
+      period: 'January 2024 – July 2025',
+      alumniGroup: 'Graduate',
+      role: "Master's Student, Co-supervisor",
     },
     {
-      name: 'Zhihao Yuan',
+      name: 'Zihao Yuan',
       type: 'Alumni',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, The Chinese Universtiy of Hong Kong, Shenzhen',
+      bg: 'Ph.D. student, The Chinese Universtiy of Hong Kong, Shenzhen',
       image: '/members/zhihao.png',
       mail: '',
       homepage: 'https://scholar.google.com/citations?user=jLqS89IAAAAJ&hl=en',
-      destination: "Huawei Noah's Ark Lab",
+      destination: 'Research Scientist, Huawei',
+      period: 'February – June, 2025',
+      alumniGroup: 'Visitors',
+      role: 'Visiting Ph.D. Student',
     },
     {
       name: 'Vishal Thengane',
       type: 'Alumni',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, University of Surrey',
+      bg: 'Ph.D. student, University of Surrey',
       image: '/members/Vishal.png',
       mail: '',
       homepage: 'https://vgthengane.github.io/',
-      destination: 'University of Wollongong',
+      destination: 'University of Surrey',
+      period: 'August, 2024 – May, 2025',
+      alumniGroup: 'Visitors',
+      role: 'Visiting Ph.D. Student',
     },
     {
       name: 'Qiongjie Cui',
@@ -1998,7 +2040,10 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com.hk/citations?user=VoPGwJQAAAAJ&hl=zh-CN',
-      destination: "Xi'an Jiaotong University",
+      destination: "Assoc. Professor, Xi'an Jiaotong University",
+      period: 'March, 2024 – May, 2025',
+      alumniGroup: 'Research Staff',
+      role: 'Research Fellow',
     },
     {
       name: 'Qun Li',
@@ -2010,6 +2055,9 @@ const data = {
       mail: '',
       homepage: 'https://scholar.google.com/citations?user=hQZFOQYAAAAJ&hl=en',
       destination: 'Nanjing University of Posts and Telecommunications',
+      period: 'August, 2024 – March, 2025',
+      alumniGroup: 'Visitors',
+      role: 'Visiting Professor, Nanjing University of Posts and Telecommunications',
     },
     // {
     //   name: 'Zhoutao Wang',
@@ -2033,7 +2081,10 @@ const data = {
       image: '/members/jiangyi.png',
       mail: '',
       homepage: 'https://scholar.google.com/citations?user=K1hbWlkAAAAJ&hl=en',
-      destination: 'Black Sesame Technologies (Singapore)',
+      destination: 'Engineer, Black Sesame Technology',
+      period: 'March – December, 2024',
+      alumniGroup: 'Research Staff',
+      role: 'Senior Research Assistant',
     },
     {
       name: 'Zexian Hong',
@@ -2046,18 +2097,23 @@ const data = {
       mail: '',
       homepage:
         'https://www.linkedin.com/in/zexian-hong-zach-b7483424a/?locale=zh_CN',
-      destination: 'Advance Intelligence Group',
+      destination: 'Data Scientist, Atome',
+      period: 'March – September, 2024',
+      alumniGroup: 'Research Staff',
+      role: 'Senior Research Assistant',
     },
     {
       name: 'Heng Jia',
       type: 'Alumni',
       title: 'Visiting Student',
       comment: '',
-      bg: 'PhD student, Zhejiang University',
+      bg: 'Ph.D. student, Zhejiang University',
       image: '/members/jiaheng.png',
       mail: '',
+      period: 'Aug, 2023 – June, 2024',
       homepage: 'https://scholar.google.com/citations?user=n0Mq4wcAAAAJ&hl=en',
       destination: 'Zhejiang University',
+      role: 'Visiting Ph.D. Student',
     },
     {
       name: 'You Qin',
@@ -2070,7 +2126,10 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com/citations?user=qC39v8kAAAAJ&hl=zh-CN',
-      destination: 'National University of Singapore',
+      destination: 'Ph.D. student, National University of Singapore',
+      period: 'March – August, 2024',
+      alumniGroup: 'Research Staff',
+      role: 'Senior Research Assistant',
     },
     {
       name: 'Jie Zhang',
@@ -2081,29 +2140,38 @@ const data = {
       image: '/members/zhangjie.png',
       mail: '',
       homepage: '',
-      destination: 'Shanghai Enflame Technology',
+      destination: 'Engineer, Enflame Technology',
+      period: 'January – June, 2024',
+      alumniGroup: 'Visitors',
+      role: "Visiting Master's Student",
     },
     {
       name: 'Guohang Zhuang',
       type: 'Alumni',
       comment: '',
       title: 'Visiting Student',
-      bg: 'PhD student, Hefei University of Technology',
+      bg: 'Ph.D. student, Hefei University of Technology',
       image: '/members/guohang.png',
       mail: '',
       homepage: '',
       destination: 'Hefei University of Technology',
+      period: 'October, 2023 – January, 2024',
+      alumniGroup: 'Visitors',
+      role: 'Visiting Ph.D. Student',
     },
     {
       name: 'Pengkun Jiao',
       type: 'Alumni',
       comment: 'Visiting Student',
       title: '',
-      bg: 'PhD student, Fudan University',
+      bg: 'Ph.D. student, Fudan University',
       image: '/members/pengkun.png',
       mail: '',
       homepage: 'https://scholar.google.com/citations?user=LT8XmBUAAAAJ&hl=en',
       destination: 'Shanghai Artificial Intelligence Laboratory',
+      alumniGroup: 'Visitors',
+      period: 'April, 2023 – January, 2024',
+      role: 'Visiting Ph.D. Student',
     },
     // {
     //   name:'XXX XXX',

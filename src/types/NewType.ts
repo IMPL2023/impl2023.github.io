@@ -1,11 +1,4 @@
-type NewsCategory =
-  | 'paper'
-  | 'join'
-  | 'visit'
-  | 'service'
-  | 'talk'
-  | 'grant'
-  | 'milestone';
+type NewsCategory = 'paper' | 'join' | 'service' | 'talk' | 'grant';
 
 interface NewType {
   date: string;

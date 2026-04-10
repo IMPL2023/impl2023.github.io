@@ -1,21 +1,15 @@
-import { Title } from '../Common/Title';
-import { New } from './New';
-import data from '@/data';
-import { NewType, NewsCategory } from '@/types';
 import { useMemo, useState } from 'react';
 
-type NewsFilter = 'all' | NewsCategory;
+import data from '@/data';
+import { NewType, NewsCategory } from '@/types';
 
-const FILTERS: NewsFilter[] = [
-  'all',
-  'paper',
-  'join',
-  'visit',
-  'service',
-  'talk',
-  'grant',
-  'milestone',
-];
+import { Title } from '../Common/Title';
+import { New } from './New';
+
+type VisibleNewsCategory = Exclude<NewsCategory, 'talk'>;
+type NewsFilter = 'all' | VisibleNewsCategory;
+
+const FILTERS: NewsFilter[] = ['all', 'paper', 'join', 'service', 'grant'];
 
 const inferNewsCategory = (content: string): NewsCategory => {
   const text = content.toLowerCase();
@@ -58,19 +52,25 @@ const inferNewsCategory = (content: string): NewsCategory => {
     return 'paper';
   }
 
-  if (text.includes('welcome') && text.includes('visit')) {
-    return 'visit';
-  }
-
-  if (text.includes('welcome') || text.includes('join our lab')) {
+  if (
+    text.includes('welcome') ||
+    text.includes('visit') ||
+    text.includes('join our lab')
+  ) {
     return 'join';
   }
 
-  return 'milestone';
+  return 'service';
 };
 
-const getNewsCategory = (news: NewType): NewsCategory => {
-  return news.category ?? inferNewsCategory(news.content);
+const normalizeNewsCategory = (category: NewsCategory): NewsFilter | 'talk' => {
+  return category;
+};
+
+const getNewsCategory = (news: NewType): NewsFilter | 'talk' => {
+  return normalizeNewsCategory(
+    news.category ?? inferNewsCategory(news.content),
+  );
 };
 
 export const News = () => {
@@ -78,11 +78,15 @@ export const News = () => {
   const newsItems = data.news as NewType[];
 
   const filteredNews = useMemo(() => {
+    const visibleNews = newsItems.filter(
+      item => getNewsCategory(item) !== 'talk',
+    );
+
     if (filter === 'all') {
-      return newsItems;
+      return visibleNews;
     }
 
-    return newsItems.filter(item => getNewsCategory(item) === filter);
+    return visibleNews.filter(item => getNewsCategory(item) === filter);
   }, [filter, newsItems]);
 
   return (
@@ -95,12 +99,12 @@ export const News = () => {
 
           return (
             <button
-              key={item}
               className={`rounded-full border px-3 py-1 text-sm capitalize transition-colors ${
                 active
                   ? 'border-neon bg-neon text-white'
                   : 'border-textDark/40 bg-white/60 text-text hover:border-neon hover:text-neon'
               }`}
+              key={item}
               onClick={() => setFilter(item)}
               type="button"
             >

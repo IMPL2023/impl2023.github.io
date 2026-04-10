@@ -15,12 +15,12 @@ export const Intro = () => {
       <div className="absolute inset-0 -z-10">
         <Image
           alt="SUTD campus background"
-          className="scale-105 object-cover blur-xl"
+          className="scale-105 object-cover blur-md"
           fill
           priority
           src={data.school}
         />
-        <div className="absolute inset-0 bg-bgblue/55" />
+        <div className="absolute inset-0 bg-bgblue/45" />
       </div>
 
       <div className="flex min-h-[560px] items-center px-8 py-10 md:px-10">

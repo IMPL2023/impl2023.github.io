@@ -54,15 +54,19 @@ export const PaperText: FC<IPaperProps> = ({ paper }) => {
     <article className="mb-5 flex flex-col items-center border-b border-textDark/20 pb-5 md:flex-row">
       <div className="mb-2 ml-2 mt-10 md:ml-5 md:mt-0">
         <h3 className="text-base font-semibold text-text">{paper.title}</h3>
-        {paper.authors.map((author, i) =>
-          author.startsWith('#') || author.startsWith('*') ? (
-            <span key={`${author}-${i}`} className="text-textDark">
-              {author}
-            </span>
-          ) : (
-            <span key={`${author}-${i}`}>{renderItem(author)}</span>
-          ),
-        )}
+        <div className="mt-3 border-l-4 border-text/50 pl-3">
+          <div>
+            {paper.authors.map((author, i) =>
+              author.startsWith('#') || author.startsWith('*') ? (
+                <span key={`${author}-${i}`} className="text-textDark">
+                  {author}
+                </span>
+              ) : (
+                <span key={`${author}-${i}`}>{renderItem(author)}</span>
+              ),
+            )}
+          </div>
+        </div>
 
         {renderComment(paper.content)}
         {renderComment(paper.comment)}

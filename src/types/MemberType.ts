@@ -8,6 +8,9 @@ interface MemberType {
   mail: string;
   homepage: string;
   destination?: string;
+  period?: string;
+  alumniGroup?: 'Research Staff' | 'Visitors' | 'Graduate';
+  role?: string;
 }
 
 export type { MemberType };
