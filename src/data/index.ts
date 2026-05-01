@@ -2168,7 +2168,7 @@ const data = {
       image: '/members/pengkun.png',
       mail: '',
       homepage: 'https://scholar.google.com/citations?user=LT8XmBUAAAAJ&hl=en',
-      destination: 'Shanghai Artificial Intelligence Laboratory',
+      destination: 'Research Scientist, Tongyi Lab',
       alumniGroup: 'Visitors',
       period: 'April, 2023 – January, 2024',
       role: 'Visiting Ph.D. Student',
