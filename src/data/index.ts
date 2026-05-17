@@ -90,27 +90,75 @@ const data = {
   ],
   news: [
     {
-      date: '21 Feb 2026',
+      date: '1 May 2026',
       content:
-        'Nine papers are accepted at CVPR 2026 (seven Main papers and two Findings papers)! Stay tuned for more details!',
+        'We have five papers accepted at ICML 2026! Congratulations to Jingyun, Zijie, Xu Jie, Yanpeng, Qiqi, and all co-authors!',
       category: 'paper',
     },
     {
-      date: 'Jan 2026',
+      date: '22 Apr 2026',
       content:
-        'Prof. Zhao Na will serve as the General Chair for the 33rd International Conference on Multimedia Modeling (MMM 2027)!',
+        'We are delighted to welcome Dr. Zhao Dong to join our lab as a research fellow!',
+      category: 'join',
+    },
+    {
+      date: '21 Apr 2026',
+      content:
+        'We are delighted to welcome Xiong Yixin, PhD student from Chongqing University, to join our lab as a visiting student!',
+      category: 'join',
+    },
+    {
+      date: '15 Apr 2026',
+      content:
+        'One paper about training-free 3D spatial reasoning and understanding is accepted at ICMR 2026! Congratulations to Shuyi!',
+      category: 'paper',
+    },
+    {
+      date: '31 Mar 2026',
+      content:
+        'Prof. Zhao Na is invited to serve as an area chair for NeurIPS 2026!',
       category: 'service',
     },
     {
-      date: 'Jan 2026',
+      date: '17 Mar 2026',
       content:
-        'One paper about tuning-free long video generation is accepted at ToMM 2026!',
+        'One paper about language-driven affordance part segmentation is accepted at ICME 2026! Congratulations to Xinyi!',
+      category: 'paper',
+    },
+    {
+      date: '26 Feb 2026',
+      content:
+        'Prof. Zhao Na is invited to serve as an area chair for MM 2026!',
+      category: 'service',
+    },
+    {
+      date: '21 Feb 2026',
+      content:
+        'We have nine papers accepted at CVPR 2026 (seven Main papers and two Findings papers)! Congratulations to Yining, Yuchen, Jiayi, Zhu Yun, Qiongjie, Yanpeng, Xu Jie, Vishal, and all co-authors!',
+      category: 'paper',
+    },
+    {
+      date: '27 Jan 2026',
+      content:
+        'Prof. Zhao Na will serve as the General Chair of the 33rd International Conference on Multimedia Modeling (MMM 2027)!',
+      category: 'service',
+    },
+    {
+      date: '23 Jan 2026',
+      content:
+        'We are delighted to welcome Prof. Qi Wu from Adelaide University to visit our lab and deliver a talk on VLNVerse!',
+      category: 'join',
+    },
+    {
+      date: '20 Jan 2026',
+      content:
+        'One paper about tuning-free long video generation is accepted by ToMM 2026!',
       category: 'paper',
     },
     {
       date: '18 Jan 2026',
       content:
-        'We are delighted to welcome Xiaoya Cheng, PhD student from National University of Defense Technology, to join our lab as a visiting student!',
+        'We are delighted to welcome Cheng Xiaoya, PhD student from National University of Defense Technology, to join our lab as a visiting student!',
       category: 'join',
     },
     {
@@ -880,6 +928,192 @@ const data = {
     // },
   ],
   papers: [
+    {
+      image: '/papers/CCF_framework.png',
+      title:
+        'CCF: Complementary Collaborative Fusion for Domain Generalized Multi-Modal 3D Object Detection',
+      authors: ['Yuchen Wu', 'Kun Wang', 'Yining Pan', 'Na Zhao*'],
+      content: '* indicates corresponding author',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026',
+      pdf: 'https://arxiv.org/pdf/2603.23276',
+      video: '',
+      project: '',
+      code: 'https://github.com/IMPL-Lab/CCF',
+    },
+    {
+      image: '/papers/VGGT360_framework.png',
+      title:
+        'VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation',
+      authors: ['Jiayi Yuan', 'Haobo Jiang', 'De Wen Soh', 'Na Zhao*'],
+      content: '* indicates corresponding author',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026',
+      pdf: 'https://arxiv.org/pdf/2603.18943',
+      video: '',
+      project: '',
+      code: 'https://github.com/Yuanjiayii/VGGT-360',
+    },
+    {
+      image: '/papers/TTHA_framework.png',
+      title:
+        'Anatomical Domain Shifts: Test-time Heterogeneous Adaptation for 3D Human Pose Prediction',
+      authors: ['Qiongjie Cui', 'Pan Zhou', 'Jingjing Chen', 'Na Zhao*'],
+      content: '* indicates corresponding author',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/PanDA_framework.png',
+      title:
+        'PanDA: Panoptic Domain Adaptation for Multimodal Perception in Autonomous Driving',
+      authors: [
+        'Yining Pan',
+        'Shijie Li',
+        'Yuchen Wu',
+        'Xulei Yang#',
+        'Na Zhao#',
+      ],
+      content: '# indicates co-corresponding author',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026',
+      pdf: 'https://arxiv.org/pdf/2604.19379',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/FI3Det_framework.png',
+      title:
+        'Few-Shot Incremental 3D Object Detection in Dynamic Indoor Environments',
+      authors: ['Yun Zhu', 'Jianjun Qian', 'Jian Yang', 'Jin Xie#', 'Na Zhao#'],
+      content: '# indicates co-corresponding author',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026',
+      pdf: 'https://arxiv.org/pdf/2604.07997',
+      video: '',
+      project: '',
+      code: 'https://github.com/zyrant/FI3Det',
+    },
+    {
+      image: '/papers/EDC_framework.png',
+      title:
+        'Enhancing Descriptive Captions with Visual Attributes for Multimodal Perception',
+      authors: [
+        'Yanpeng Sun',
+        'Jing Hao',
+        'Ke Zhu',
+        'Jiang-Jiang Liu',
+        'Xiaofan Li',
+        'Na Zhao',
+        'Zechao Li',
+        'Jingdong Wang',
+      ],
+      content: '',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026',
+      pdf: 'https://arxiv.org/pdf/2412.14233',
+      video: '',
+      project: '',
+      code: 'https://github.com/syp2ysy/Cap-Workflow',
+    },
+    {
+      image: '/papers/ViLoMem_framework.png',
+      title:
+        'ViLoMem: Agentic Learner with Grow-and-Refine Multimodal Semantic Memory',
+      authors: [
+        'Weihao Bo',
+        'Shan Zhang',
+        'Yanpeng Sun',
+        'Jingjing Wu',
+        'Qunyi Xie',
+        'Xiao Tan',
+        'Kunbin Chen',
+        'Wei He',
+        'Xiaofan Li',
+        'Na Zhao',
+        'Jingdong Wang',
+        'Zechao Li',
+      ],
+      content: '',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026',
+      pdf: 'https://arxiv.org/pdf/2511.21678',
+      video: '',
+      project: 'https://weihao-bo.github.io/ViLoMeo-page/',
+      code: 'https://github.com/weihao-bo/ViLoMem',
+    },
+    {
+      image: '/papers/Stream3D_framework.png',
+      title:
+        'Stream3D: Streaming Zero-Shot 3D Instance Segmentation with Multi-View Noise Mask Filtering and Manifold Refining',
+      authors: ['Jie Xu', 'Na Zhao*'],
+      content: '* indicates corresponding author',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/SCOPE_framework.png',
+      title: 'SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation',
+      authors: [
+        'Vishal Thengane',
+        'Zhaochong An',
+        'Tianjin Huang',
+        'Son Lam Phung',
+        'Abdesselam Bouzerdoum',
+        'Lu Yin',
+        'Na Zhao#',
+        'Xiatian Zhu#',
+      ],
+      content: '# indicates co-corresponding author',
+      comment:
+        'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026',
+      pdf: 'https://arxiv.org/pdf/2603.06572',
+      video: '',
+      project: '',
+      code: 'https://github.com/Surrey-UP-Lab/SCOPE',
+    },
+    {
+      image: '/papers/Taven_framework.png',
+      title:
+        'TAVEN: Task-driven Adaptive Viewpoint Exploration for Training-Free 3D Spatial Reasoning and Understanding',
+      authors: ['Shuyi Jiang', 'Zhihao Yuan', 'Na Zhao*'],
+      content: '* indicates corresponding author',
+      comment:
+        '16th ACM International Conference on Multimedia Retrieval (ICMR), 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/AffordPart3D_framework.png',
+      title:
+        'AffordPart3D: Language-Driven Affordance Part Segmentation in 3D Scenes',
+      authors: [
+        'Xinyi Wang',
+        'Na Zhao*',
+        'Yuchen Wu',
+        'Lei Wu',
+        'Yicong Li',
+        'Xun Yang',
+      ],
+      content: '* indicates corresponding author',
+      comment:
+        'IEEE International Conference on Multimedia & Expo (ICME), 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
     {
       image: '/papers/ifss-diff.png',
       title:
@@ -1843,16 +2077,6 @@ const data = {
       period: 'November, 2025 – present',
       role: 'Visiting Professor, Nankai University',
     },
-    {
-      name: 'Xinyi Wang',
-      type: 'Visitor',
-      title: 'Visiting Student',
-      comment: '',
-      bg: 'Ph.D. student, University of Science and Technology of China',
-      image: '/members/xinyi.png',
-      mail: '',
-      homepage: '',
-    },
 
     // {
     //   name:'Zongqian Wu',
@@ -1891,18 +2115,7 @@ const data = {
       period: 'July, 2025 – present',
       role: 'Visiting Ph.D. Student, UESTC',
     },
-    {
-      name: 'Haiming Zhu',
-      type: 'Visitor',
-      title: 'Visiting Research Associate',
-      comment: '',
-      bg: 'M.Eng., Tsinghua Shenzhen International Graduate School',
-      image: '/members/haiming.png',
-      mail: '',
-      homepage: '',
-      period: 'August, 2025 – present',
-      role: 'Visiting Researcher, Tsinghua SIGS',
-    },
+
     {
       name: 'Xuetong Pei',
       type: 'Visitor',
@@ -1927,18 +2140,7 @@ const data = {
       period: 'October, 2025 – present',
       role: 'Visiting Ph.D. Student, Harbin Institute of Technology',
     },
-    {
-      name: 'Jiale Yu',
-      type: 'Visitor',
-      title: 'Visiting Student',
-      comment: '',
-      bg: 'Ph.D. student, Beijing Jiaotong University',
-      image: '/members/yujiale.png',
-      mail: '',
-      homepage: 'https://orcid.org/0000-0002-9335-0151',
-      period: 'October, 2025 – present',
-      role: 'Visiting Ph.D. Student, Beijing Jiaotong University',
-    },
+
     {
       name: 'Xiaoya Cheng',
       type: 'Visitor',
@@ -1962,7 +2164,43 @@ const data = {
       mail: 'nathan.linarto@amd.com',
       homepage: '',
     },
-
+    // Alumni
+    {
+      name: 'Xinyi Wang',
+      type: 'Alumni',
+      title: 'Visiting Student',
+      comment: '',
+      bg: 'Ph.D. student, University of Science and Technology of China',
+      image: '/members/xinyi.png',
+      period: 'August, 2024 – May, 2026',
+      mail: '',
+      homepage: '',
+    },
+    {
+      name: 'Jiale Yu',
+      type: 'Alumni',
+      title: 'Visiting Student',
+      comment: '',
+      bg: 'Ph.D. student, Beijing Jiaotong University',
+      image: '/members/yujiale.png',
+      destination: 'Beijing Jiaotong University',
+      mail: '',
+      homepage: 'https://orcid.org/0000-0002-9335-0151',
+      period: 'October, 2025 – May, 2026',
+      role: 'Visiting Ph.D. Student',
+    },
+    {
+      name: 'Haiming Zhu',
+      type: 'Alumni',
+      title: 'Visiting Research Associate',
+      comment: '',
+      bg: 'M.Eng., Tsinghua Shenzhen International Graduate School',
+      image: '/members/haiming.png',
+      mail: '',
+      homepage: '',
+      period: 'August, 2025 – March, 2026',
+      role: 'Visiting Researcher, Tsinghua SIGS',
+    },
     {
       name: 'Jingyun Fu',
       type: 'Alumni',
@@ -2030,6 +2268,7 @@ const data = {
       alumniGroup: 'Visitors',
       role: 'Visiting Ph.D. Student',
     },
+
     {
       name: 'Qiongjie Cui',
       type: 'Alumni',

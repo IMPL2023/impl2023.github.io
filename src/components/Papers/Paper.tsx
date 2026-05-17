@@ -1,6 +1,6 @@
 import { PaperType } from '@/types';
-import { FC } from 'react';
 import Image from 'next/image';
+import { FC } from 'react';
 
 interface IPaperProps {
   paper: PaperType;
@@ -12,12 +12,16 @@ function replaceSpecialCharactersWithSuperscript(inputString: string) {
 
 export const Paper: FC<IPaperProps> = ({ paper }) => {
   const renderComment = (comment: string) => {
+    if (comment.trim() === '') {
+      return null;
+    }
+
     const hasOral = comment.includes('Oral Presentation');
 
     if (hasOral) {
       const parts = comment.split('Oral Presentation');
       return (
-        <p className="mt-3 italic-text text-textDark md:max-w-[700px]">
+        <p className="mt-1.5 text-sm italic leading-relaxed text-textDark">
           {parts[0]}
           <b className="pl-1 text-text">Oral Presentation</b>
           {parts[1]}
@@ -26,88 +30,74 @@ export const Paper: FC<IPaperProps> = ({ paper }) => {
     }
 
     return (
-      <p className="mt-3 italic-text text-textDark md:max-w-[700px]">
+      <p className="mt-1.5 text-sm italic leading-relaxed text-textDark">
         {comment}
       </p>
     );
   };
 
-  const renderItem = (author: string) => {
+  const renderAuthor = (author: string) => {
     const formattedAuthor = replaceSpecialCharactersWithSuperscript(author);
     const isNaZhao = formattedAuthor.includes('Na Zhao');
 
     return (
-      <span className="mr-2 mt-2 inline-block rounded-full bg-neon/15 px-3 py-1 text-text">
-        {isNaZhao ? (
-          <b dangerouslySetInnerHTML={{ __html: formattedAuthor }}></b>
-        ) : (
-          <span dangerouslySetInnerHTML={{ __html: formattedAuthor }}></span>
-        )}
-      </span>
+      <span
+        className={isNaZhao ? 'font-semibold text-text' : undefined}
+        dangerouslySetInnerHTML={{ __html: formattedAuthor }}
+      />
     );
   };
 
-  const linkStyle = {
-    textDecoration: 'underline',
-  };
-
   return (
-    <article className="mb-6 flex transform flex-col rounded-lg border border-textDark/20 bg-card p-6 shadow-sm transition-transform hover:-translate-y-1 md:flex-row">
-      <Image
-        alt=""
-        className="w-[450px] flex-shrink-0 self-start rounded-lg object-contain object-left-top"
-        height={250}
-        loading="lazy"
-        src={paper.image}
-        width={450}
-      />
-      <div className="ml-2 mt-5 md:ml-20 md:mt-0">
-        <h3 className="text-2xl font-semibold text-text">{paper.title}</h3>
-        <div className="mt-3 border-l-4 border-text/50 pl-3">
-          <div>
-            {paper.authors.map((author, i) =>
-              author.startsWith('#') || author.startsWith('*') ? (
-                <span key={`${author}-${i}`} className="text-textDark">
-                  {author}
-                </span>
-              ) : (
-                <span key={`${author}-${i}`}>{renderItem(author)}</span>
-              ),
-            )}
-          </div>
+    <article className="mb-4 grid gap-4 rounded-md border border-textDark/15 bg-card p-4 shadow-sm transition-transform hover:-translate-y-0.5 md:grid-cols-[280px_1fr] md:items-start lg:grid-cols-[320px_1fr]">
+      <div className="flex aspect-[2.65/1] w-full items-center justify-center overflow-hidden rounded-md border border-textDark/10 bg-white p-2">
+        <Image
+          alt=""
+          className="h-full w-full object-contain"
+          height={150}
+          loading="lazy"
+          src={paper.image}
+          width={420}
+        />
+      </div>
+      <div className="min-w-0">
+        <h3 className="text-lg font-semibold leading-snug text-text">
+          {paper.title}
+        </h3>
+        <div className="mt-2 border-l-2 border-text/40 pl-3 text-sm leading-relaxed text-textDark">
+          {paper.authors.map((author, i) => (
+            <span key={`${author}-${i}`}>
+              {renderAuthor(author)}
+              {i < paper.authors.length - 1 ? ', ' : ''}
+            </span>
+          ))}
         </div>
 
         {renderComment(paper.content)}
         {renderComment(paper.comment)}
 
-        {paper.pdf.trim() !== '' && (
-          <span className="mt-2 text-textDark">
-            <span className="text-neon" style={linkStyle}>
-              [<a href={paper.pdf}>PDF</a>]
-            </span>
-          </span>
-        )}
-        {paper.project.trim() !== '' && (
-          <span className="ml-2 mt-2 text-textDark">
-            <span className="text-neon" style={linkStyle}>
-              [<a href={paper.project}>Project</a>]
-            </span>
-          </span>
-        )}
-        {paper.video.trim() !== '' && (
-          <span className="ml-2 mt-2 text-textDark">
-            <span className="text-neon" style={linkStyle}>
-              [<a href={paper.video}>Video</a>]
-            </span>
-          </span>
-        )}
-        {paper.code.trim() !== '' && (
-          <span className="ml-2 mt-2 text-textDark">
-            <span className="text-neon" style={linkStyle}>
-              [<a href={paper.code}>Code</a>]
-            </span>
-          </span>
-        )}
+        <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm font-medium text-neon">
+          {paper.pdf.trim() !== '' && (
+            <a className="underline underline-offset-2" href={paper.pdf}>
+              [PDF]
+            </a>
+          )}
+          {paper.project.trim() !== '' && (
+            <a className="underline underline-offset-2" href={paper.project}>
+              [Project]
+            </a>
+          )}
+          {paper.video.trim() !== '' && (
+            <a className="underline underline-offset-2" href={paper.video}>
+              [Video]
+            </a>
+          )}
+          {paper.code.trim() !== '' && (
+            <a className="underline underline-offset-2" href={paper.code}>
+              [Code]
+            </a>
+          )}
+        </div>
       </div>
     </article>
   );
