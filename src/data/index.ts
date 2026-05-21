@@ -2042,6 +2042,18 @@ const data = {
       role: 'Research Fellow',
     },
     {
+      name: 'Dong Zhao',
+      type: 'PostDoc',
+      title: 'Research Fellow',
+      comment: '',
+      bg: 'Ph.D., Xidian University  ',
+      image: '/members/zhaodong.png',
+      mail: 'zhaodong01@stu.xidian.edu.cn',
+      homepage: 'https://scholar.google.com/citations?user=j_UjUUUAAAAJ&hl=zh-CN',
+      period: 'April, 2026 – present',
+      role: 'Research Fellow',
+    },
+    {
       name: 'Anweshan Bor',
       type: 'RA',
       // type:'Alumni',
@@ -2152,6 +2164,18 @@ const data = {
       homepage: '',
       period: 'January, 2026 – present',
       role: 'Visiting Ph.D. Student, NUDT',
+    },
+    {
+      name: 'Yixin Xiong',
+      type: 'Visitor',
+      title: 'Visiting Student',
+      comment: '',
+      bg: 'Ph.D. student, Chongqing University',
+      image: '/members/yixin.png',
+      mail: '',
+      homepage: '',
+      period: 'April, 2026 – present',
+      role: 'Visiting Ph.D. Student',
     },
 
     {
