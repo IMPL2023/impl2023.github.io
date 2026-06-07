@@ -962,7 +962,7 @@ const data = {
       content: '* indicates corresponding author',
       comment:
         'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026',
-      pdf: '',
+      pdf: 'https://openaccess.thecvf.com/content/CVPR2026/papers/Cui_Anatomical_Domain_Shifts_Test-time_Heterogeneous_Adaptation_for_3D_Human_Pose_CVPR_2026_paper.pdf',
       video: '',
       project: '',
       code: '',
@@ -1055,10 +1055,10 @@ const data = {
       content: '* indicates corresponding author',
       comment:
         'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026',
-      pdf: '',
+      pdf: 'https://openaccess.thecvf.com/content/CVPR2026F/html/Xu_Stream3D_Streaming_Zero-Shot_3D_Instance_Segmentation_with_Multi-View_Noise_Mask_CVPRF_2026_paper.html',
       video: '',
       project: '',
-      code: '',
+      code: 'https://github.com/SubmissionsIn/Stream3D',
     },
     {
       image: '/papers/SCOPE_framework.png',
@@ -1932,7 +1932,7 @@ const data = {
       homepage: 'https://scholar.google.com/citations?user=SNF-N7YAAAAJ&hl=en',
     },
     {
-      name: 'Qiqi Tao',
+      name: 'Qiqi Tao (co-advising)',
       type: 'PhD',
       title: '',
       comment: 'Since Jan 2025',
