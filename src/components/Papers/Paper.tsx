@@ -7,7 +7,7 @@ interface IPaperProps {
 }
 
 function replaceSpecialCharactersWithSuperscript(inputString: string) {
-  return inputString.replace(/[*#]/g, match => `<sup>${match}</sup>`);
+  return inputString.replace(/[+#*]/g, match => `<sup>${match}</sup>`);
 }
 
 export const Paper: FC<IPaperProps> = ({ paper }) => {

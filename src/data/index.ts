@@ -90,6 +90,24 @@ const data = {
   ],
   news: [
     {
+      date: '1 Jul 2026',
+      content:
+        'We are delighted to welcome Wang Yiming, PhD student from Southwest Jiaotong University, to join our lab as a visiting student!',
+      category: 'join',
+    },
+    {
+      date: '18 Jun 2026',
+      content:
+        'We have three papers accepted at ECCV 2026! Congratulations to Peisheng, Shangbo, Xiaoya, Xu Jie, and all co-authors!',
+      category: 'paper',
+    },
+    {
+      date: '21 May 2026',
+      content:
+        'Our lab receives a research grant from DSO! Thanks to DSO for the continued support! The grant is a follow-up to our previous DSO grant and will focus on cross-modal 3D panoptic segmentation against universal distribution shifts.',
+      category: 'grant',
+    },
+    {
       date: '1 May 2026',
       content:
         'We have five papers accepted at ICML 2026! Congratulations to Jingyun, Zijie, Xu Jie, Yanpeng, Qiqi, and all co-authors!',
@@ -929,6 +947,119 @@ const data = {
   ],
   papers: [
     {
+      image: '/papers/LDMR_framework.png',
+      title: 'Breaking the Model Forgetting Cycle in Long-Incremental 3D Object Detection',
+      authors: ['Peisheng Qian', 'Jie Xu', 'Xulei Yang#', 'Na Zhao#'],
+      content: '# indicates co-corresponding author',
+      comment: 'European Conference on Computer Vision (ECCV), 2026',
+      pdf: 'https://ieeexplore.ieee.org/iel8/11208895/11208897/11210056.pdf',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/Co-3DGT_framework.png',
+      title:
+        'Open-Vocabulary 3D Object Detection with Co-Distillation Discovery and Dual Guidance Robust Training',
+      authors: ['Shangbo Yuan', 'Jie Xu', 'Xiaofeng Zhu', 'Na Zhao'],
+      content: '',
+      comment: 'European Conference on Computer Vision (ECCV), 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/AirZoo_teaser.png',
+      title: 'AirZoo: A Unified Large-Scale Dataset for Grounding Aerial Geometric 3D Vision',
+      authors: [
+        'Xiaoya Cheng+',
+        'Rouwan Wu+',
+        'Xinyi Liu+',
+        'Zeyu Cui+',
+        'Yan Liu+',
+        'Na Zhao',
+        'Yu Liu',
+        'Maojun Zhang',
+        'Shen Yan',
+      ],
+      content: '(+ indicates equal contribution)',
+      comment: 'European Conference on Computer Vision (ECCV), 2026',
+      pdf: 'https://arxiv.org/pdf/2604.26567.pdf',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/HieraScaffold_teaser.png',
+      title:
+        'HieraScaffold: Learning Compact Hierarchical Representations for Scalable 4D LiDAR Generation',
+      authors: ['Zijie Wu', 'Na Zhao*'],
+      content: '* indicates corresponding author',
+      comment: 'International Conference on Machine Learning (ICML), 2026',
+      pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/32863/35018',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/IterFlow_framework.png',
+      title:
+        'Weakly Supervised Cross-Modal Learning for 4D Radar Scene Flow Estimation',
+      authors: ['Jingyun Fu', 'Zhiyu Xiang#', 'Na Zhao#'],
+      content: '# indicates co-corresponding author',
+      comment: 'International Conference on Machine Learning (ICML), 2026',
+      pdf: 'https://arxiv.org/abs/2512.10376',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/ML3DHS_framework.png',
+      title:
+        'Multi-Label Learning with Contrastive Cluster Self-Supervision for 3D Hierarchical Semantic Segmentation',
+      authors: ['Shuyu Cao', 'Chongshou Li', 'Jie Xu', 'Tianrui Li', 'Na Zhao'],
+      content: '',
+      comment: 'International Conference on Machine Learning (ICML), 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/Artemis_framework.png',
+      title: 'Artemis: Structured Visual Reasoning for Perception Policy Learning',
+      authors: [
+        'Wei Tang',
+        'Yanpeng Sun',
+        'Shan Zhang',
+        'Weihao Bo',
+        'Xiaofan Li',
+        'Piotr Koniusz',
+        'Wei Li',
+        'Na Zhao',
+        'Zechao Li',
+      ],
+      content: '',
+      comment: 'International Conference on Machine Learning (ICML), 2026',
+      pdf: 'https://openreview.net/pdf/ddef55893d75a18c886e0cb595f1d6eae64f5f13.pdf',
+      video: '',
+      project: 'https://vi-ocean.github.io/',
+      code: '',
+    },
+    {
+      image: '/papers/TokenSwap_framework.png',
+      title:
+        'TokenSwap: Backdoor Attack on the Compositional Understanding of Large Vision-Language Models',
+      authors: ['Zhifang Zhang', 'Qiqi Tao', 'Jiaqi Lv', 'Na Zhao', 'Lei Feng', 'Joey Tianyi Zhou'],
+      content: '',
+      comment: 'International Conference on Machine Learning (ICML), 2026',
+      pdf: 'https://openreview.net/pdf/a9a87bd7345aaab3baf03b60f04a2f6105ab1e8d.pdf',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
       image: '/papers/CCF_framework.png',
       title:
         'CCF: Complementary Collaborative Fusion for Domain Generalized Multi-Modal 3D Object Detection',
@@ -1089,7 +1220,7 @@ const data = {
       content: '* indicates corresponding author',
       comment:
         '16th ACM International Conference on Multimedia Retrieval (ICMR), 2026',
-      pdf: '',
+      pdf: 'https://dl.acm.org/doi/full/10.1145/3805622.3810869',
       video: '',
       project: '',
       code: '',
@@ -1272,7 +1403,7 @@ const data = {
       content: '* indicates corresponding author',
       comment:
         'IEEE International Conference on Multimedia & Expo (ICME), 2025',
-      pdf: 'https://na-z.github.io/',
+      pdf: '',
       video: '',
       project: '',
       code: '',
@@ -1298,7 +1429,7 @@ const data = {
       content: '',
       comment:
         'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025',
-      pdf: 'https://na-z.github.io/',
+      pdf: 'https://openaccess.thecvf.com/content/CVPR2025/papers/Zu_Collaborative_Tree_Search_for_Enhancing_Embodied_Multi-Agent_Collaboration_CVPR_2025_paper.pdf',
       video: '',
       project: '',
       code: '',
@@ -1362,7 +1493,7 @@ const data = {
       authors: ['Xinyi Wang', 'Na Zhao*', 'Zhiyuan Han', 'Dan Guo', 'Xun Yang'],
       content: '* indicates corresponding author',
       comment: 'Thirty-Ninth AAAI Conference on Artificial Intelligence, 2025',
-      pdf: 'https://na-z.github.io/',
+      pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/32863/35018',
       video: '',
       project: '',
       code: '',
@@ -1979,7 +2110,7 @@ const data = {
 
     {
       name: 'Zijie Wu',
-      type: 'PostDoc',
+      type: 'Alumni',
       title: 'Research Fellow',
       comment: '',
       bg: 'Ph.D., Hunan University',
@@ -1987,13 +2118,15 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com/citations?user=AFsLiBcAAAAJ&hl=zh-CN',
-      period: 'April, 2025 – present',
+      destination: 'Research Fellow, University of Western Australia',
+      period: 'April, 2025 – July, 2026',
+      alumniGroup: 'Research Staff',
       role: 'Research Fellow',
     },
 
     {
       name: 'Yonghua Zhu',
-      type: 'PostDoc',
+      type: 'Alumni',
       title: 'Research Fellow',
       comment: '',
       bg: 'Ph.D., University of Auckland',
@@ -2001,8 +2134,10 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com/citations?user=CVP8vGEAAAAJ&hl=zh-CN',
-      period: 'April, 2025 – present',
-      role: 'Senior Research Assistant',
+      destination: 'Professor, Shanxi University',
+      period: 'April, 2025 – July, 2026',
+      alumniGroup: 'Research Staff',
+      role: 'Research Fellow',
     },
     {
       name: 'Kun Wang',
@@ -2102,8 +2237,7 @@ const data = {
     // },
     {
       name: 'Yun Zhu',
-      type: 'Visitor',
-      // type:'Alumni',
+      type: 'Alumni',
       title: 'Visiting Student',
       comment: '',
       bg: 'Ph.D., Nanjing University of Science and Technology',
@@ -2111,12 +2245,13 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com.hk/citations?user=eIZeK58AAAAJ&hl=zh-CN',
-      period: 'May, 2025 – present',
+      period: 'May, 2025 – July, 2026',
+      alumniGroup: 'Visitors',
       role: 'Visiting Ph.D. Student, NJUST',
     },
     {
       name: 'Shangbo Yuan',
-      type: 'Visitor',
+      type: 'Alumni',
       title: 'Visiting Student',
       comment: '',
       bg: 'Ph.D. student, University of Electronic Science and Technology of China',
@@ -2124,7 +2259,8 @@ const data = {
       mail: '',
       homepage:
         'https://scholar.google.com/citations?user=2_S2Fc0AAAAJ&hl=zh-CN',
-      period: 'July, 2025 – present',
+      period: 'July, 2025 – July, 2026',
+      alumniGroup: 'Visitors',
       role: 'Visiting Ph.D. Student, UESTC',
     },
 
@@ -2458,3 +2594,5 @@ const data = {
 };
 
 export default data;
+
+

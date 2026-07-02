@@ -21,7 +21,7 @@ const Joinus: FC = () => {
       <div className="space-y-5 max-w-7xl w-full mx-auto p-5 md:p-0">
         <p className="w-4/5 md:w-4/5 text-text text-xl">
           We are currently looking for self-motivated PhD students (starting
-          from Fall 2026 or later), Post-docs (starting at any time), and
+          from January 2027 or later), Post-docs (starting at any time), and
           Visiting graduate students (CSC-funded or self-funded) to work
           together on 3D computer vision. The specific research topics include
           (but are not limited to):
@@ -139,16 +139,16 @@ const Joinus: FC = () => {
         <div className="w-4/5 md:w-4/5 text-textDark pl-4 ">
           <ol style={{ listStyleType: 'decimal' }}>
             <li style={{ padding: '2px' }}>
-              SUTD Graduate Fellowship: The application deadline for{' '}
-              <b className="text-text pl-1">September 2026</b> is{' '}
-              <b className="text-text pl-1">15 April 2026</b>. For more details,
-              please see
+              SUTD Graduate Fellowship: The PhD application deadline for{' '}
+              <b className="text-text pl-1">January 2027</b> intake is{' '}
+              <b className="text-text pl-1">30 September 2026</b>. For more
+              details, please see
               <b className="text-text pl-1">
                 <a
                   style={{ textDecoration: 'underline' }}
-                  href="https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/financing/scholarship/"
+                  href="https://www.sutd.edu.sg/programme-listing/sutd-phd-programme/application/"
                 >
-                  SUTD PhD Programme
+                  SUTD PhD Programme application
                 </a>
               </b>
               .
@@ -163,12 +163,13 @@ const Joinus: FC = () => {
               </li> */}
             <li style={{ padding: '2px' }}>
               If you have published a top conference paper as the first author,
-              you can also apply for the AISG Scholarship (6700 SGD per month
-              for international students). The application deadline for
-              <b className="text-text pl-1">September 2026 </b>
+              you can also be considered for the AISG PhD Fellowship (up to
+              S$6,300 per month for international students). For SUTD
+              applicants, the PhD application deadline for
+              <b className="text-text pl-1">January 2027 </b>
               admission is
-              <b className="text-text pl-1">31 March 2026 </b>. For more
-              details, please see
+              <b className="text-text pl-1">30 September 2026 </b>; universities
+              nominate suitable candidates to AISG. For more details, please see
               <b className="text-text pl-1">
                 {' '}
                 <a

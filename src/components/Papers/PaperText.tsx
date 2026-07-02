@@ -6,7 +6,7 @@ interface IPaperProps {
 }
 
 function replaceSpecialCharactersWithSuperscript(inputString: string) {
-  return inputString.replace(/[*#]/g, match => `<sup>${match}</sup>`);
+  return inputString.replace(/[+#*]/g, match => `<sup>${match}</sup>`);
 }
 
 export const PaperText: FC<IPaperProps> = ({ paper }) => {
@@ -57,7 +57,9 @@ export const PaperText: FC<IPaperProps> = ({ paper }) => {
         <div className="mt-3 border-l-4 border-text/50 pl-3">
           <div>
             {paper.authors.map((author, i) =>
-              author.startsWith('#') || author.startsWith('*') ? (
+              author.startsWith('#') ||
+              author.startsWith('*') ||
+              author.startsWith('+') ? (
                 <span key={`${author}-${i}`} className="text-textDark">
                   {author}
                 </span>
