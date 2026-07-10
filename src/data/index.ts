@@ -2313,7 +2313,18 @@ const data = {
       period: 'April, 2026 – present',
       role: 'Visiting Ph.D. Student',
     },
-
+    {
+      name: 'Yiming Wang',
+      type: 'Visitor',
+      title: 'Visiting Student',
+      comment: '',
+      bg: 'Ph.D. student, Southwest Jiaotong University',
+      image: '/members/wangyiming.png',
+      mail: '',
+      homepage: '',
+      period: 'july, 2026 – present',
+      role: 'Visiting Ph.D. Student',
+    },
     {
       name: 'Nathan Linarto',
       type: 'Master',
