@@ -90,6 +90,36 @@ const data = {
   ],
   news: [
     {
+      date: '13 Aug 2026',
+      content:
+        'Prof. Zhao Na is invited to serve as an area chair for ICLR 2027!',
+      category: 'service',
+    },
+    {
+      date: '8 Aug 2026',
+      content:
+        'We have two papers accepted at BMVC 2026! Congratulations to Jiayi and Wu Lei!',
+      category: 'paper',
+    },
+    {
+      date: '22 Jul 2026',
+      content:
+        'Prof. Zhao Na is invited to serve as Senior Program Committee (SPC) for AAAI 2027!',
+      category: 'service',
+    },
+    {
+      date: '10 Jul 2026',
+      content:
+        'One paper about source-free domain adaptation for indoor 3D object detection is accepted at MM 2026! Congratulations to Shangbo!',
+      category: 'paper',
+    },
+    {
+      date: '3 Jul 2026',
+      content:
+        'Prof. Zhao Na will serve as the Diversity, Equity, and Inclusion Chair of the 36th ACM Web Conference 2027!',
+      category: 'service',
+    },
+    {
       date: '1 Jul 2026',
       content:
         'We are delighted to welcome Wang Yiming, PhD student from Southwest Jiaotong University, to join our lab as a visiting student!',
