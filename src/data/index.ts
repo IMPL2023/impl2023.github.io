@@ -90,6 +90,12 @@ const data = {
   ],
   news: [
     {
+      date: '4 Sep 2026',
+      content:
+        'We are delighted to welcome Li Haocheng to join our lab as a PhD student!',
+      category: 'join',
+    },
+    {
       date: '13 Aug 2026',
       content:
         'Prof. Zhao Na is invited to serve as an area chair for ICLR 2027!',
@@ -100,6 +106,12 @@ const data = {
       content:
         'We have two papers accepted at BMVC 2026! Congratulations to Jiayi and Wu Lei!',
       category: 'paper',
+    },
+    {
+      date: '6 Aug 2026',
+      content:
+        'We are delighted to welcome Li Xiang, PhD student from Shandong University, to join our lab as a visiting student!',
+      category: 'join',
     },
     {
       date: '22 Jul 2026',
@@ -2093,6 +2105,16 @@ const data = {
       homepage: 'https://scholar.google.com/citations?user=SNF-N7YAAAAJ&hl=en',
     },
     {
+      name: 'Li Haocheng',
+      type: 'PhD',
+      title: 'M. Eng, Southern University of Science and Technology',
+      comment: 'Since Sep 2026',
+      bg: '',
+      image: '/members/haocheng.png',
+      mail: '',
+      homepage: '',
+    },
+    {
       name: 'Qiqi Tao (co-advising)',
       type: 'PhD',
       title: '',
@@ -2353,6 +2375,18 @@ const data = {
       mail: '',
       homepage: '',
       period: 'july, 2026 – present',
+      role: 'Visiting Ph.D. Student',
+    },
+    {
+      name: 'Li Xiang',
+      type: 'Visitor',
+      title: 'Visiting Student',
+      comment: '',
+      bg: 'Ph.D. student, Shandong University',
+      image: '/members/lixiang.png',
+      mail: '',
+      homepage: '',
+      period: 'august, 2026 – present',
       role: 'Visiting Ph.D. Student',
     },
     {
