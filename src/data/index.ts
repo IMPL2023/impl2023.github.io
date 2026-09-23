@@ -2112,7 +2112,7 @@ const data = {
       bg: '',
       image: '/members/haocheng.png',
       mail: '',
-      homepage: '',
+      homepage: 'https://scholar.google.com/citations?user=RaU7m0cAAAAJ&hl=zh-CN',
     },
     {
       name: 'Qiqi Tao (co-advising)',
