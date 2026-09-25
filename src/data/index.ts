@@ -2107,10 +2107,10 @@ const data = {
     {
       name: 'Li Haosheng',
       type: 'PhD',
-      title: 'M. Eng, Southern University of Science and Technology',
+      title: '',
       comment: 'Since Sep 2026',
-      bg: '',
-      image: '/members/Haosheng.png',
+      bg: 'M. Eng, Southern University of Science and Technology',
+      image: '/members/haosheng.png',
       mail: '',
       homepage: 'https://scholar.google.com/citations?user=RaU7m0cAAAAJ&hl=zh-CN',
     },
