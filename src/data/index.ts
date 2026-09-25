@@ -92,7 +92,7 @@ const data = {
     {
       date: '4 Sep 2026',
       content:
-        'We are delighted to welcome Li Haocheng to join our lab as a PhD student!',
+        'We are delighted to welcome Li Haosheng to join our lab as a PhD student!',
       category: 'join',
     },
     {
@@ -2105,12 +2105,12 @@ const data = {
       homepage: 'https://scholar.google.com/citations?user=SNF-N7YAAAAJ&hl=en',
     },
     {
-      name: 'Li Haocheng',
+      name: 'Li Haosheng',
       type: 'PhD',
       title: 'M. Eng, Southern University of Science and Technology',
       comment: 'Since Sep 2026',
       bg: '',
-      image: '/members/haocheng.png',
+      image: '/members/Haosheng.png',
       mail: '',
       homepage: 'https://scholar.google.com/citations?user=RaU7m0cAAAAJ&hl=zh-CN',
     },
