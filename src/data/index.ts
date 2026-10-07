@@ -90,10 +90,46 @@ const data = {
   ],
   news: [
     {
-      date: '4 Sep 2026',
+      date: '29 Sep 2026',
       content:
-        'We are delighted to welcome Li Haosheng to join our lab as a PhD student!',
+        'Prof. Zhao Na is invited to give an online talk at Sungkyunkwan University.',
+      category: 'talk',
+    },
+    {
+      date: '28 Sep 2026',
+      content:
+        'We are delighted to welcome Aubane Lachat, master’s student from EPFL, to join our lab as a visiting student!',
       category: 'join',
+    },
+    {
+      date: '25 Sep 2026',
+      content:
+        'We have two papers accepted at NeurIPS 2026! Congratulations to Wang Kun and Liu Jian!',
+      category: 'paper',
+    },
+    {
+      date: '7 Sep 2026',
+      content:
+        'Prof. Zhao Na is invited to give a talk at Lund University.',
+      category: 'talk',
+    },
+    {
+      date: '7 Sep 2026',
+      content:
+        'We are delighted to welcome Haosheng Li to join our lab as a PhD student!',
+      category: 'join',
+    },
+    {
+      date: '2 Sep 2026',
+      content:
+        'We are delighted to welcome Xiang Li, PhD student from Shandong University, to join our lab as a visiting student!',
+      category: 'join',
+    },
+    {
+      date: '27 Aug 2026',
+      content:
+        'Prof. Zhao Na is invited to give a talk at Adelaide University.',
+      category: 'talk',
     },
     {
       date: '13 Aug 2026',
@@ -107,12 +143,7 @@ const data = {
         'We have two papers accepted at BMVC 2026! Congratulations to Jiayi and Wu Lei!',
       category: 'paper',
     },
-    {
-      date: '6 Aug 2026',
-      content:
-        'We are delighted to welcome Li Xiang, PhD student from Shandong University, to join our lab as a visiting student!',
-      category: 'join',
-    },
+
     {
       date: '22 Jul 2026',
       content:
@@ -442,6 +473,12 @@ const data = {
       category: 'service',
     },
     {
+      date: '23 Dec 2024',
+      content:
+        'Prof. Zhao Na is invited to give a talk at the University of Bonn.',
+      category: 'talk',
+    },
+    {
       date: '10 Dec 2024',
       content:
         'One paper about 3D visual grounding is accepted by AAAI 2025! Congratulations to Xinyi!',
@@ -663,16 +700,16 @@ const data = {
     //       content:'Prof. Zhao Na is invited to serve as a reviewer for ICLR 2024.'
     // },
     {
-      date: '19 Aug 2023',
-      content:
-        'We are delighted to welcome Jia Heng, a PhD student from ZJU, to visit our lab.',
-      category: 'join',
-    },
-    {
       date: '25 Aug 2023',
       content:
         'One paper about robust few-shot point cloud segmentation is accepted by BMVC 2023! Congratulations to Yating!',
       category: 'paper',
+    },
+    {
+      date: '19 Aug 2023',
+      content:
+        'We are delighted to welcome Jia Heng, a PhD student from ZJU, to visit our lab.',
+      category: 'join',
     },
     {
       date: '25 July 2023',
@@ -687,6 +724,12 @@ const data = {
       category: 'talk',
     },
 
+    {
+      date: '04 Jul 2023',
+      content:
+        'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023! Congratulations to Yating!',
+      category: 'paper',
+    },
     {
       date: '22 Jun 2023',
       content:
@@ -716,12 +759,6 @@ const data = {
     //       date:'05 Jun 2023',
     //       content:'We are delighted to welcome Liu Chao to join our lab as a PhD student.'
     // },
-    {
-      date: '04 Jul 2023',
-      content:
-        'One paper about generalized few-shot point cloud segmentation is accepted by ICCV 2023! Congratulations to Yating!',
-      category: 'paper',
-    },
     // {
     //       date:'26 May 2023',
     //       content:'Prof. Zhao Na is invited to serve as a reviewer for IEEE’s Transactions on Knowledge and Data Engineering (TKDE).'
@@ -988,6 +1025,52 @@ const data = {
     // },
   ],
   papers: [
+    {
+      image: '/papers/GenCOPE_teaser.png',
+      title:
+        'GenCOPE: Syn2Real Generalized Category-Level Object Pose Estimation for Robotic Picking',
+      authors: [
+        'Jian Liu',
+        'Wei Sun',
+        'Zhenqi Dai',
+        'Hui Yang',
+        'Jian Xiao',
+        'Nicu Sebe',
+        'Na Zhao*',
+      ],
+      content: '* indicates corresponding author',
+      comment:
+        '40th Annual Conference on Neural Information Processing Systems (NeurIPS), 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/AdaDS_teaser.png',
+      title:
+        'Metric Depth Estimation from Arbitrarily Degraded Low-Resolution Depth Prompts',
+      authors: ['Kun Wang', 'Yun Zhu', 'Pan Zhou', 'Na Zhao*'],
+      content: '* indicates corresponding author',
+      comment:
+        '40th Annual Conference on Neural Information Processing Systems (NeurIPS), 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
+    {
+      image: '/papers/SFUDA_framework.png',
+      title:
+        'Crossing Modalities, Closing Domains: Source-Free Indoor 3D Object Detection from Synthetic to Real Adaptation',
+      authors: ['Shangbo Yuan', 'Jie Xu', 'Xiaofeng Zhu', 'Na Zhao'],
+      content: '',
+      comment: 'ACM Multimedia (MM), 2026',
+      pdf: '',
+      video: '',
+      project: '',
+      code: '',
+    },
     {
       image: '/papers/LDMR_framework.png',
       title: 'Breaking the Model Forgetting Cycle in Long-Incremental 3D Object Detection',
@@ -2318,14 +2401,15 @@ const data = {
 
     {
       name: 'Xuetong Pei',
-      type: 'Visitor',
+      type: 'Alumni',
+      alumniGroup: 'Visitors',
+      destination: 'Beihang University',
       title: 'Visiting Student',
       comment: '',
       bg: 'M.Eng., Beihang University',
       image: '/members/xuetong.png',
       mail: '',
       homepage: '',
-      period: 'September, 2025 – present',
       role: "Visiting Master's Student, Beihang University",
     },
     {
@@ -2390,8 +2474,22 @@ const data = {
       role: 'Visiting Ph.D. Student',
     },
     {
+      name: 'Aubane Lachat',
+      type: 'Visitor',
+      title: 'Visiting Student',
+      comment: '',
+      bg: "Master's student, EPFL",
+      image: '/members/aubane.png',
+      mail: '',
+      homepage: 'https://ch.linkedin.com/in/aubane-lachat-2a12a2296',
+      period: 'September, 2026 – present',
+      role: "Visiting Master's Student, EPFL",
+    },
+    {
       name: 'Nathan Linarto',
-      type: 'Master',
+      type: 'Alumni',
+      alumniGroup: 'Graduate',
+      destination: 'Senior Engineer, AMD Singapore',
       title: "Master's Student",
       comment: '',
       bg: 'B.Eng. (EEE), Nanyang Technological University',
@@ -2669,5 +2767,3 @@ const data = {
 };
 
 export default data;
-
-

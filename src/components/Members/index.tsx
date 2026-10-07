@@ -57,8 +57,8 @@ members.forEach(item => {
 
 const ALUMNI_SECTIONS: Array<'Research Staff' | 'Visitors' | 'Graduate'> = [
   'Research Staff',
-  'Visitors',
   'Graduate',
+  'Visitors',
 ];
 
 const getAlumniGroup = (
@@ -219,12 +219,16 @@ export const Members = () => {
         ))}
       </div>
 
-      <Title title="Master's Students" />
-      <div className="flex flex-wrap mt-10">
-        {Masters.map((member, i) => (
-          <Member key={i} member={member} />
-        ))}
-      </div>
+      {Masters.length > 0 && (
+        <>
+          <Title title="Master's Students" />
+          <div className="flex flex-wrap mt-10">
+            {Masters.map((member, i) => (
+              <Member key={i} member={member} />
+            ))}
+          </div>
+        </>
+      )}
 
       <Title title="Visitors" />
       <div className="flex flex-wrap mt-10">

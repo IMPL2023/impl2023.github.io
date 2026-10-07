@@ -6,10 +6,9 @@ import { NewType, NewsCategory } from '@/types';
 import { Title } from '../Common/Title';
 import { New } from './New';
 
-type VisibleNewsCategory = Exclude<NewsCategory, 'talk'>;
-type NewsFilter = 'all' | VisibleNewsCategory;
+type NewsFilter = 'all' | NewsCategory;
 
-const FILTERS: NewsFilter[] = ['all', 'paper', 'join', 'service', 'grant'];
+const FILTERS: NewsFilter[] = ['all', 'paper', 'join', 'talk', 'service', 'grant'];
 
 const inferNewsCategory = (content: string): NewsCategory => {
   const text = content.toLowerCase();
@@ -78,15 +77,11 @@ export const News = () => {
   const newsItems = data.news as NewType[];
 
   const filteredNews = useMemo(() => {
-    const visibleNews = newsItems.filter(
-      item => getNewsCategory(item) !== 'talk',
-    );
-
     if (filter === 'all') {
-      return visibleNews;
+      return newsItems;
     }
 
-    return visibleNews.filter(item => getNewsCategory(item) === filter);
+    return newsItems.filter(item => getNewsCategory(item) === filter);
   }, [filter, newsItems]);
 
   return (
